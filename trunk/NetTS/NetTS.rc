@@ -1,0 +1,514 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\NetTS.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,0,0,1
+ PRODUCTVERSION 3,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "九牛投资 ninebulls.com\0"
+            VALUE "FileDescription", "NetTS DLL\0"
+            VALUE "FileVersion", "3, 0, 0, 1\0"
+            VALUE "InternalName", "NetTS\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2004\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "NetTS.DLL\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "NetTS Dynamic Link Library\0"
+            VALUE "ProductVersion", "3, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SELECTSERVER DIALOGEX 0, 0, 257, 161
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "连接行情服务器"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO_SERVER,80,24,139,108,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "添加",IDC_ADD,103,44,30,14,BS_FLAT
+    PUSHBUTTON      "修改",IDC_MODIFY,145,44,30,14,BS_FLAT
+    PUSHBUTTON      "删除",IDC_DELETE,187,44,30,14,BS_FLAT
+    EDITTEXT        IDC_EDIT_USER,80,66,90,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_PASSWD,80,84,90,12,ES_PASSWORD | ES_AUTOHSCROLL | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "保存密码",IDC_CHECK_SAVEPASSWD,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,80,101,48,10
+    DEFPUSHBUTTON   "连接",IDOK,36,136,50,14,BS_FLAT
+    PUSHBUTTON      "代理...",IDC_PROXY_SET,104,136,50,14,BS_FLAT
+    PUSHBUTTON      "取消",IDCANCEL,172,136,50,14,BS_FLAT
+    LTEXT           "服务器:",IDC_STATIC,37,26,29,8
+    LTEXT           "用户名:",IDC_STATIC,39,69,29,8
+    LTEXT           "密码:",IDC_STATIC,39,86,21,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,128,257,1,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,16,10,225,111
+END
+
+IDD_PROXYSET DIALOGEX 0, 0, 257, 161
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置代理服务器"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "不使用代理服务器",IDC_DIRECT,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT,23,20,150,10
+    CONTROL         "使用与Internet Explorer相同的代理设置",IDC_PRECONFIG,
+                    "Button",BS_AUTORADIOBUTTON | BS_FLAT,23,36,194,10
+    CONTROL         "使用如下代理服务器",IDC_PROXY,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT,23,52,134,10
+    CONTROL         "Socks4",IDC_PROXY_SOCKS4,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT | WS_GROUP,50,71,40,10
+    CONTROL         "Socks5",IDC_PROXY_SOCKS5,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,109,71,40,10
+    CONTROL         "HTTP",IDC_PROXY_HTTP,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,168,71,40,10
+    EDITTEXT        IDC_EDIT_PROXYADDRESS,67,85,83,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_PROXYPORT,189,85,40,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_PROXYUSER,77,102,56,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_PROXYPASSWD,173,102,56,12,ES_PASSWORD | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "确定",IDOK,123,136,50,14,BS_FLAT
+    PUSHBUTTON      "关闭",IDCANCEL,193,136,50,14,BS_FLAT
+    LTEXT           "端口：",IDC_STATIC_PROXYPORT,161,87,27,8
+    LTEXT           "地址：",IDC_STATIC_PROXYADDRESS,40,87,28,8
+    CONTROL         "",-1,"Static",SS_BLACKFRAME,0,128,257,1,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "",-1,16,10,225,111
+    LTEXT           "密码：",IDC_STATIC_PROXYPASSWD,145,104,27,8
+    LTEXT           "用户名：",IDC_STATIC_PROXYUSER,40,104,37,8
+END
+
+IDD_EDITSERVER DIALOGEX 0, 0, 228, 128
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "服务器信息"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_NAME,52,12,88,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_ADDRESS,52,28,88,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_PORT,173,28,40,12,ES_AUTOHSCROLL | ES_NUMBER | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_USER,52,44,88,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_PASSWD,52,60,88,12,ES_PASSWORD | ES_AUTOHSCROLL | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "保存密码",IDC_CHECK_SAVEPASSWD,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,52,76,48,10
+    DEFPUSHBUTTON   "确定",IDOK,104,106,50,14,BS_FLAT
+    PUSHBUTTON      "取消",IDCANCEL,164,106,50,14,BS_FLAT
+    LTEXT           "名称:",IDC_STATIC,26,14,21,8
+    LTEXT           "地址:",IDC_STATIC,26,30,21,8
+    LTEXT           "端口:",IDC_STATIC,146,29,21,8
+    LTEXT           "用户名:",IDC_STATIC,18,46,29,8
+    LTEXT           "密码:",IDC_STATIC,26,62,21,8
+    GROUPBOX        "",IDC_STATIC,8,2,212,91
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,99,227,1,
+                    WS_EX_STATICEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_SELECTSERVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_PROXYSET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_EDITSERVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 221
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows 通信端口初始化失败。"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SELECTSRV_NOSELECTED "没有选中的行情服务器。"
+    IDS_SELECTSRV_DELCONFIRM "确定要删除吗？"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_EDITSRV_NOADDRESS   "没有指定地址。"
+    IDS_PROXYSOCKET_ERRCODEFMT "服务器连接错误（%d）。"
+    IDS_PROXYSOCKET_ERRCONNECTPROXY "不能连接到代理服务器！"
+    IDS_PROXYSOCKET_ERRCONNECTTHROUGHPROXY "通过代理连接主站不成功！"
+    IDS_PROXYSOCKET_ERRAUTH "代理服务器用户验证不成功！"
+    IDS_PROXYSOCKET_ERRVERSION "代理服务器版本不匹配！"
+    IDS_TWSOCKET_ERRLOGIN   "登录服务器失败。"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,0,0,1
+ PRODUCTVERSION 3,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "ninebulls.com\0"
+            VALUE "FileDescription", "NetTS DLL\0"
+            VALUE "FileVersion", "3, 0, 0, 1\0"
+            VALUE "InternalName", "NetTS\0"
+            VALUE "LegalCopyright", "Copyright (C) 2004\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "NetTS.DLL\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "NetTS Dynamic Link Library\0"
+            VALUE "ProductVersion", "3, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROXYSET DIALOGEX 0, 0, 257, 161
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Proxy Settings"
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "None.",IDC_DIRECT,"Button",BS_AUTORADIOBUTTON | BS_FLAT,
+                    23,21,150,10
+    CONTROL         "Same as Internet Explorer.",IDC_PRECONFIG,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT,23,38,194,10
+    CONTROL         "Defined:",IDC_PROXY,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,23,55,134,10
+    CONTROL         "Socks4",IDC_PROXY_SOCKS4,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT | WS_GROUP,56,71,42,10
+    CONTROL         "Socks5",IDC_PROXY_SOCKS5,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,112,71,42,10
+    CONTROL         "HTTP",IDC_PROXY_HTTP,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,168,71,42,10
+    EDITTEXT        IDC_EDIT_PROXYADDRESS,72,85,76,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_PROXYPORT,191,85,40,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_PROXYUSER,71,102,56,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_PROXYPASSWD,175,102,56,12,ES_PASSWORD | 
+                    ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "OK",IDOK,123,135,50,14,BS_FLAT
+    PUSHBUTTON      "Cancel",IDCANCEL,193,135,50,14,BS_FLAT
+    LTEXT           "Port:",IDC_STATIC_PROXYPORT,163,86,23,8
+    LTEXT           "Address:",IDC_STATIC_PROXYADDRESS,36,86,36,8
+    CONTROL         "",-1,"Static",SS_BLACKFRAME,0,128,257,1,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "",-1,16,10,225,110
+    LTEXT           "Passwd:",IDC_STATIC_PROXYPASSWD,141,103,32,8
+    LTEXT           "User:",IDC_STATIC_PROXYUSER,35,103,29,8
+END
+
+IDD_SELECTSERVER DIALOGEX 0, 0, 257, 161
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Connect Quote Server"
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO_SERVER,80,24,139,108,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Add",IDC_ADD,103,44,30,14,BS_FLAT
+    PUSHBUTTON      "Modify",IDC_MODIFY,145,44,30,14,BS_FLAT
+    PUSHBUTTON      "Delete",IDC_DELETE,187,44,30,14,BS_FLAT
+    EDITTEXT        IDC_EDIT_USER,80,66,90,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_PASSWD,80,84,90,12,ES_PASSWORD | ES_AUTOHSCROLL | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Save Password.",IDC_CHECK_SAVEPASSWD,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,80,101,80,10
+    DEFPUSHBUTTON   "Connect",IDOK,36,136,50,14,BS_FLAT
+    PUSHBUTTON      "Proxy...",IDC_PROXY_SET,104,136,50,14,BS_FLAT
+    PUSHBUTTON      "Cancel",IDCANCEL,172,136,50,14,BS_FLAT
+    LTEXT           "Server:",IDC_STATIC,37,26,29,8
+    LTEXT           "User:",IDC_STATIC,39,69,29,8
+    LTEXT           "Password:",IDC_STATIC,39,86,39,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,128,257,1,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "",IDC_STATIC,16,10,225,111
+END
+
+IDD_EDITSERVER DIALOGEX 0, 0, 228, 128
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Server Information"
+FONT 9, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_NAME,52,12,88,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_ADDRESS,52,28,88,12,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_PORT,175,28,40,12,ES_AUTOHSCROLL | ES_NUMBER | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_USER,52,44,88,12,ES_AUTOHSCROLL | NOT WS_BORDER,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_PASSWD,52,60,88,12,ES_PASSWORD | ES_AUTOHSCROLL | 
+                    NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "Save Password",IDC_CHECK_SAVEPASSWD,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,52,76,74,10
+    DEFPUSHBUTTON   "OK",IDOK,104,106,50,14,BS_FLAT
+    PUSHBUTTON      "Cancel",IDCANCEL,164,106,50,14,BS_FLAT
+    LTEXT           "Name:",IDC_STATIC,26,14,21,8
+    LTEXT           "Address:",IDC_STATIC,14,30,33,8
+    LTEXT           "Port:",IDC_STATIC,146,29,23,8
+    LTEXT           "User:",IDC_STATIC,26,46,21,8
+    LTEXT           "Password:",IDC_STATIC,10,62,36,8
+    GROUPBOX        "",IDC_STATIC,8,2,212,91
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,99,227,1,
+                    WS_EX_STATICEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PROXYSET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_SELECTSERVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 250
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_EDITSERVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 221
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialize failed."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SELECTSRV_NOSELECTED "No selected quote server."
+    IDS_SELECTSRV_DELCONFIRM "Are you sure to delete it?"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_EDITSRV_NOADDRESS   "No server address."
+    IDS_PROXYSOCKET_ERRCODEFMT "Server Connect Error(code=%d)!"
+    IDS_PROXYSOCKET_ERRCONNECTPROXY "Cannot connect to proxy server!"
+    IDS_PROXYSOCKET_ERRCONNECTTHROUGHPROXY 
+                            "Connect server through proxy failed!"
+    IDS_PROXYSOCKET_ERRAUTH "Proxy server authorization failed!"
+    IDS_PROXYSOCKET_ERRVERSION "Proxy server version does not match."
+    IDS_TWSOCKET_ERRLOGIN   "Login failed."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\NetTS.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

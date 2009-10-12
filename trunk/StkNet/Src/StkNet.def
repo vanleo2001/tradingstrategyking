@@ -1,0 +1,33 @@
+; StkNet.def : Declares the module parameters for the DLL.
+
+; LIBRARY      "StkNet30"
+
+EXPORTS
+    ; Explicit exports can go here
+
+	;	secret exports
+	?AfxGetSView@@YAAAVCSView@@XZ				@	1	NONAME
+	?IsProf@CSView@@QAEHXZ						@	2	NONAME
+	?IsStd@CSView@@QAEHXZ						@	3	NONAME
+	?DumpStd@CSView@@SAHPBD0AAVCSPString@@@Z	@	4	NONAME
+	?DumpProf@CSView@@SAHPBD0AAVCSPString@@@Z	@	5	NONAME
+	?GetS@CSView@@SA?AVCSPString@@XZ			@	6	NONAME
+	??1CSView@@UAE@XZ							@	7	NONAME
+	?Store@CSView@@QAEHPBD@Z					@	8	NONAME
+	?SetNSAText@CSView@@QAEXPBD@Z				@	9	NONAME
+	?SetURDir@CSView@@QAEHPBD0@Z				@	10	NONAME
+	?SetME@CSView@@QAEHXZ						@	11	NONAME
+	??0CSView@@QAE@XZ							@	12	NONAME
+	?IsEva@CSView@@QAEHXZ						@	13	NONAME
+	?Load@CSView@@QAEHPBD@Z						@	14	NONAME
+	?AssertValid@CSView@@QAEHXZ					@	15	NONAME
+	?GetR@CSView@@QAE?AVCSPString@@XZ			@	16	NONAME
+	?GetU@CSView@@QAE?AVCSPString@@XZ			@	17	NONAME
+	?GetMaxEvaDays@CSView@@QAEHXZ				@	18	NONAME
+	?GetLeft@CSView@@QAEHXZ						@	19	NONAME
+	?SetUR@CSView@@QAEHPBD0@Z					@	20	NONAME
+	?SetEvaCode@CSView@@QAEHPBD@Z				@	21	NONAME
+	?DumpEva@CSView@@SAHJAAVCSPString@@@Z		@	22	NONAME
+
+
+

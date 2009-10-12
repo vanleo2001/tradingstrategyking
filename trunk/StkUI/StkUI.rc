@@ -1,0 +1,4590 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\StkUI.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.chs\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ico00002.ico"
+IDI_STRATEGY            ICON                    "res\\ico00005.ico"
+IDR_SIMTYPE             ICON                    "res\\ico00001.ico"
+IDI_INDICATOR           ICON                    "res\\idr_main.ico"
+IDI_BALANG              ICON                    "res\\icon1.ico"
+IDI_OK                  ICON                    "res\\ico00003.ico"
+IDI_CANCEL              ICON                    "res\\ico00004.ico"
+IDR_SIMTYPE2            ICON                    "res\\idr_simt.ico"
+IDI_STRATEGY2           ICON                    "res\\strategy.ico"
+IDI_ZLINKER             ICON                    "res\\zlinker.ico"
+IDI_ALARM_INDEXGREEN    ICON                    "res\\ico00012.ico"
+IDI_ALARM_WARNING       ICON                    "res\\alarm_in.ico"
+IDI_ALARM_INDEXRED      ICON                    "res\\ico00013.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_PERIODBAR           BITMAP                  "res\\mainfram.bmp"
+IDR_SLISTBAR            BITMAP                  "res\\mainbar1.bmp"
+IDR_VIEWBAR             BITMAP                  "res\\bmp00002.bmp"
+IDR_SIMUBAR             BITMAP                  "res\\bmp00003.bmp"
+IDR_MAINBAR             BITMAP                  "res\\mainbar.bmp"
+IDB_HELPLOGO            BITMAP                  "res\\bmp00005.bmp"
+IDB_STRATEGYVIEW_ICONS  BITMAP                  "res\\bmp00006.bmp"
+IDB_WORKSP_BOX          BITMAP                  "res\\imagelist.bmp"
+IDB_WORKSP_TAB          BITMAP                  "res\\il_tab.bmp"
+IDB_MENUCHECKED         BITMAP                  "res\\bitmap2.bmp"
+IDB_STRATEGY            BITMAP                  "res\\bmp00001.bmp"
+IDB_PACKAGE             BITMAP                  "res\\bmp00004.bmp"
+IDB_DLGLEFTLOGO         BITMAP                  "res\\leftlogo.bmp"
+IDB_DLGTOPLOGO          BITMAP                  "res\\toplogo.bmp"
+IDB_STARTLOGO           BITMAP                  "res\\bmp00008.bmp"
+IDB_WIZARDHEADER        BITMAP                  "res\\dlgtoplo.bmp"
+IDB_BALANG              BITMAP                  "res\\balang.bmp"
+IDB_GROUPVIEW_ICONS     BITMAP                  "res\\prjview_.bmp"
+IDB_TECHSVIEW_ICONS     BITMAP                  "res\\bmp00009.bmp"
+IDB_STRATEGYLARGE       BITMAP                  "res\\bitmap1.bmp"
+IDB_STRATEGYKING        BITMAP                  "res\\strategy.bmp"
+IDB_WORKSPBAR_BTN       BITMAP                  "res\\bmp00007.bmp"
+IDB_SPLASH              BITMAP                  "res\\splash.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_PERIODBAR TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_VIEW_PDAY
+    BUTTON      ID_VIEW_PWEEK
+    BUTTON      ID_VIEW_PMONTH
+    SEPARATOR
+    BUTTON      ID_VIEW_PMIN5
+    BUTTON      ID_VIEW_PMIN15
+    BUTTON      ID_VIEW_PMIN30
+    BUTTON      ID_VIEW_PMIN60
+END
+
+IDR_SLISTBAR TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_SLIST_INDEX
+    BUTTON      ID_SLIST_STRATEGY
+    SEPARATOR
+    BUTTON      ID_SLISTBAR_GROUP
+    BUTTON      ID_SLISTBAR_DOMAIN
+    BUTTON      ID_SLISTBAR_CLASS
+    SEPARATOR
+    BUTTON      ID_SLIST_SETCOLUMN
+END
+
+IDR_VIEWBAR TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_VIEW_PAGELEFT
+    BUTTON      ID_VIEW_PAGERIGHT
+    BUTTON      ID_VIEW_LEFT
+    BUTTON      ID_VIEW_RIGHT
+    BUTTON      ID_VIEW_ZOOMIN
+    BUTTON      ID_VIEW_ZOOMOUT
+    SEPARATOR
+    BUTTON      ID_VIEW_PREV
+    BUTTON      ID_VIEW_NEXT
+    BUTTON      ID_VIEW_INSERT
+END
+
+IDR_SIMUBAR TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_STRATEGY_PROPERTY
+    BUTTON      ID_STRATEGY_STOCKS
+    BUTTON      ID_STRATEGY_SETRATE
+    BUTTON      ID_STRATEGY_SETRULE
+    SEPARATOR
+    BUTTON      ID_STRATEGY_SIMU
+    BUTTON      ID_STRATEGY_REPORT
+    BUTTON      ID_STRATEGY_REALOP
+END
+
+IDR_MAINBAR TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_STRATEGY_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      IDW_WORKSPBAR
+    SEPARATOR
+    BUTTON      ID_MAINBAR_SETTING
+    SEPARATOR
+    BUTTON      ID_MAINBAR_VIEW
+    BUTTON      ID_VIEW_FULLSCREEN
+    SEPARATOR
+    BUTTON      ID_MAINBAR_TECH
+    BUTTON      ID_MAINBAR_PERIOD
+    SEPARATOR
+    BUTTON      ID_DATA_DOWNLOAD
+    BUTTON      ID_DATA_MANAGE
+    BUTTON      ID_DATA_EXPORT
+    BUTTON      ID_HELP_SHOWHELP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "系统(&S)"
+    BEGIN
+        MENUITEM "连接Internet服务器(&N)...",        ID_SYS_CONNECTSERVER
+        MENUITEM "断开Internet服务器(&D)",           ID_SYS_DISCONNECTSERVER
+        MENUITEM SEPARATOR
+        MENUITEM "启动通视接收系统(&A)...",             ID_SYS_STARTTONGSHI
+        MENUITEM "设置接收（补充数据）(&E)...",           ID_SYS_SETUPTONGSHI
+        MENUITEM "停止通视接收系统(&O)",                ID_SYS_STOPTONGSHI
+        MENUITEM SEPARATOR
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "全部选择(A)\tCtrl+A",             ID_EDIT_SELECT_ALL
+        MENUITEM "查找...(F)\tCtrl+F",            ID_EDIT_FIND
+        MENUITEM SEPARATOR
+        MENUITEM "打印设置(&R)...",                 ID_FILE_PRINT_SETUP
+        MENUITEM "打印预览(&V)...",                 ID_FILE_PRINT_PREVIEW
+        MENUITEM "打印(&P)...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM SEPARATOR
+        MENUITEM "自动升级(&U)...",                 ID_SYS_AUTOUPGRADE
+        MENUITEM "五分钟线数据自动写盘(&S)",              ID_SYS_AUTOSAVE
+        MENUITEM "最小化时显示为通知图标(&I)",             ID_SYS_NOTIFYICON
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "查看(&V)"
+    BEGIN
+        POPUP "工具栏(&T)"
+        BEGIN
+            MENUITEM "常用工具条(&S)",                   IDW_MAINBAR
+            MENUITEM "股票选择工具条(&T)",                 IDW_SLISTBAR
+            MENUITEM "策略工具条(&R)",                   IDW_SIMUBAR
+        END
+        MENUITEM "常用工具栏文字标签(&E)",               ID_VIEW_MAINBARTEXT
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+        MENUITEM "策略区(&W)",                     IDW_WORKSPBAR
+        MENUITEM SEPARATOR
+        MENUITEM "全屏显示(&F)",                    ID_VIEW_FULLSCREEN
+        MENUITEM SEPARATOR
+        MENUITEM "向导(&W)",                      ID_VIEW_WIZARD
+        MENUITEM "策略(&R)\tF11",                 ID_VIEW_SIMU
+        MENUITEM "股票列表(&L)\tF2",                ID_VIEW_SLIST
+        MENUITEM "分时行情图(&N)",                   ID_VIEW_REALTIME
+        MENUITEM "综合排名图(&M)\tF7",               ID_VIEW_MULTISORT
+        MENUITEM "技术分析图(&H)\tF5",               ID_VIEW_GRAPH
+        MENUITEM "基本资料(&B)\tF10",               ID_VIEW_BASE
+        MENUITEM "在线资讯(&E)",                    ID_VIEW_INFO
+        MENUITEM "智能选股(&E)",                    ID_VIEW_SELECTOR
+    END
+    POPUP "策略(&R)"
+    BEGIN
+        MENUITEM "新建策略(&N)...\tCtrl+N",         ID_STRATEGY_NEW
+        MENUITEM "打开策略(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM "策略另存为(&A)...",                ID_STRATEGY_SAVE_AS
+        MENUITEM "关闭策略(&C)...",                 ID_STRATEGY_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "设置当前活动策略属性(&P)...",           ID_STRATEGY_PROPERTY
+        MENUITEM "修改当前活动策略备用股票(&T)...",         ID_STRATEGY_STOCKS
+        MENUITEM "设置当前活动策略费率(&R)...",           ID_STRATEGY_SETRATE
+        MENUITEM "设置当前活动策略指标规则(&U)...",         ID_STRATEGY_SETRULE
+        MENUITEM SEPARATOR
+        MENUITEM "查看当前活动策略(&V)",                ID_STRATEGY_SIMU
+        MENUITEM "查看当前活动策略报表(&E)...",           ID_STRATEGY_REPORT
+        MENUITEM "查看当前活动策略实战操作(&A)...",         ID_STRATEGY_REALOP
+    END
+    POPUP "列表(&L)"
+    BEGIN
+        MENUITEM "设置列表(&E)...",                 ID_SLIST_SETCOLUMN
+        MENUITEM "新基本指标(&N)...",                ID_SLIST_BASEINDEX
+        MENUITEM "当前股票列表导出(&X)...",             ID_SLIST_EXPORTLIST
+        MENUITEM SEPARATOR
+        MENUITEM "指数类列表(&I)",                   ID_SLIST_INDEX
+        MENUITEM "当前活动策略备选股票(&T)",              ID_SLIST_STRATEGY
+        MENUITEM "自选股(&Z)\tF6",                 ID_SLIST_GROUPSELF
+        MENUITEM SEPARATOR
+        POPUP "分类列表(&C)"
+        BEGIN
+            MENUITEM "所有股票(&A)",                    ID_SLIST_ALL
+            MENUITEM SEPARATOR
+            MENUITEM "上证A股(&A)\t1",                 ID_SLIST_SHAA
+            MENUITEM "上证B股(&B)\t2",                 ID_SLIST_SHAB
+            MENUITEM SEPARATOR
+            MENUITEM "深证A股(&Z)\t3",                 ID_SLIST_SZNA
+            MENUITEM "深证B股(&N)\t4",                 ID_SLIST_SZNB
+            MENUITEM SEPARATOR
+            MENUITEM "上证债券(&S)\t5",                 ID_SLIST_SHABOND
+            MENUITEM "深证债券(&H)\t6",                 ID_SLIST_SZNBOND
+        END
+        POPUP "涨幅排名"
+        BEGIN
+            MENUITEM "上证A股(&A)\t61",                ID_SLIST_SHAASORTDP
+            MENUITEM "上证B股(&B)\t62",                ID_SLIST_SHABSORTDP
+            MENUITEM SEPARATOR
+            MENUITEM "深证A股(&Z)\t63",                ID_SLIST_SZNASORTDP
+            MENUITEM "深证B股(&N)\t64",                ID_SLIST_SZNBSORTDP
+            MENUITEM SEPARATOR
+            MENUITEM "上证债券(&S)\t65",                ID_SLIST_SHABONDSORTDP
+            MENUITEM "深证债券(&H)\t66",                ID_SLIST_SZNBONDSORTDP
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "分组统计信息(&S)",                  ID_SLIST_GROUP
+        MENUITEM "板块统计信息(&A)",                  ID_SLIST_DOMAIN
+        MENUITEM SEPARATOR
+        POPUP "分组列表(&G)"
+        BEGIN
+            MENUITEM "分组统计信息(&S)",                  ID_SLIST_GROUP
+            MENUITEM "分组设定(&E)...",                 ID_OPTION_SETGROUP
+            MENUITEM "分组1",                         ID_SLIST_GROUP1
+        END
+        POPUP "板块列表(&D)"
+        BEGIN
+            MENUITEM "板块统计信息(&A)",                  ID_SLIST_DOMAIN
+            MENUITEM SEPARATOR
+            MENUITEM "板块1",                         ID_SLIST_DOMAIN1
+        END
+    END
+    POPUP "技术(&H)"
+    BEGIN
+        POPUP "沪深指数(&I)"
+        BEGIN
+            MENUITEM "上证指数(&S)",                    ID_VIEW_VIEWSZZS
+            MENUITEM "上证180(&H)",                   ID_VIEW_VIEWSZYBL
+            MENUITEM "上证Ａ股(&A)",                    ID_VIEW_VIEWSZAG
+            MENUITEM "上证Ｂ股(&B)",                    ID_VIEW_VIEWSZBG
+            MENUITEM SEPARATOR
+            MENUITEM "深证成指(&I)",                    ID_VIEW_VIEWSZNCZ
+            MENUITEM "深证综指(&C)",                    ID_VIEW_VIEWSZNZZ
+            MENUITEM "成份Ａ指(&Z)",                    ID_VIEW_VIEWSZNCFAZ
+            MENUITEM "成份Ｂ指(&N)",                    ID_VIEW_VIEWSZNCFBZ
+        END
+        MENUITEM SEPARATOR
+        POPUP "K线图指标显示(&N)"
+        BEGIN
+            MENUITEM "K线图指标",                       ID_VIEW_TECHKLINE
+        END
+        POPUP "趋势类指标显示(&T)"
+        BEGIN
+            MENUITEM "趋势类",                         ID_VIEW_TECHTREND
+        END
+        POPUP "能量类指标显示(&E)"
+        BEGIN
+            MENUITEM "能量类",                         ID_VIEW_TECHENERGY
+        END
+        POPUP "摆动类指标显示(&S)"
+        BEGIN
+            MENUITEM "摆动类",                         ID_VIEW_TECHSWING
+        END
+        POPUP "其他类指标显示(&O)"
+        BEGIN
+            MENUITEM "其他类",                         ID_VIEW_TECHOTHER
+        END
+        POPUP "策略为王专有指标显示(&Z)"
+        BEGIN
+            MENUITEM "策略为王类",                       ID_VIEW_TECHCLK
+        END
+        POPUP "外挂指标显示(&U)"
+        BEGIN
+            MENUITEM "外挂指标类",                       ID_VIEW_TECHUSER
+        END
+        MENUITEM "技术指标参数设置(&A)...",             ID_VIEW_TECHOPTION
+        MENUITEM SEPARATOR
+        POPUP "周期选择(&P)"
+        BEGIN
+            MENUITEM "日线(&D)",                      ID_VIEW_PDAY
+            MENUITEM "周线(&W)",                      ID_VIEW_PWEEK
+            MENUITEM "月线(&M)",                      ID_VIEW_PMONTH
+            MENUITEM "五分钟线(&5)",                    ID_VIEW_PMIN5
+            MENUITEM "十五分钟线(&1)",                   ID_VIEW_PMIN15
+            MENUITEM "三十分钟线(&3)",                   ID_VIEW_PMIN30
+            MENUITEM "六十分钟线(&6)",                   ID_VIEW_PMIN60
+        END
+        POPUP "图形调整(&J)"
+        BEGIN
+            MENUITEM "向左移动(&L)\tLeft",              ID_VIEW_LEFT
+            MENUITEM "向右移动(&R)\tRight",             ID_VIEW_RIGHT
+            MENUITEM SEPARATOR
+            MENUITEM "向左翻页(&F)\tCtrl+Left",         ID_VIEW_PAGELEFT
+            MENUITEM "向右翻页(&G)\tCtrl+Right",        ID_VIEW_PAGERIGHT
+            MENUITEM SEPARATOR
+            MENUITEM "移到最左(&H)\tHome",              ID_VIEW_HOME
+            MENUITEM "移到最右(&E)\tEnd",               ID_VIEW_END
+            MENUITEM SEPARATOR
+            MENUITEM "放大横坐标(&I)\tUp",               ID_VIEW_ZOOMIN
+            MENUITEM "缩小横坐标(&O)\tDown",             ID_VIEW_ZOOMOUT
+        END
+        MENUITEM "上一只股票(&V)\tPageUp",           ID_VIEW_PREV
+        MENUITEM "下一只股票(&N)\tPageDown",         ID_VIEW_NEXT
+        MENUITEM "添加新K线数据(&F)...",              ID_VIEW_INSERT
+        MENUITEM SEPARATOR
+        POPUP "复权设置(&D)"
+        BEGIN
+            MENUITEM "不复权(&N)",                     ID_VIEW_NORESUMEDR
+            MENUITEM "向上复权(&U)\tCtrl+B",            ID_VIEW_RESUMEDRUP
+            MENUITEM "向下复权(&D)\tCtrl+V",            ID_VIEW_RESUMEDRDOWN
+        END
+        POPUP "技术指标采样值类型(&M)"
+        BEGIN
+            MENUITEM "以收盘价为准(&C)",                  ID_VIEW_MAINDATACLOSE
+            MENUITEM "以开盘价为准(&O)",                  ID_VIEW_MAINDATAOPEN
+            MENUITEM "以成交均价为准(&A)",                 ID_VIEW_MAINDATAAVERAGE
+        END
+        POPUP "K线形状(&H)"
+        BEGIN
+            MENUITEM "蜡烛K线(&C)",                    ID_VIEW_KLINECANDLE
+            MENUITEM "美国线(&A)",                     ID_VIEW_KLINEAMERICA
+            MENUITEM "宝塔线(&T)",                     ID_VIEW_KLINETOWER
+        END
+    END
+    POPUP "行情(&N)"
+    BEGIN
+        POPUP "沪深指数(&I)"
+        BEGIN
+            MENUITEM "上证指数(&S)\tF3",                ID_REALTIME_VIEWSZZS
+            MENUITEM "上证180(&H)",                   ID_REALTIME_VIEWSZYBL
+            MENUITEM "上证Ａ股(&A)",                    ID_REALTIME_VIEWSZAG
+            MENUITEM "上证Ｂ股(&B)",                    ID_REALTIME_VIEWSZBG
+            MENUITEM SEPARATOR
+            MENUITEM "深证成指(&I)\tF4",                ID_REALTIME_VIEWSZNCZ
+            MENUITEM "深证综指(&C)",                    ID_REALTIME_VIEWSZNZZ
+            MENUITEM "成份Ａ指(&Z)",                    ID_REALTIME_VIEWSZNCFAZ
+            MENUITEM "成份Ｂ指(&N)",                    ID_REALTIME_VIEWSZNCFBZ
+        END
+        MENUITEM SEPARATOR
+        POPUP "图形调整(&J)"
+        BEGIN
+            MENUITEM "向左移动(&L)\tLeft",              ID_REALTIME_LEFT
+            MENUITEM "向右移动(&R)\tRight",             ID_REALTIME_RIGHT
+            MENUITEM SEPARATOR
+            MENUITEM "移到最左(&H)\tHome",              ID_REALTIME_HOME
+            MENUITEM "移到最右(&E)\tEnd",               ID_REALTIME_END
+        END
+        MENUITEM "上一只股票(&V)\tPageUp",           ID_REALTIME_PREV
+        MENUITEM "下一只股票(&N)\tPageDown",         ID_REALTIME_NEXT
+        POPUP "多股同列(&M)"
+        BEGIN
+            MENUITEM "一只股票(&O)",                    ID_REALTIME_ONESTOCK
+            MENUITEM "两只股票(&T)",                    ID_REALTIME_TWOSTOCK
+            MENUITEM "四只股票(&F)",                    ID_REALTIME_FOURSTOCK
+            MENUITEM "六只股票(&S)",                    ID_REALTIME_SIXSTOCK
+            MENUITEM "九只股票(&N)",                    ID_REALTIME_NINESTOCK
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "分时价格线(&P)",                   ID_REALTIME_PRICELINE
+        MENUITEM "每笔成交明细(&B)\tF1",              ID_REALTIME_REPORTDETAIL
+        MENUITEM "分钟成交明细(&U)",                  ID_REALTIME_MINUTEDETAIL
+        MENUITEM "大单成交明细(&T)",                  ID_REALTIME_BIGTRADEDETAIL
+        MENUITEM SEPARATOR
+        MENUITEM "量比（多空）指标(&O)",                ID_REALTIME_LBDK
+        MENUITEM "买卖力道（涨跌率）(&Y)",               ID_REALTIME_MMLD
+        MENUITEM SEPARATOR
+        POPUP "综合排名(&S)"
+        BEGIN
+            MENUITEM "上证A股(&A)\t81",                ID_REALTIME_MSSZAG
+            MENUITEM "上证B股(&B)\t82",                ID_REALTIME_MSSZBG
+            MENUITEM "上证债券(&O)\t83",                ID_REALTIME_MSSZZQ
+            MENUITEM SEPARATOR
+            MENUITEM "深证A股(&Z)\t84",                ID_REALTIME_MSSZNAG
+            MENUITEM "深证B股(&H)\t85",                ID_REALTIME_MSSZNBG
+            MENUITEM "深证债券(&D)\t86",                ID_REALTIME_MSSZNZQ
+        END
+    END
+    POPUP "资讯(&I)"
+    BEGIN
+        MENUITEM "本站资讯信息(&W)",                  ID_INFO_SELF
+        MENUITEM SEPARATOR
+        MENUITEM "F10资讯(&F)",                   ID_INFO_F10
+        MENUITEM SEPARATOR
+        MENUITEM "证券之星行情(&S)",                  ID_INFO_STOCKSTAR
+        MENUITEM "搜狐行情(&O)",                    ID_INFO_SOHU
+        MENUITEM "新浪行情(&I)",                    ID_INFO_SINA
+        MENUITEM "网易行情(&E)",                    ID_INFO_163
+        MENUITEM SEPARATOR
+        MENUITEM "上海证券交易所(&H)",                 ID_INFO_SHSE
+        MENUITEM "深圳证券交易所(&Z)",                 ID_INFO_SZSE
+        MENUITEM "香港交易所(&K)",                   ID_INFO_HKEX
+        MENUITEM "伦敦证券交易所(&L)",                 ID_INFO_LSE
+        MENUITEM "纽约证券交易所(&Y)",                 ID_INFO_NYSE
+        MENUITEM "纳斯达克股票市场(&A)",                ID_INFO_NASDAQ
+        MENUITEM SEPARATOR
+        MENUITEM "证券时报(&P)",                    ID_INFO_P5W
+        MENUITEM "上海证券报(&C)",                   ID_INFO_SSNEWS
+        MENUITEM "中国证券报(&U)",                   ID_INFO_CS
+    END
+    POPUP "数据(&D)"
+    BEGIN
+        MENUITEM "历史数据下载(&H)...",               ID_DATA_DOWNLOAD
+        MENUITEM "指定本地数据源(&S)...",              ID_DATA_DATASOURCE
+        MENUITEM SEPARATOR
+        MENUITEM "数据管理(&M)...",                 ID_DATA_MANAGE
+        MENUITEM "K线数据导出(&E)...",               ID_DATA_EXPORT
+        MENUITEM SEPARATOR
+        MENUITEM "重新计算年平均收益率和β值(&R)...",        ID_DATA_RECALCULATEYIELD
+    END
+    POPUP "工具(T)"
+    BEGIN
+        MENUITEM "交易(&T)...\tF12",              ID_TOOL_TRADER
+        MENUITEM SEPARATOR
+        MENUITEM "计算器(&C)...",                  ID_TOOL_CALCULATOR
+        MENUITEM "记事本(&N)...",                  ID_TOOL_NOTE
+        MENUITEM SEPARATOR
+        MENUITEM "基本资料和行情选股(&F)...",            ID_TOOL_FILTERINFO
+        MENUITEM "预警系统(&A)...",                 ID_TOOL_ALARM
+    END
+    POPUP "选项(&O)"
+    BEGIN
+        MENUITEM "代理设置(&P)...",                 ID_OPTION_PROXYSET
+        MENUITEM "设定缺省交易软件(&T)...",             ID_OPTION_SELECTTRADER
+        MENUITEM SEPARATOR
+        MENUITEM "颜色设定(&C)...",                 ID_OPTION_COLOR
+        MENUITEM "股票列表字体(&F)...",               ID_OPTION_FONTSLIST
+        MENUITEM "基本资料字体(&B)...",               ID_OPTION_FONTBASE
+        MENUITEM SEPARATOR
+        MENUITEM "分组设定(&G)...",                 ID_OPTION_SETGROUP
+        POPUP "加入该股到分组(&A)"
+        BEGIN
+            MENUITEM "分组设定(&S)...",                 ID_OPTION_SETGROUP
+            MENUITEM "加入分组",                        ID_OPTION_ADDTOGROUP
+        END
+        MENUITEM "加入该股到策略(&R)...",              ID_OPTION_ADDTOSTRATEGY
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "显示帮助(&H)",                    ID_HELP_SHOWHELP
+        MENUITEM "查看声明(&D)...",                 ID_HELP_DECLARE
+        MENUITEM SEPARATOR
+        MENUITEM "关于 策略王(&A)",                  ID_APP_ABOUT
+    END
+END
+
+IDR_MENU_MAINBARSETTING MENU 
+BEGIN
+    POPUP "Setting"
+    BEGIN
+        MENUITEM "技术指标参数(&O)...",               ID_VIEW_TECHOPTION
+        POPUP "复权设置(&R)"
+        BEGIN
+            MENUITEM "不复权(&N)",                     ID_VIEW_NORESUMEDR
+            MENUITEM "向上复权(&U)",                    ID_VIEW_RESUMEDRUP
+            MENUITEM "向下复权(&D)",                    ID_VIEW_RESUMEDRDOWN
+        END
+        POPUP "技术指标采样值类型(&Y)"
+        BEGIN
+            MENUITEM "以收盘价为准(&C)",                  ID_VIEW_MAINDATACLOSE
+            MENUITEM "以开盘价为准(&O)",                  ID_VIEW_MAINDATAOPEN
+            MENUITEM "以成交均价为准(&A)",                 ID_VIEW_MAINDATAAVERAGE
+        END
+        POPUP "K线形状(&M)"
+        BEGIN
+            MENUITEM "蜡烛K线(&C)",                    ID_VIEW_KLINECANDLE
+            MENUITEM "美国线(&A)",                     ID_VIEW_KLINEAMERICA
+            MENUITEM "宝塔线(&T)",                     ID_VIEW_KLINETOWER
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "设置列表(&U)...",                 ID_SLIST_SETCOLUMN
+        MENUITEM "新基本指标(&B)...",                ID_SLIST_BASEINDEX
+        MENUITEM SEPARATOR
+        MENUITEM "设置当前活动策略属性(&P)...",           ID_STRATEGY_PROPERTY
+        MENUITEM "修改当前活动策略备用股票(&E)...",         ID_STRATEGY_STOCKS
+        MENUITEM SEPARATOR
+        MENUITEM "分组设定(&S)...",                 ID_OPTION_SETGROUP
+        POPUP "加入该股到分组(&A)"
+        BEGIN
+            MENUITEM "分组设定(&S)...",                 ID_OPTION_SETGROUP
+            MENUITEM "加入分组",                        ID_OPTION_ADDTOGROUP
+        END
+        MENUITEM "加入该股到策略(&P)...",              ID_OPTION_ADDTOSTRATEGY
+    END
+END
+
+IDR_MENU_MAINBARVIEW MENU 
+BEGIN
+    POPUP "View"
+    BEGIN
+        MENUITEM "向导(&W)",                      ID_VIEW_WIZARD
+        MENUITEM "策略(&S)\tF11",                 ID_VIEW_SIMU
+        MENUITEM "股票列表(&L)\tF2",                ID_VIEW_SLIST
+        MENUITEM "分时行情图(&R)",                   ID_VIEW_REALTIME
+        MENUITEM "综合排名图(&M)",                   ID_VIEW_MULTISORT
+        MENUITEM "技术分析图(&G)\tF5",               ID_VIEW_GRAPH
+        MENUITEM "基本资料(&B)\tF10",               ID_VIEW_BASE
+        MENUITEM "在线资讯(&M)",                    ID_VIEW_INFO
+        MENUITEM "智能选股(&E)",                    ID_VIEW_SELECTOR
+    END
+END
+
+IDR_MENU_MAINBARTECH MENU 
+BEGIN
+    POPUP "Tech"
+    BEGIN
+        POPUP "K线图指标显示(&K)"
+        BEGIN
+            MENUITEM "K线图指标",                       ID_VIEW_TECHKLINE
+        END
+        POPUP "趋势类指标显示(&Q)"
+        BEGIN
+            MENUITEM "趋势类",                         ID_VIEW_TECHTREND
+        END
+        POPUP "能量类指标显示(&U)"
+        BEGIN
+            MENUITEM "能量类",                         ID_VIEW_TECHENERGY
+        END
+        POPUP "摆动类指标显示(&B)"
+        BEGIN
+            MENUITEM "摆动类",                         ID_VIEW_TECHSWING
+        END
+        POPUP "其他类指标显示(&O)"
+        BEGIN
+            MENUITEM "其他类",                         ID_VIEW_TECHOTHER
+        END
+        POPUP "策略为王专有指标显示(&O)"
+        BEGIN
+            MENUITEM "策略为王类",                       ID_VIEW_TECHCLK
+        END
+        POPUP "外挂指标显示(&W)"
+        BEGIN
+            MENUITEM "外挂指标类",                       ID_VIEW_TECHUSER
+        END
+    END
+END
+
+IDR_MENU_MAINBARPERIOD MENU 
+BEGIN
+    POPUP "Period"
+    BEGIN
+        MENUITEM "日线(&D)",                      ID_VIEW_PDAY
+        MENUITEM "周线(&W)",                      ID_VIEW_PWEEK
+        MENUITEM "月线(&M)",                      ID_VIEW_PMONTH
+        MENUITEM "五分钟线(&W)",                    ID_VIEW_PMIN5
+        MENUITEM "十五分钟线(&S)",                   ID_VIEW_PMIN15
+        MENUITEM "三十分钟线(&A)",                   ID_VIEW_PMIN30
+        MENUITEM "六十分钟线(&L)",                   ID_VIEW_PMIN60
+    END
+END
+
+IDR_POPUP_SLISTVIEW MENU 
+BEGIN
+    POPUP "SListView"
+    BEGIN
+        POPUP "加入该股到分组(&A)"
+        BEGIN
+            MENUITEM "分组设定(&S)...",                 ID_OPTION_SETGROUP
+            MENUITEM "加入分组",                        ID_OPTION_ADDTOGROUP
+        END
+        MENUITEM "加入该股到策略(&P)...",              ID_OPTION_ADDTOSTRATEGY
+        MENUITEM SEPARATOR
+        MENUITEM "设置列表(&U)...",                 ID_SLIST_SETCOLUMN
+        MENUITEM "新基本指标(&B)...",                ID_SLIST_BASEINDEX
+        MENUITEM "当前股票列表导出(&L)...",             ID_SLIST_EXPORTLIST
+        MENUITEM SEPARATOR
+        MENUITEM "指数类列表(I)",                    ID_SLIST_INDEX
+        MENUITEM "当前活动策略备选股票列表(&P)",            ID_SLIST_STRATEGY
+        MENUITEM "自选股(&Z)\tF6",                 ID_SLIST_GROUPSELF
+        MENUITEM SEPARATOR
+        POPUP "分类列表(&C)"
+        BEGIN
+            MENUITEM "所有股票(&A)",                    ID_SLIST_ALL
+            MENUITEM SEPARATOR
+            MENUITEM "上证A股(&A)\t1",                 ID_SLIST_SHAA
+            MENUITEM "上证B股(&B)\t2",                 ID_SLIST_SHAB
+            MENUITEM SEPARATOR
+            MENUITEM "深证A股(&Z)\t3",                 ID_SLIST_SZNA
+            MENUITEM "深证B股(&N)\t4",                 ID_SLIST_SZNB
+            MENUITEM SEPARATOR
+            MENUITEM "上证债券(&S)\t5",                 ID_SLIST_SHABOND
+            MENUITEM "深证债券(&H)\t6",                 ID_SLIST_SZNBOND
+        END
+        POPUP "涨幅排名"
+        BEGIN
+            MENUITEM "上证A股(&A)\t61",                ID_SLIST_SHAASORTDP
+            MENUITEM "上证B股(&B)\t62",                ID_SLIST_SHABSORTDP
+            MENUITEM SEPARATOR
+            MENUITEM "深证A股(&Z)\t63",                ID_SLIST_SZNASORTDP
+            MENUITEM "深证B股(&N)\t64",                ID_SLIST_SZNBSORTDP
+            MENUITEM SEPARATOR
+            MENUITEM "上证债券(&S)\t65",                ID_SLIST_SHABONDSORTDP
+            MENUITEM "深证债券(&H)\t66",                ID_SLIST_SZNBONDSORTDP
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "分组统计信息(&S)",                  ID_SLIST_GROUP
+        MENUITEM "板块统计信息(&D)",                  ID_SLIST_DOMAIN
+        MENUITEM SEPARATOR
+        POPUP "分组(&G)"
+        BEGIN
+            MENUITEM "分组统计信息(&G)",                  ID_SLIST_GROUP
+            MENUITEM "分组设定(&S)...",                 ID_OPTION_SETGROUP
+            MENUITEM "分组1",                         ID_SLIST_GROUP1
+        END
+        POPUP "板块(&D)"
+        BEGIN
+            MENUITEM "板块统计信息(&D)",                  ID_SLIST_DOMAIN
+            MENUITEM SEPARATOR
+            MENUITEM "板块1",                         ID_SLIST_DOMAIN1
+        END
+    END
+END
+
+IDR_POPUP_GRAPHVIEW MENU 
+BEGIN
+    POPUP "GraphView"
+    BEGIN
+        MENUITEM "隐藏该指标(&H)",                   ID_VIEW_HIDETHISTECH
+        MENUITEM "调整该指标参数(&D)...",              ID_VIEW_THISTECHPARAM
+        MENUITEM SEPARATOR
+        POPUP "沪深指数(&I)"
+        BEGIN
+            MENUITEM "上证指数(&S)\tF3",                ID_VIEW_VIEWSZZS
+            MENUITEM "上证180(&L)",                   ID_VIEW_VIEWSZYBL
+            MENUITEM "上证Ａ股(&A)",                    ID_VIEW_VIEWSZAG
+            MENUITEM "上证Ｂ股(&B)",                    ID_VIEW_VIEWSZBG
+            MENUITEM SEPARATOR
+            MENUITEM "深证成指(&C)\tF4",                ID_VIEW_VIEWSZNCZ
+            MENUITEM "深证综指(&Z)",                    ID_VIEW_VIEWSZNZZ
+            MENUITEM "成份Ａ指(&N)",                    ID_VIEW_VIEWSZNCFAZ
+            MENUITEM "成份Ｂ指(&G)",                    ID_VIEW_VIEWSZNCFBZ
+        END
+        MENUITEM SEPARATOR
+        POPUP "K线图指标显示(&K)"
+        BEGIN
+            MENUITEM "K线图指标",                       ID_VIEW_TECHKLINE
+        END
+        POPUP "趋势类指标显示(&Q)"
+        BEGIN
+            MENUITEM "趋势类",                         ID_VIEW_TECHTREND
+        END
+        POPUP "能量类指标显示(&U)"
+        BEGIN
+            MENUITEM "能量类",                         ID_VIEW_TECHENERGY
+        END
+        POPUP "摆动类指标显示(&B)"
+        BEGIN
+            MENUITEM "摆动类",                         ID_VIEW_TECHSWING
+        END
+        POPUP "其他类指标显示(&O)"
+        BEGIN
+            MENUITEM "其他类",                         ID_VIEW_TECHOTHER
+        END
+        POPUP "策略为王专有指标显示(&O)"
+        BEGIN
+            MENUITEM "策略为王类",                       ID_VIEW_TECHCLK
+        END
+        POPUP "外挂指标显示(&W)"
+        BEGIN
+            MENUITEM "外挂指标类",                       ID_VIEW_TECHUSER
+        END
+        MENUITEM "技术指标参数设置(&A)...",             ID_VIEW_TECHOPTION
+        MENUITEM SEPARATOR
+        POPUP "周期选择(&P)"
+        BEGIN
+            MENUITEM "日线(&D)",                      ID_VIEW_PDAY
+            MENUITEM "周线(&W)",                      ID_VIEW_PWEEK
+            MENUITEM "月线(&M)",                      ID_VIEW_PMONTH
+            MENUITEM "五分钟线(&W)",                    ID_VIEW_PMIN5
+            MENUITEM "十五分钟线(&S)",                   ID_VIEW_PMIN15
+            MENUITEM "三十分钟线(&A)",                   ID_VIEW_PMIN30
+            MENUITEM "六十分钟线(&L)",                   ID_VIEW_PMIN60
+        END
+        POPUP "图形调整(&J)"
+        BEGIN
+            MENUITEM "向左移动(&L)\tLeft",              ID_VIEW_LEFT
+            MENUITEM "向右移动(&R)\tRight",             ID_VIEW_RIGHT
+            MENUITEM SEPARATOR
+            MENUITEM "向左翻页(&B)\tCtrl+Left",         ID_VIEW_PAGELEFT
+            MENUITEM "向右翻页(&F)\tCtrl+Right",        ID_VIEW_PAGERIGHT
+            MENUITEM SEPARATOR
+            MENUITEM "移到最左(&H)\tHome",              ID_VIEW_HOME
+            MENUITEM "移到最右(&E)\tEnd",               ID_VIEW_END
+            MENUITEM SEPARATOR
+            MENUITEM "放大横坐标(&Z)\tUp",               ID_VIEW_ZOOMIN
+            MENUITEM "缩小横坐标(&O)\tDown",             ID_VIEW_ZOOMOUT
+        END
+        MENUITEM "上一只股票(&E)\tPageUp",           ID_VIEW_PREV
+        MENUITEM "下一只股票(&N)\tPageDown",         ID_VIEW_NEXT
+        MENUITEM "添加新K线数据(&F)...",              ID_VIEW_INSERT
+        MENUITEM SEPARATOR
+        POPUP "复权设置(&R)"
+        BEGIN
+            MENUITEM "不复权(&N)",                     ID_VIEW_NORESUMEDR
+            MENUITEM "向上复权(&U)",                    ID_VIEW_RESUMEDRUP
+            MENUITEM "向下复权(&D)",                    ID_VIEW_RESUMEDRDOWN
+        END
+        POPUP "技术指标采样值类型(&Y)"
+        BEGIN
+            MENUITEM "以收盘价为准(&C)",                  ID_VIEW_MAINDATACLOSE
+            MENUITEM "以开盘价为准(&O)",                  ID_VIEW_MAINDATAOPEN
+            MENUITEM "以成交均价为准(&A)",                 ID_VIEW_MAINDATAAVERAGE
+        END
+        POPUP "K线形状(&M)"
+        BEGIN
+            MENUITEM "蜡烛K线(&C)",                    ID_VIEW_KLINECANDLE
+            MENUITEM "美国线(&A)",                     ID_VIEW_KLINEAMERICA
+            MENUITEM "宝塔线(&T)",                     ID_VIEW_KLINETOWER
+        END
+        MENUITEM SEPARATOR
+        POPUP "加入该股到分组(&A)"
+        BEGIN
+            MENUITEM "分组设定(&S)...",                 ID_OPTION_SETGROUP
+            MENUITEM "加入分组",                        ID_OPTION_ADDTOGROUP
+        END
+        MENUITEM "加入该股到策略(&P)...",              ID_OPTION_ADDTOSTRATEGY
+    END
+END
+
+IDR_MENU_SLISTBARCLASS MENU 
+BEGIN
+    POPUP "分类股"
+    BEGIN
+        MENUITEM "所有股票(&A)",                    ID_SLIST_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "上证A股(&A)\t1",                 ID_SLIST_SHAA
+        MENUITEM "上证B股(&B)\t2",                 ID_SLIST_SHAB
+        MENUITEM SEPARATOR
+        MENUITEM "深证A股(&Z)\t3",                 ID_SLIST_SZNA
+        MENUITEM "深证B股(&N)\t4",                 ID_SLIST_SZNB
+        MENUITEM SEPARATOR
+        MENUITEM "上证债券(&S)\t5",                 ID_SLIST_SHABOND
+        MENUITEM "深证债券(&H)\t6",                 ID_SLIST_SZNBOND
+    END
+END
+
+IDR_MENU_SLISTBARGROUP MENU 
+BEGIN
+    POPUP "分组"
+    BEGIN
+        MENUITEM "分组统计信息(&G)",                  ID_SLIST_GROUP
+        MENUITEM "分组设定(&S)...",                 ID_OPTION_SETGROUP
+        MENUITEM "分组1",                         ID_SLIST_GROUP1
+    END
+END
+
+IDR_MENU_SLISTBARDOMAIN MENU 
+BEGIN
+    POPUP "板块"
+    BEGIN
+        MENUITEM "板块统计信息(&D)",                  ID_SLIST_DOMAIN
+        MENUITEM SEPARATOR
+        MENUITEM "板块1",                         ID_SLIST_DOMAIN1
+    END
+END
+
+IDR_POPUP_WIZARDVIEWLISTTYPE MENU 
+BEGIN
+    POPUP "ListType"
+    BEGIN
+        MENUITEM "大图标(&G)",                     ID_WIZARDVIEW_LARGEICONS
+        MENUITEM "小图标(&M)",                     ID_WIZARDVIEW_SMALLICONS
+        MENUITEM "列表(&L)",                      ID_WIZARDVIEW_LIST
+        MENUITEM "详细资料(&D)",                    ID_WIZARDVIEW_DETAILS
+    END
+END
+
+IDR_POPUP_WIZARDVIEW MENU 
+BEGIN
+    POPUP "WizardView"
+    BEGIN
+        MENUITEM "新建策略(&N)...\tCtrl+N",         ID_STRATEGY_NEW
+        MENUITEM "打开策略(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "大图标(&G)",                     ID_WIZARDVIEW_LARGEICONS
+        MENUITEM "小图标(&M)",                     ID_WIZARDVIEW_SMALLICONS
+        MENUITEM "列表(&L)",                      ID_WIZARDVIEW_LIST
+        MENUITEM "详细资料(&D)",                    ID_WIZARDVIEW_DETAILS
+        MENUITEM SEPARATOR
+        MENUITEM "分组设定(&S)...",                 ID_OPTION_SETGROUP
+    END
+END
+
+IDR_POPUP_SIMUVIEW MENU 
+BEGIN
+    POPUP "SimuView"
+    BEGIN
+        MENUITEM "新建策略(&N)...\tCtrl+N",         ID_STRATEGY_NEW
+        MENUITEM "打开策略(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM "策略另存为(&A)...",                ID_STRATEGY_SAVE_AS
+        MENUITEM "关闭策略(&C)...",                 ID_STRATEGY_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "设置当前活动策略属性(&P)...",           ID_STRATEGY_PROPERTY
+        MENUITEM "修改当前活动策略备用股票(&T)...",         ID_STRATEGY_STOCKS
+        MENUITEM "设置当前活动策略费率(&R)...",           ID_STRATEGY_SETRATE
+        MENUITEM "设置当前活动策略指标规则(&U)...",         ID_STRATEGY_SETRULE
+        MENUITEM SEPARATOR
+        MENUITEM "查看当前活动策略(&V)",                ID_STRATEGY_SIMU
+        MENUITEM "查看当前活动策略报表(&E)",              ID_STRATEGY_REPORT
+        MENUITEM "查看当前活动策略实战操作(&O)...",         ID_STRATEGY_REALOP
+    END
+END
+
+IDR_POPUP_BASEVIEW MENU 
+BEGIN
+    POPUP "BaseView"
+    BEGIN
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "全部选择(A)\tCtrl+A",             ID_EDIT_SELECT_ALL
+        MENUITEM "查找...(F)\tCtrl+F",            ID_EDIT_FIND
+        MENUITEM SEPARATOR
+        MENUITEM "打印(&P)...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM SEPARATOR
+        POPUP "加入该股到分组(&A)"
+        BEGIN
+            MENUITEM "分组设定(&S)...",                 ID_OPTION_SETGROUP
+            MENUITEM "加入分组",                        ID_OPTION_ADDTOGROUP
+        END
+        MENUITEM "加入该股到策略(&P)...",              ID_OPTION_ADDTOSTRATEGY
+    END
+END
+
+IDR_POPUP_SETTING MENU 
+BEGIN
+    POPUP "Setting"
+    BEGIN
+        MENUITEM "颜色设定(&C)...",                 ID_OPTION_COLOR
+        MENUITEM "股票列表字体(&F)...",               ID_OPTION_FONTSLIST
+        MENUITEM "基本资料字体(&B)...",               ID_OPTION_FONTBASE
+        MENUITEM SEPARATOR
+        MENUITEM "分组设定(&S)...",                 ID_OPTION_SETGROUP
+        MENUITEM SEPARATOR
+        MENUITEM "技术指标参数设置(&A)...",             ID_VIEW_TECHOPTION
+    END
+END
+
+IDR_POPUP_REALTIMEVIEW MENU 
+BEGIN
+    POPUP "RealTimeView"
+    BEGIN
+        POPUP "沪深指数(&I)"
+        BEGIN
+            MENUITEM "上证指数(&S)\tF3",                ID_REALTIME_VIEWSZZS
+            MENUITEM "上证180(&L)",                   ID_REALTIME_VIEWSZYBL
+            MENUITEM "上证Ａ股(&A)",                    ID_REALTIME_VIEWSZAG
+            MENUITEM "上证Ｂ股(&B)",                    ID_REALTIME_VIEWSZBG
+            MENUITEM SEPARATOR
+            MENUITEM "深证成指(&C)\tF4",                ID_REALTIME_VIEWSZNCZ
+            MENUITEM "深证综指(&Z)",                    ID_REALTIME_VIEWSZNZZ
+            MENUITEM "成份Ａ指(&N)",                    ID_REALTIME_VIEWSZNCFAZ
+            MENUITEM "成份Ｂ指(&G)",                    ID_REALTIME_VIEWSZNCFBZ
+        END
+        MENUITEM SEPARATOR
+        POPUP "图形调整(&J)"
+        BEGIN
+            MENUITEM "向左移动(&L)\tLeft",              ID_REALTIME_LEFT
+            MENUITEM "向右移动(&R)\tRight",             ID_REALTIME_RIGHT
+            MENUITEM SEPARATOR
+            MENUITEM "移到最左(&H)\tHome",              ID_REALTIME_HOME
+            MENUITEM "移到最右(&E)\tEnd",               ID_REALTIME_END
+        END
+        MENUITEM "上一只股票(&E)\tPageUp",           ID_REALTIME_PREV
+        MENUITEM "下一只股票(&N)\tPageDown",         ID_REALTIME_NEXT
+        POPUP "多股同列(&M)"
+        BEGIN
+            MENUITEM "一只股票(&O)",                    ID_REALTIME_ONESTOCK
+            MENUITEM "两只股票(&T)",                    ID_REALTIME_TWOSTOCK
+            MENUITEM "四只股票(&F)",                    ID_REALTIME_FOURSTOCK
+            MENUITEM "六只股票(&S)",                    ID_REALTIME_SIXSTOCK
+            MENUITEM "九只股票(&N)",                    ID_REALTIME_NINESTOCK
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "分时价格线(&P)",                   ID_REALTIME_PRICELINE
+        MENUITEM "每笔成交明细(&B)\tF1",              ID_REALTIME_REPORTDETAIL
+        MENUITEM "分钟成交明细(&F)",                  ID_REALTIME_MINUTEDETAIL
+        MENUITEM "大单成交明细(&D)",                  ID_REALTIME_BIGTRADEDETAIL
+        MENUITEM SEPARATOR
+        MENUITEM "量比（多空）指标(&L)",                ID_REALTIME_LBDK
+        MENUITEM "买卖力道（涨跌率）(&M)",               ID_REALTIME_MMLD
+        MENUITEM SEPARATOR
+        POPUP "加入该股到分组(&A)"
+        BEGIN
+            MENUITEM "分组设定(&S)...",                 ID_OPTION_SETGROUP
+            MENUITEM "加入分组",                        ID_OPTION_ADDTOGROUP
+        END
+        MENUITEM "加入该股到策略(&P)...",              ID_OPTION_ADDTOSTRATEGY
+    END
+END
+
+IDR_POPUP_MULTISORTVIEW MENU 
+BEGIN
+    POPUP "MultiSortView"
+    BEGIN
+        MENUITEM "上证A股(&A)",                    ID_REALTIME_MSSZAG
+        MENUITEM "上证B股(&B)",                    ID_REALTIME_MSSZBG
+        MENUITEM "上证债券(&Z)",                    ID_REALTIME_MSSZZQ
+        MENUITEM SEPARATOR
+        MENUITEM "深证A股(&C)",                    ID_REALTIME_MSSZNAG
+        MENUITEM "深证B股(&D)",                    ID_REALTIME_MSSZNBG
+        MENUITEM "深证债券(&E)",                    ID_REALTIME_MSSZNZQ
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "A",            ID_EDIT_SELECT_ALL,     VIRTKEY, CONTROL, NOINVERT
+    "B",            ID_VIEW_RESUMEDRUP,     VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_EDIT_FIND,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_VIEW_RESUMEDRDOWN,   VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F1,          ID_REALTIME_REPORTDETAIL, VIRTKEY, NOINVERT
+    VK_F10,         ID_VIEW_F10,            VIRTKEY, NOINVERT
+    VK_F11,         ID_VIEW_SIMU,           VIRTKEY, NOINVERT
+    VK_F12,         ID_TOOL_TRADER,         VIRTKEY, NOINVERT
+    VK_F2,          ID_VIEW_SLIST,          VIRTKEY, NOINVERT
+    VK_F3,          ID_REALTIME_VIEWSZZS,   VIRTKEY, NOINVERT
+    VK_F4,          ID_REALTIME_VIEWSZNCZ,  VIRTKEY, NOINVERT
+    VK_F5,          ID_VIEW_GRAPH,          VIRTKEY, NOINVERT
+    VK_F6,          ID_SLIST_GROUPSELF,     VIRTKEY, NOINVERT
+    VK_F7,          ID_VIEW_MULTISORT,      VIRTKEY, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_WIZARD_FORM DIALOGEX 0, 0, 470, 246
+STYLE DS_SETFONT | WS_CHILD | WS_BORDER
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO_STOCK,323,76,128,102,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "查看实时价格线 =>",IDC_GOTO_REALTIME,370,93,80,8
+    LTEXT           "查看历史价格线 =>",IDC_GOTO_GRAPH,370,109,80,8
+    LTEXT           "查看基本资料 =>",IDC_GOTO_BASE,370,125,80,8
+    LTEXT           "查看在线咨询 =>",IDC_GOTO_INFO,370,141,80,8
+    CONTROL         "List1",IDC_STRATEGYLIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_TABSTOP,15,56,284,154
+    PUSHBUTTON      "新建策略",IDC_BTNNEWSTRATEGY,50,217,55,18,BS_FLAT
+    PUSHBUTTON      "打开策略",IDC_BTNOPENSTRATEGY,115,217,55,18,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_BTNHELP,180,217,55,18,BS_FLAT
+    PUSHBUTTON      "列表样式",IDC_LISTTYPE,248,40,52,15,BS_FLAT
+    LTEXT           "立即网上购买",IDC_GOPURCHASE,245,214,60,8
+    LTEXT           "如何购买",IDC_HOWTO_REG,311,214,55,8
+    LTEXT           "软件系列号",IDC_STATIC_SOFTNOTITLE,245,230,46,8
+    EDITTEXT        IDC_SOFTNO,295,228,72,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         175,IDC_STATIC,"Static",SS_BITMAP,0,0,20,20
+    LTEXT           "最近打开策略和Prjects目录下的策略",IDC_STATIC,14,44,153,8
+END
+
+IDD_PROGRESS DIALOG  0, 0, 295, 14
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",WS_BORDER,119,1,165,10
+    LTEXT           "请稍候...",IDC_MESSAGE,20,2,93,8
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 272, 255
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于策略为王证券分析系统"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,196,219,50,14,BS_FLAT
+    CTEXT           "The URL of Product",IDC_URL_ADDRESS,35,85,201,9
+    RTEXT           "技术支持信箱",IDC_URL_MAILME,110,200,133,8
+    LTEXT           "注册码",IDC_STATIC,32,150,25,8
+    LTEXT           "未知用户",IDC_USER,81,117,159,9
+    LTEXT           "未购买",IDC_REGCODE,81,150,162,9
+    GROUPBOX        "产品信息",IDC_STATIC,23,102,225,66
+    LTEXT           "Copyright 2001-2004",IDC_STATIC,14,226,160,8
+    LTEXT           "授权用户",IDC_STATIC,32,117,33,8
+    LTEXT           "软件系列号",IDC_STATIC,32,133,41,8
+    LTEXT           "未知",IDC_SOFTNO,81,133,152,8
+    LTEXT           "专业版",IDC_VERSION,211,66,57,8
+END
+
+IDD_SETPRPT DIALOGEX 0, 0, 383, 201
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "策略属性"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_TITLE,110,31,153,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_FILENAME,110,73,203,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "浏览...",IDC_EXPLORE,318,72,39,14,BS_FLAT
+    EDITTEXT        IDC_DESCRIPT,110,116,202,75,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "请输入新策略的名字：",IDC_STATIC,110,13,81,8
+    LTEXT           "\n    您可以建立自己的投资策略，并利用不同时期的历史数据对策略的效果进行评价。",IDC_STATIC,9,7,82,185,SS_SUNKEN,WS_EX_STATICEDGE
+    LTEXT           "选择新策略文件的目录：",IDC_STATIC,110,55,89,8
+    LTEXT           "策略说明：",IDC_STATIC,110,101,41,8
+END
+
+IDD_CLOSESTRATEGYDLG DIALOGEX 0, 0, 325, 213
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关闭策略"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "关闭",IDOK,136,184,50,14,BS_FLAT
+    PUSHBUTTON      "全部关闭",IDC_CLOSEALL,198,184,50,14,BS_FLAT
+    PUSHBUTTON      "取消",IDCANCEL,260,184,50,14,BS_FLAT
+    CONTROL         "List1",IDC_STRATEGYLIST,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_TABSTOP,7,7,311,151,WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,171,326,1,WS_EX_STATICEDGE
+END
+
+IDD_DOWNLOAD DIALOGEX 0, 0, 338, 291
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "数据下载"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "开始",IDOK,125,259,50,14,BS_FLAT
+    PUSHBUTTON      "停止",IDC_STOP,194,259,50,14,BS_FLAT
+    PUSHBUTTON      "关闭",IDCANCEL,263,259,50,14,BS_FLAT
+    COMBOBOX        IDC_COMBO_SERVERS,34,26,174,87,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "更新服务器列表",IDC_REFRESH_SERVERS,225,26,76,14,BS_FLAT
+    PUSHBUTTON      "停止更新",IDC_STOP_REFRESH,225,43,76,14,BS_FLAT
+    PUSHBUTTON      "代理设置...",IDC_PROXY_SET,225,60,76,14,BS_FLAT
+    CONTROL         "转档当日行情（收盘作业）",IDC_CHECK_REPORT,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,33,97,114,10
+    CONTROL         "日线数据  开始日期",IDC_CHECK_DAY,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,33,114,88,10
+    CONTROL         "DateTimePicker1",IDC_TIME_DAYFROM,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,122,112,63,15
+    CONTROL         "DateTimePicker1",IDC_TIME_DAYTO,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,235,112,63,15
+    CONTROL         "财务资料 -下载最新股票财务资料。",IDC_CHECK_BASE,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,33,148,193,10
+    CONTROL         "除权数据 -下载股票历年除权数据。",IDC_CHECK_XDR,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,33,166,197,10
+    CONTROL         "5分钟数据 开始日期",IDC_CHECK_MIN5,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,33,184,88,10
+    CONTROL         "DateTimePicker1",IDC_TIME_MIN5FROM,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,122,180,63,15
+    CONTROL         "DateTimePicker1",IDC_TIME_MIN5TO,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,236,180,63,15
+    LTEXT           "正在下载数据，请稍候...",IDC_STATIC_STATUS,27,221,278,28
+    LTEXT           "正在更新服务器列表，请稍候...",IDC_STATIC_REFRESH,35,44,169,8
+    LTEXT           "结束日期",IDC_STATIC,197,114,33,8
+    CONTROL         "Progress1",IDC_DL_PROGRESS,"msctls_progress32",0x1,26,208,250,10,WS_EX_STATICEDGE
+    GROUPBOX        "选择下载数据",IDC_STATIC,22,84,293,117
+    GROUPBOX        "选择下载服务器",IDC_STATIC,23,11,292,68
+    LTEXT           "结束日期",IDC_STATIC,196,184,33,8
+    LTEXT           "",IDC_STATIC_PROGRESS,282,208,33,9
+    LTEXT           "本地最新日线数据日期：",IDC_STATIC,87,131,89,8
+    LTEXT           "",IDC_STATIC_LATEST,183,131,118,9
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,253,337,1,WS_EX_STATICEDGE
+END
+
+IDD_INSTALLPACKAGE DIALOGEX 0, 0, 360, 209
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "安装K线数据包"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "添加...",IDC_EXPLORER,277,50,50,14,BS_FLAT
+    PUSHBUTTON      "移去",IDC_REMOVE,277,76,50,14,BS_FLAT
+    CONTROL         "List1",IDC_LIST_FILES,"SysListView32",LVS_REPORT | LVS_SINGLESEL | WS_TABSTOP,29,34,237,73,WS_EX_STATICEDGE
+    CONTROL         "日线数据包",IDC_DAYPACKAGE,"Button",BS_AUTORADIOBUTTON | BS_FLAT,66,132,99,10
+    CONTROL         "5分钟线数据包",IDC_MIN5PACKAGE,"Button",BS_AUTORADIOBUTTON | BS_FLAT,198,132,95,10
+    DEFPUSHBUTTON   "开始安装",IDC_START,236,155,50,14,BS_FLAT
+    PUSHBUTTON      "停止",IDC_STOP,290,155,50,14,BS_FLAT
+    GROUPBOX        "选择数据包，支持通用格式(.stk)，分析家格式(.dad)",IDC_STATIC,20,20,319,97
+    GROUPBOX        "数据类型",IDC_STATIC,20,121,319,28
+    LTEXT           "正在安装，请稍候...",IDC_STATIC_STATUS,21,172,317,27
+    LTEXT           "点击这里去网站下载数据包。",IDC_GODOWNLOADWEB,244,7,109,8
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",0x1,18,157,175,10,WS_EX_STATICEDGE
+    LTEXT           "",IDC_STATIC_PROGRESS,195,157,33,9
+END
+
+IDD_DATASOURCE DIALOGEX 0, 0, 300, 187
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设定数据源"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "指定钱龙格式数据目录",IDC_CHECK_QIANLONG,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,29,36,137,10
+    EDITTEXT        IDC_EDIT_QLPATH,41,102,217,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "浏览...",IDC_QLEXPLORER,151,120,50,14,BS_FLAT
+    PUSHBUTTON      "测试",IDC_QLTEST,209,120,50,14,BS_FLAT
+    DEFPUSHBUTTON   "确定",IDOK,147,157,50,14,BS_FLAT
+    PUSHBUTTON      "关闭",IDCANCEL,224,157,50,14,BS_FLAT
+    LTEXT           "     钱龙、核新等行情软件在按下F9写盘功能后，浏览过的K线数据实时写盘，可以为本软件提供实时的5分钟、15分钟、30分钟、60分钟以及日线数据来源。\n\n     注意：指定软件根目录即可！！！",IDC_STATIC,41,52,218,44
+    GROUPBOX        "",IDC_STATIC,20,22,258,117
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,149,301,1,WS_EX_STATICEDGE
+END
+
+IDD_SETCOLUMN DIALOGEX 0, 0, 383, 277
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置股票列表显示数据"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",IDC_COLUMNLIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_TABSTOP,23,13,276,180,WS_EX_STATICEDGE
+    CONTROL         "全部选中",IDC_SETALL,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,30,196,48,10
+    PUSHBUTTON      "上移",IDC_MOVEUP,315,40,50,14,BS_FLAT
+    PUSHBUTTON      "下移",IDC_MOVEDOWN,315,66,50,14,BS_FLAT
+    PUSHBUTTON      "新指标...",IDC_NEWINDEX,315,92,50,14,BS_FLAT
+    PUSHBUTTON      "编辑...",IDC_EDITINDEX,315,118,50,14,BS_FLAT
+    PUSHBUTTON      "删除",IDC_DELINDEX,315,144,50,14,BS_FLAT
+    PUSHBUTTON      "缺省",IDC_SETDEFAULT,315,170,50,14,BS_FLAT
+    DEFPUSHBUTTON   "确定",IDOK,217,252,50,14,BS_FLAT
+    PUSHBUTTON      "取消",IDCANCEL,285,252,50,14,BS_FLAT
+    LTEXT           "备注：每股收益、净资产收益率、每股净现金流量、主营业务收入、净利润等指标值是年报数据或者中报数据乘以2所得。",IDC_STATIC,24,211,275,27,0,WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,245,383,1,WS_EX_STATICEDGE
+END
+
+IDD_BASEINDEX DIALOGEX 0, 0, 337, 273
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "新基本指标"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_INDEXNAME,78,30,123,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_INDEXEXPRESS,78,56,231,65,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | NOT WS_BORDER | WS_VSCROLL | WS_HSCROLL,WS_EX_STATICEDGE
+    CONTROL         "加入股票列表显示",IDC_ADDTOLIST,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,28,126,120,10
+    DEFPUSHBUTTON   "确定",IDOK,168,246,50,14,BS_FLAT
+    PUSHBUTTON      "关闭",IDCANCEL,243,246,50,14,BS_FLAT
+    LTEXT           "指标名称：",IDC_STATIC,26,31,41,8
+    LTEXT           "指标表达式：",IDC_STATIC,26,57,49,8
+    GROUPBOX        "名称及表达式",IDC_STATIC,16,16,304,127
+    GROUPBOX        "说明",IDC_STATIC,16,148,304,82
+    LTEXT           "    1.指标表达式是对股票已有数据进行再次计算，从而得到新的指标。\n    2.在指标表达式编辑框里输入两个连续的冒号“::”，就会出现当前已有指标的列表。\n    3.可以使用加+、减-、乘*、除/以及括号()进行运算，得到相应的指标，加入股票列表中显示。\n    4.支持数学函数：ABS，ATAN，COS，EXP，LN，SIN，SQRT，NOT，BOOL，SGN。",IDC_STATIC,31,160,273,62
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,237,337,1,WS_EX_STATICEDGE
+END
+
+IDD_LISTEXPORT DIALOGEX 0, 0, 300, 297
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "股票列表数据导出"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "导出所有行",IDC_ITEM_ALL,"Button",BS_AUTORADIOBUTTON | BS_FLAT,35,23,78,10
+    CONTROL         "导出选中的行",IDC_ITEM_SELECTED,"Button",BS_AUTORADIOBUTTON | BS_FLAT,35,38,81,10
+    CONTROL         "导出指定行",IDC_ITEM_DEFINE,"Button",BS_AUTORADIOBUTTON | BS_FLAT,35,53,61,10
+    EDITTEXT        IDC_ITEM_BEGIN,140,52,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_ITEM_END,221,52,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "重写数据",IDC_EXPORT_OVERWRITE,"Button",BS_AUTORADIOBUTTON | BS_FLAT | WS_GROUP,61,83,82,10
+    CONTROL         "追加数据",IDC_EXPORT_APPEND,"Button",BS_AUTORADIOBUTTON | BS_FLAT,166,83,103,10
+    CONTROL         "导出到文本文件",IDC_TXT_CHECK,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,28,97,103,10
+    EDITTEXT        IDC_TXT_DEST,41,110,176,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "浏览...",IDC_TXT_EXPLORER,222,109,50,14,BS_FLAT
+    CONTROL         "导出到mdb文件（Access数据库）",IDC_MDB_CHECK,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,28,131,171,10
+    EDITTEXT        IDC_MDB_DEST,42,144,176,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "浏览...",IDC_MDB_EXPLORER,222,143,50,14,BS_FLAT
+    CONTROL         "导出到CSV文件，可以用Excel打开编辑",IDC_CSV_CHECK,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,28,165,184,10
+    EDITTEXT        IDC_CSV_DEST,42,178,176,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "浏览...",IDC_CSV_EXPLORER,222,177,50,14,BS_FLAT
+    CONTROL         "导出到数据库（ODBC驱动）",IDC_ODBC_CHECK,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,28,199,153,10
+    EDITTEXT        IDC_ODBC_DEST,42,212,176,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "数据源...",IDC_ODBC_SOURCE,222,211,50,14,BS_FLAT
+    CONTROL         "导出完毕后打开导出文件",IDC_EXEONFINISH,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,17,237,143,10
+    DEFPUSHBUTTON   "开始导出",IDOK,153,273,50,14,BS_FLAT
+    PUSHBUTTON      "关闭",IDCANCEL,223,273,50,14,BS_FLAT
+    GROUPBOX        "导出文件",IDC_STATIC,18,72,264,162
+    GROUPBOX        "导出行",IDC_STATIC,19,11,262,57
+    LTEXT           "起始行：",IDC_STATIC,103,54,33,8
+    LTEXT           "终止行：",IDC_STATIC,186,54,33,8
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",0x1,18,252,224,9,WS_EX_STATICEDGE
+    LTEXT           "",IDC_STATIC_PROGRESS,247,252,39,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,265,299,1,WS_EX_STATICEDGE
+END
+
+IDD_SETGROUP DIALOGEX 0, 0, 383, 253
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "股票分组设定"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDITCODE,74,198,81,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO_GROUPSRC,74,24,80,102,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST_STOCKSRC,21,49,133,148,LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    PUSHBUTTON      ">",IDC_ADDSELECTED,167,88,50,14,BS_FLAT
+    PUSHBUTTON      ">>>",IDC_ADDALL,167,113,50,14,BS_FLAT
+    PUSHBUTTON      "<",IDC_REMOVESELECTED,167,138,50,14,BS_FLAT
+    PUSHBUTTON      "<<<",IDC_REMOVEALL,167,163,50,14,BS_FLAT
+    COMBOBOX        IDC_COMBO_GROUPDEST,228,30,80,102,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "新建分组...",IDC_ADDGROUP,311,21,50,14,BS_FLAT
+    PUSHBUTTON      "删除分组",IDC_DELETEGROUP,311,37,50,14,BS_FLAT
+    LISTBOX         IDC_LIST_STOCKDEST,228,55,133,155,LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "确定",IDOK,233,229,50,14,BS_FLAT
+    PUSHBUTTON      "取消",IDCANCEL,301,229,50,14,BS_FLAT
+    LTEXT           "代码或者简拼",IDC_STATIC,21,200,49,8
+    LTEXT           "选择股票种类",IDC_STATIC,22,26,49,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,221,383,1,WS_EX_STATICEDGE
+    LTEXT           "",IDC_STATIC_INFO,229,11,130,8
+END
+
+IDD_SELECTGRP DIALOGEX 0, 0, 206, 217
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "选择分组、板块或策略"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LISTGROUP,23,27,160,150,LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "确定",IDOK,77,195,50,14,BS_FLAT
+    PUSHBUTTON      "取消",IDCANCEL,141,195,50,14,BS_FLAT
+    PUSHBUTTON      "新建分组...",IDC_ADDGROUP,134,9,50,14,BS_FLAT
+    LTEXT           "选择分组、板块或者策略",IDC_STATICINFO,11,12,112,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,187,205,1,WS_EX_STATICEDGE
+END
+
+IDD_SELECTSTK DIALOGEX 0, 0, 383, 201
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "选择股票"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDITCODE,74,180,79,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO_GROUPSRC,74,6,80,102,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST_STOCKSRC,21,31,132,148,LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    PUSHBUTTON      ">",IDC_ADDSELECTED,166,60,50,14,BS_FLAT
+    PUSHBUTTON      ">>>",IDC_ADDALL,166,85,50,14,BS_FLAT
+    PUSHBUTTON      "<",IDC_REMOVESELECTED,166,110,50,14,BS_FLAT
+    PUSHBUTTON      "<<<",IDC_REMOVEALL,166,135,50,14,BS_FLAT
+    LISTBOX         IDC_LIST_STOCKDEST,228,31,133,161,LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    LTEXT           "代码或者简拼",IDC_STATIC,21,182,49,8
+    LTEXT           "选择股票种类",IDC_STATIC,22,8,49,8
+    LTEXT           "选中的股票：",IDC_STATIC,229,16,49,8
+END
+
+IDD_EXPORTDEST DIALOGEX 0, 0, 383, 201
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "选择导出目的文件"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "重写数据",IDC_EXPORT_OVERWRITE,"Button",BS_AUTORADIOBUTTON | BS_FLAT | WS_GROUP,99,13,82,10
+    CONTROL         "追加数据",IDC_EXPORT_APPEND,"Button",BS_AUTORADIOBUTTON | BS_FLAT,204,13,103,10
+    CONTROL         "文本文件(.txt)目录",IDC_TXT_CHECK,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,28,34,90,10
+    EDITTEXT        IDC_TXT_DEST,124,33,176,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "浏览...",IDC_TXT_EXPLORER,304,32,50,14,BS_FLAT
+    CONTROL         "Acess文件(.mdb)",IDC_MDB_CHECK,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,28,62,90,10
+    EDITTEXT        IDC_MDB_DEST,124,61,176,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "浏览...",IDC_MDB_EXPLORER,304,60,50,14,BS_FLAT
+    CONTROL         "Excel文件(.csv)目录",IDC_CSV_CHECK,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,28,90,90,10
+    EDITTEXT        IDC_CSV_DEST,124,89,176,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "浏览...",IDC_CSV_EXPLORER,304,88,50,14,BS_FLAT
+    CONTROL         "ODBC数据库",IDC_ODBC_CHECK,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,28,118,90,10
+    EDITTEXT        IDC_ODBC_DEST,124,117,176,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "数据源...",IDC_ODBC_SOURCE,304,116,50,14,BS_FLAT
+    CONTROL         "导出完毕后打开导出文件",IDC_EXEONFINISH,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,18,156,143,10
+    GROUPBOX        "导出文件",-1,19,1,344,144
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",0x1,19,172,293,9,WS_EX_STATICEDGE
+    LTEXT           "",IDC_STATIC_PROGRESS,319,173,41,8
+END
+
+IDD_EXPORTOPTION DIALOGEX 0, 0, 383, 201
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "导出选项"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "导出所有时间的数据",IDC_TIME_ALL,"Button",BS_AUTORADIOBUTTON | BS_FLAT,35,14,167,10
+    CONTROL         "导出指定时间",IDC_TIME_DEFINE,"Button",BS_AUTORADIOBUTTON | BS_FLAT,35,29,64,10
+    CONTROL         "DateTimePicker1",IDC_TIME_BEGIN,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,130,27,58,13
+    CONTROL         "DateTimePicker1",IDC_TIME_END,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,217,27,58,13
+    CONTROL         "月K线",IDC_KMONTH,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,40,72,36,10
+    CONTROL         "周K线",IDC_KWEEK,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,111,72,36,10
+    CONTROL         "日K线",IDC_KDAY,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,182,72,36,10
+    CONTROL         "60分钟线",IDC_KMIN60,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,40,91,48,10
+    CONTROL         "30分钟线",IDC_KMIN30,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,111,91,48,10
+    CONTROL         "15分钟线",IDC_KMIN15,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,182,91,48,10
+    CONTROL         "5分钟线",IDC_KMIN5,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,253,91,44,10
+    CONTROL         "不复权",IDC_NORESUMEDR,"Button",BS_AUTORADIOBUTTON | BS_FLAT | WS_GROUP,35,138,40,10
+    CONTROL         "向上复权",IDC_RESUMEDRUP,"Button",BS_AUTORADIOBUTTON | BS_FLAT,104,138,48,10
+    CONTROL         "向下复权",IDC_RESUMEDRDOWN,"Button",BS_AUTORADIOBUTTON | BS_FLAT,181,138,48,10
+    CONTROL         "当日期在",IDC_AUTORESUMEDR,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,36,159,48,10
+    CONTROL         "DateTimePicker1",IDC_TIME_AUTORESUMEDRBEGIN,
+                    "SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,85,157,58,13
+    EDITTEXT        IDC_AUTORESUMEDR_LIMIT,223,158,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    GROUPBOX        "导出数据日期",IDC_STATIC,19,2,344,45
+    LTEXT           "起始：",IDC_STATIC,103,29,25,8
+    LTEXT           "终止：",IDC_STATIC,190,29,25,8
+    GROUPBOX        "导出数据类型",IDC_STATIC,19,53,344,57
+    GROUPBOX        "其他选项",IDC_STATIC,19,120,344,62
+    LTEXT           "之后，单日涨跌幅大于",IDC_STATIC,147,159,73,8
+    LTEXT           "% 时，自动复权",IDC_STATIC,267,160,57,8
+END
+
+IDD_SETDRDATA DIALOGEX 0, 0, 360, 209
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "权息资料"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDITCODE,61,155,81,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO_GROUPSRC,63,14,80,102,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST_STOCKSRC,10,32,133,117,LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    PUSHBUTTON      "导入权息...",IDC_IMPORT,7,179,54,14,BS_FLAT
+    PUSHBUTTON      "导入分析家权息...",IDC_IMPORTFXJ,69,179,74,14,BS_FLAT
+    CONTROL         "Custom1",IDC_GRID,"MFCGridCtrl",WS_BORDER | WS_TABSTOP,148,27,203,146
+    CONTROL         "DateTimePicker1",IDC_TIME_DRDATA,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,172,178,57,15
+    PUSHBUTTON      "插入",IDC_INSERT,228,179,50,14,BS_FLAT
+    PUSHBUTTON      "移除",IDC_DELETE,290,179,50,14,BS_FLAT
+    LTEXT           "代码或者简拼",IDC_STATIC,7,157,49,8
+    LTEXT           "选择股票种类",IDC_STATIC,11,16,49,8
+    LTEXT           "",IDC_STATICSTOCK,153,14,182,8
+END
+
+IDD_NETINFO DIALOGEX 0, 0, 312, 225
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "信息"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "关闭",IDCANCEL,236,198,50,14,BS_FLAT
+    EDITTEXT        IDC_EDIT_EXPLAIN,31,54,248,103,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         174,IDC_PICTURE,"Static",SS_BITMAP,0,0,295,56,WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,187,311,1,WS_EX_STATICEDGE
+    CONTROL         "以后不再显示本信息",IDC_NOTSHOWLATER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,30,166,88,10
+    LTEXT           "信息链接",IDC_NETINFOURL,159,166,126,8
+END
+
+IDD_SETPARAM DIALOGEX 0, 0, 358, 235
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "技术指标参数设置"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "Tree1",IDC_TREE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | WS_TABSTOP,12,21,132,175,WS_EX_STATICEDGE
+    PUSHBUTTON      "全部缺省",IDC_ALLDEFAULT,217,209,50,14,BS_FLAT
+    DEFPUSHBUTTON   "完成",IDOK,283,209,50,14,BS_FLAT
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,203,357,1,WS_EX_STATICEDGE
+    LTEXT           "选择技术指标：",IDC_STATIC,12,10,57,8
+END
+
+IDDP_MA DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "标准移动平均线",IDC_STDMA,"Button",BS_AUTORADIOBUTTON | BS_FLAT,16,38,72,10
+    CONTROL         "指数平滑移动平均线",IDC_EXPMA,"Button",BS_AUTORADIOBUTTON | BS_FLAT,107,38,88,10
+    CONTROL         "MA1 计算天数",IDC_MA1,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,24,50,64,10
+    EDITTEXT        IDC_DAYS1,96,50,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "MA2 计算天数",IDC_MA2,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,24,66,64,10
+    EDITTEXT        IDC_DAYS2,96,66,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "MA3 计算天数",IDC_MA3,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,24,82,64,10
+    EDITTEXT        IDC_DAYS3,96,82,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "MA4 计算天数",IDC_MA4,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,24,99,64,10
+    EDITTEXT        IDC_DAYS4,96,98,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GOLDENFORK,88,115,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,88,131,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_LONG,88,147,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SHORT,88,163,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,198,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,161,8
+    LTEXT           "移动平均线类型",IDC_STATIC,17,28,57,8
+    LTEXT           "低位金叉",IDC_STATIC,51,117,33,8
+    LTEXT           "高位死叉",IDC_STATIC,51,133,33,8
+    LTEXT           "均线多头排列",IDC_STATIC,35,149,49,8
+    LTEXT           "均线空头排列",IDC_STATIC,35,165,49,8
+END
+
+IDDP_BBI DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS1,101,41,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_DAYS2,101,58,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_DAYS3,101,75,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_DAYS4,101,92,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GOLDENFORK,93,111,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,93,129,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "MA1 计算天数",IDC_STATIC,40,43,49,8
+    LTEXT           "MA2 计算天数",IDC_STATIC,40,60,49,8
+    LTEXT           "MA3 计算天数",IDC_STATIC,40,77,49,8
+    LTEXT           "MA4 计算天数",IDC_STATIC,40,94,49,8
+    LTEXT           "低位金叉",IDC_STATIC,55,113,33,8
+    LTEXT           "高位死叉",IDC_STATIC,55,131,33,8
+END
+
+IDDP_BOLL DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,113,38,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MULTIUP,113,59,40,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MULTIDOWN,113,80,40,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_SUPPORT,105,102,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_RESISTANCE,105,120,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "BOLL计算天数",IDC_STATIC,52,41,49,8
+    LTEXT           "上倍数",IDC_STATIC,75,61,25,8
+    LTEXT           "下倍数",IDC_STATIC,75,81,25,8
+    LTEXT           "遇到支撑线",IDC_STATIC,58,104,41,8
+    LTEXT           "遇到阻力线",IDC_STATIC,57,122,41,8
+END
+
+IDDP_PV DIALOG  0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "没有需要设置的参数。",IDC_STATIC,31,53,92,8
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+END
+
+IDDP_SAR DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,126,33,45,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "近期最低价",IDC_RADIOMIN,"Button",BS_AUTORADIOBUTTON,46,65,56,10
+    CONTROL         "近期最高价",IDC_RADIOMAX,"Button",BS_AUTORADIOBUTTON,119,65,56,10
+    EDITTEXT        IDC_AFSTEP,103,84,40,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_AFMAX,103,102,40,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_BUY,94,123,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SELL,94,141,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "SAR第一点及转折点计算天数",IDC_STATIC,17,35,101,8
+    LTEXT           "第一极点取极值：",IDC_STATIC,17,51,65,8
+    LTEXT           "调整系数AF步进值",IDC_STATIC,21,86,65,8
+    LTEXT           "调整系数AF最高值",IDC_STATIC,20,105,65,8
+    LTEXT           "多头转折点",IDC_STATIC,43,125,41,8
+    LTEXT           "空头转折点",IDC_STATIC,42,143,41,8
+END
+
+IDDP_DJ DIALOG  0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    COMBOBOX        IDC_DJSHA,87,57,80,102,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DJSZN,87,91,80,102,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",-1,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "沪市背景图形：",-1,19,59,57,8
+    LTEXT           "深市背景图形：",-1,19,95,57,8
+END
+
+IDDP_CW DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_CHANGEHAND,107,60,40,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",-1,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "换手周期：",-1,50,62,41,8
+END
+
+IDD_SIMU_FORM DIALOGEX 0, 0, 476, 244
+STYLE DS_SETFONT | WS_CHILD | WS_BORDER
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_KTYPE,75,56,69,96,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_MAINDATATYPE,271,56,69,96,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_BUYLOGIC,76,92,57,57,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_BUYLIMIT,190,92,70,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_BUYMULTI,88,108,40,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_SELLLOGIC,76,127,57,57,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SELLLIMIT,190,127,70,101,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_SELLMULTI,88,143,40,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "高级条件...",IDC_ADVANCED,260,156,84,14,BS_FLAT
+    CONTROL         "DateTimePicker1",IDC_TIME_BEGIN,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,95,181,58,13
+    CONTROL         "DateTimePicker1",IDC_TIME_END,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,226,181,58,13
+    EDITTEXT        IDC_STARTAMOUNT,77,200,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_STOREDIV,237,199,69,106,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "策略属性...",IDC_SETPRPT,393,34,75,22,BS_FLAT
+    PUSHBUTTON      "修改备选股票...",IDC_SELECTSTK,393,63,75,22,BS_FLAT
+    PUSHBUTTON      "指标规则设置...",IDC_SETRULE,393,92,75,22,BS_FLAT
+    PUSHBUTTON      "费率设置...",IDC_SETRATE,393,121,75,22,BS_FLAT
+    PUSHBUTTON      "策略报表...",IDC_REPORT,393,150,75,22,BS_FLAT
+    PUSHBUTTON      "实战操作...",IDC_REALOP,393,179,75,22,BS_FLAT
+    PUSHBUTTON      "开始模拟",IDC_START,309,222,75,22,BS_FLAT
+    PUSHBUTTON      "结束并清除结果",IDC_STOP,386,222,75,22,BS_FLAT
+    EDITTEXT        IDC_STOCKTECH,103,34,252,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "",IDC_STATICWARNING,22,5,346,9
+    GROUPBOX        "设定测试参数",IDC_STATICTITLE,15,19,362,200
+    LTEXT           "选中股票和指标：",IDC_STATIC,33,36,69,8
+    LTEXT           "K线类型",IDC_STATIC,40,59,31,8
+    LTEXT           "主数据类型",IDC_STATIC,226,59,41,8
+    GROUPBOX        "买卖模拟规则",IDC_STATIC,32,73,326,101
+    LTEXT           "1. 当",IDC_STATIC,54,95,21,8
+    LTEXT           "选中指标发出",IDC_STATIC,138,94,49,8
+    LTEXT           "以上信号时，第二日以",IDC_STATIC,263,95,84,8
+    LTEXT           "昨收盘价的",IDC_STATIC,43,109,41,8
+    LTEXT           "% 委托买入。",IDC_STATIC,134,110,49,8
+    LTEXT           "2. 当",IDC_STATIC,54,129,21,8
+    LTEXT           "选中指标发出",IDC_STATIC,138,130,49,8
+    LTEXT           "以下信号时，第二日以",IDC_STATIC,264,130,83,8
+    LTEXT           "昨收盘价的",IDC_STATIC,43,145,41,8
+    LTEXT           "% 委托卖出，次日类推，直至成交为止。",IDC_STATIC,134,145,145,8
+    LTEXT           "模拟起始时间",IDC_STATIC,42,183,49,8
+    LTEXT           "模拟结束时间",IDC_STATIC,171,183,49,8
+    LTEXT           "起始金额",IDC_STATIC,41,202,33,8
+    LTEXT           "万元",IDC_STATIC,120,202,17,8
+    LTEXT           "每次买入操作仓位",IDC_STATIC,169,202,65,8
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",0x1,22,228,202,10,WS_EX_STATICEDGE
+    LTEXT           "盈利：",IDC_STATICYIELD,228,229,25,8
+    LTEXT           "",IDC_STATICYIELD2,260,229,45,8
+END
+
+IDD_EDITKDATA DIALOGEX 0, 0, 230, 185
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "编辑K线数据"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "DateTimePicker1",IDC_DATE,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,105,17,82,15
+    EDITTEXT        IDC_OPEN,105,36,82,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_HIGH,105,53,82,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_LOW,105,71,82,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CLOSE,105,89,82,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_VOLUME,105,107,82,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_AMOUNT,105,125,82,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "确定",IDOK,103,163,50,14,BS_FLAT
+    PUSHBUTTON      "取消",IDCANCEL,167,163,50,14,BS_FLAT
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,155,229,1,WS_EX_STATICEDGE
+    LTEXT           "日期：",IDC_STATIC,32,20,25,8
+    LTEXT           "开盘(元)：",IDC_STATIC,32,37,41,8
+    LTEXT           "收盘(元)：",IDC_STATIC,32,92,41,8
+    LTEXT           "最高价(元)：",IDC_STATIC,32,55,49,8
+    LTEXT           "最低价(元)：",IDC_STATIC,32,74,49,8
+    LTEXT           "成交量(手)：",IDC_STATIC,32,111,49,8
+    LTEXT           "成交额(千元)：",IDC_STATIC,32,128,57,8
+END
+
+IDD_SETRATE DIALOGEX 0, 0, 383, 201
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "费率设置"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_TAXSZNA,112,48,40,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_TAXSZNB,234,48,40,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_TAXSZNFUND,111,74,40,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_TAXSHAA,111,100,40,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_TAXSHAB,233,100,40,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_TAXSHAFUND,111,126,40,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    GROUPBOX        "费率百分比设置",IDC_STATIC,29,20,312,150
+    LTEXT           "深圳A股",IDC_STATIC,76,50,29,8
+    LTEXT           "深圳B股",IDC_STATIC,203,50,29,8
+    LTEXT           "深圳基金",IDC_STATIC,75,76,33,8
+    LTEXT           "上海A股",IDC_STATIC,75,102,29,8
+    LTEXT           "上海B股",IDC_STATIC,202,102,29,8
+    LTEXT           "上海基金",IDC_STATIC,75,128,33,8
+    LTEXT           "%",IDC_STATIC,155,50,8,8
+    LTEXT           "%",IDC_STATIC,154,76,8,8
+    LTEXT           "%",IDC_STATIC,154,102,8,8
+    LTEXT           "%",IDC_STATIC,154,128,8,8
+    LTEXT           "%",IDC_STATIC,278,50,8,8
+    LTEXT           "%",IDC_STATIC,277,102,8,8
+END
+
+IDD_SETRULE DIALOGEX 0, 0, 383, 201
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "指标规则设置"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "Tree1",IDC_TREE,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | TVS_CHECKBOXES | WS_TABSTOP,12,21,123,175,WS_EX_STATICEDGE
+    PUSHBUTTON      "全部缺省",IDC_ALLDEFAULT,304,3,50,14,BS_FLAT
+    LTEXT           "选择技术指标：",IDC_STATIC,12,10,57,8
+END
+
+IDD_SIMUREPORT DIALOGEX 0, 0, 420, 259
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "策略报表"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "关闭",IDOK,312,236,50,14,BS_FLAT
+    CONTROL         "Tab1",IDC_TABCTRL,"SysTabControl32",0x0,7,7,314,211
+    CONTROL         "List1",IDC_OPRECORD,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_TABSTOP,7,21,314,197,WS_EX_STATICEDGE
+    CONTROL         "",IDC_CURVE,"Button",BS_OWNERDRAW | BS_FLAT | WS_TABSTOP,7,21,314,197
+    CONTROL         "List1",IDC_STOCKOWN,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_TABSTOP,7,21,314,197,WS_EX_STATICEDGE
+    EDITTEXT        IDC_BUYTIMES,382,31,31,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_VICTORYTIMES,382,51,31,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_YIELDMAX,382,71,31,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_YIELDMIN,382,91,31,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_YIELDFIN,382,111,31,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_YIELDINDEX,382,131,31,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_YIELDSTDDEV,382,151,31,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_XIAPU,382,171,31,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "拷贝至剪贴板",IDC_COPY,332,203,73,14,BS_FLAT
+    LTEXT           "进出次数：",IDC_STATIC,339,33,41,8
+    LTEXT           "盈利次数：",IDC_STATIC,339,53,41,8
+    LTEXT           "最高一次盈利：",IDC_STATIC,323,73,57,8
+    LTEXT           "最低一次盈利：",IDC_STATIC,323,93,57,8
+    LTEXT           "最终盈利：",IDC_STATIC,339,113,41,8
+    LTEXT           "同期大盘上涨：",IDC_STATIC,323,133,57,8
+    LTEXT           "盈利标准差：",IDC_STATIC,331,153,49,8
+    LTEXT           "夏普风险指数：",IDC_STATIC,323,173,57,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,230,419,1,WS_EX_STATICEDGE
+    LTEXT           "操作记录中的股票单价是向下复权后的数值。",IDC_STATICEXPLAIN,39,237,262,9
+END
+
+IDD_SIMUREALOP DIALOGEX 0, 0, 420, 265
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "实战操作"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "关闭",IDOK,312,240,50,14,BS_FLAT
+    CONTROL         "Tab1",IDC_TABCTRL,"SysTabControl32",0x0,7,7,324,198
+    CONTROL         "List1",IDC_NEXTOP,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_TABSTOP,7,21,324,184,WS_EX_STATICEDGE
+    CONTROL         "List1",IDC_OPRECORD,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_TABSTOP,7,21,324,183,WS_EX_STATICEDGE
+    CONTROL         "",IDC_CURVE,"Button",BS_OWNERDRAW | BS_FLAT | WS_TABSTOP,7,21,324,184
+    CONTROL         "List1",IDC_STOCKOWN,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_NOSORTHEADER | WS_TABSTOP,7,21,324,184,WS_EX_STATICEDGE
+    PUSHBUTTON      "加入操作...",IDC_ADDOP,77,212,60,20,BS_FLAT
+    PUSHBUTTON      "删除操作...",IDC_DELETEOP,189,212,60,20,BS_FLAT
+    PUSHBUTTON      "增加股票...",IDC_ADDSTOCK,41,212,60,20,BS_FLAT
+    PUSHBUTTON      "删除股票...",IDC_DELETESTOCK,133,212,60,20,BS_FLAT
+    PUSHBUTTON      "修改现金...",IDC_MODIFIED,225,212,60,20,BS_FLAT
+    PUSHBUTTON      "盈利统计...",IDC_STATYIELD,341,40,65,20,BS_FLAT
+    PUSHBUTTON      "全部重来...",IDC_RESETALL,341,71,65,20,BS_FLAT
+    PUSHBUTTON      "拷贝至剪贴板",IDC_COPY,341,102,65,20,BS_FLAT
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,235,419,1,WS_EX_STATICEDGE
+    LTEXT           "下一步操作是操作计划，成功后自动加入历史操作记录。",IDC_STATICEXPLAIN,38,242,259,9
+    LTEXT           "",IDC_TIMEEXPLAIN,8,215,322,9
+END
+
+IDD_SETCOLOR DIALOGEX 0, 0, 345, 285
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "颜色设置"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COLORCLASS,40,25,139,102,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "另存为...",IDC_SAVEAS,200,25,50,14,BS_FLAT
+    PUSHBUTTON      "删除",IDC_DELETE,256,25,50,14,BS_FLAT
+    PUSHBUTTON      "工作条背景",IDC_WORKSPBK,31,60,78,14,BS_FLAT
+    PUSHBUTTON      "工作条文字",IDC_WORKSPTEXT,31,81,78,14,BS_FLAT
+    PUSHBUTTON      "策略视图背景",IDC_SIMUBK,31,102,78,14,BS_FLAT
+    PUSHBUTTON      "策略视图文字",IDC_SIMUTEXT,31,123,78,14,BS_FLAT
+    PUSHBUTTON      "股票列表背景",IDC_SLISTBK,31,144,78,14,BS_FLAT
+    PUSHBUTTON      "股票列表选中",IDC_SLISTSELECTED,31,165,78,14,BS_FLAT
+    PUSHBUTTON      "基本资料背景",IDC_BASEBK,31,186,78,14,BS_FLAT
+    PUSHBUTTON      "基本资料文字",IDC_BASETEXT,31,207,78,14,BS_FLAT
+    PUSHBUTTON      "技术图表背景",IDC_GRAPHBK,31,228,78,14,BS_FLAT
+    PUSHBUTTON      "边框颜色",IDC_BORDER,133,60,78,14,BS_FLAT
+    PUSHBUTTON      "上涨颜色",IDC_RISE,133,82,78,14,BS_FLAT
+    PUSHBUTTON      "下跌颜色",IDC_FALL,133,102,78,14,BS_FLAT
+    PUSHBUTTON      "下跌柱体颜色",IDC_FALLENTITY,133,124,78,14,BS_FLAT
+    PUSHBUTTON      "无涨跌颜色",IDC_PLANE,133,144,78,14,BS_FLAT
+    PUSHBUTTON      "新加K线颜色",IDC_NEWKLINE,133,166,78,14,BS_FLAT
+    PUSHBUTTON      "筹码分布颜色",IDC_CW,133,186,78,14,BS_FLAT
+    PUSHBUTTON      "叠加颜色",IDC_DJ,133,208,78,14,BS_FLAT
+    PUSHBUTTON      "标题颜色",IDC_TITLE,235,60,78,14,BS_FLAT
+    PUSHBUTTON      "其他文字颜色",IDC_TEXT,235,82,78,14,BS_FLAT
+    PUSHBUTTON      "第一根指标线",IDC_LINE1,235,102,78,14,BS_FLAT
+    PUSHBUTTON      "第二根指标线",IDC_LINE2,235,124,78,14,BS_FLAT
+    PUSHBUTTON      "第三根指标线",IDC_LINE3,235,144,78,14,BS_FLAT
+    PUSHBUTTON      "第四根指标线",IDC_LINE4,235,166,78,14,BS_FLAT
+    PUSHBUTTON      "第五根指标线",IDC_LINE5,235,186,78,14,BS_FLAT
+    PUSHBUTTON      "第六根指标线",IDC_LINE6,235,208,78,14,BS_FLAT
+    DEFPUSHBUTTON   "确定",IDOK,157,262,50,14,BS_FLAT
+    PUSHBUTTON      "取消",IDCANCEL,216,262,50,14,BS_FLAT
+    PUSHBUTTON      "预览",IDC_PREVIEW,275,262,50,14,BS_FLAT
+    LTEXT           "方案：",IDC_STATIC,40,12,25,8
+    GROUPBOX        "",IDC_STATIC,12,46,321,204
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,255,345,1,WS_EX_STATICEDGE
+END
+
+IDD_SIMUSTAT DIALOGEX 0, 0, 198, 181
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "盈利统计"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_BUYTIMES,106,7,50,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_VICTORYTIMES,106,25,50,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_YIELDMAX,106,43,50,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_YIELDMIN,106,61,50,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_YIELDFIN,106,79,50,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_YIELDINDEX,106,97,50,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_YIELDSTDDEV,106,115,50,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_XIAPU,106,134,50,12,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "关闭",IDOK,136,160,50,14,BS_FLAT
+    LTEXT           "进出次数：",IDC_STATIC,52,9,41,8
+    LTEXT           "盈利次数：",IDC_STATIC,52,27,41,8
+    LTEXT           "最高一次盈利：",IDC_STATIC,36,45,57,8
+    LTEXT           "最低一次盈利：",IDC_STATIC,36,63,57,8
+    LTEXT           "最终盈利：",IDC_STATIC,52,81,41,8
+    LTEXT           "同期大盘上涨：",IDC_STATIC,36,99,57,8
+    LTEXT           "盈利标准差：",IDC_STATIC,43,117,49,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,151,197,1,WS_EX_STATICEDGE
+    LTEXT           "夏普风险指数：",IDC_STATIC,35,136,57,8
+END
+
+IDD_SIMUADDOP DIALOGEX 0, 0, 220, 179
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "加入操作记录"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "DateTimePicker1",IDC_TIME,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,103,7,58,13
+    COMBOBOX        IDC_STOCK,103,27,80,102,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_OPERATE,103,50,58,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_SHARE,106,73,50,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_SHAREPRICE,106,95,50,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_RATECOST,106,117,50,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "确定",IDOK,99,158,50,14,BS_FLAT
+    PUSHBUTTON      "取消",IDCANCEL,157,158,50,14,BS_FLAT
+    LTEXT           "操作日期：",IDC_STATIC,52,9,41,8
+    LTEXT           "股票：",IDC_STATIC,68,31,25,8
+    LTEXT           "操作：",IDC_STATIC,68,53,25,8
+    LTEXT           "股数：",IDC_STATIC,68,75,25,8
+    LTEXT           "每股价格：",IDC_STATIC,52,97,41,8
+    LTEXT           "税费总额：",IDC_STATIC,52,119,41,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,150,219,1,WS_EX_STATICEDGE
+    LTEXT           "股",IDC_STATIC,159,75,9,8
+END
+
+IDD_SIMUADDSTOCK DIALOGEX 0, 0, 220, 111
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "加入股票"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_STOCK,97,20,80,102,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_VALUE,98,38,50,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_PRICE,98,56,50,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "确定",IDOK,99,88,50,14,BS_FLAT
+    PUSHBUTTON      "取消",IDCANCEL,157,88,50,14,BS_FLAT
+    LTEXT           "股票：",IDC_STATICSTOCK,57,22,31,8
+    LTEXT           "股数：",IDC_STATICVALUE,57,40,32,8
+    LTEXT           "单价：",IDC_STATICPRICE,57,58,25,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,78,219,1,WS_EX_STATICEDGE
+END
+
+IDD_FILTERINFO DIALOGEX 0, 0, 365, 255
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "基本资料和行情选股"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LISTINFO,8,23,93,92,LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDITMORETHAN,169,25,49,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDITLESSTHAN,169,43,49,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "加入条件>>",IDC_ADD,168,63,50,14,BS_FLAT
+    PUSHBUTTON      "移除条件<<",IDC_REMOVE,168,80,50,14,BS_FLAT
+    CONTROL         "满足全部条件",IDC_RADIOAND,"Button",BS_AUTORADIOBUTTON | BS_FLAT,111,97,64,10
+    CONTROL         "满足任一条件",IDC_RADIOOR,"Button",BS_AUTORADIOBUTTON | BS_FLAT,111,110,64,10
+    LISTBOX         IDC_LISTCOND,227,23,127,93,LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    CONTROL         "全部股票",IDC_ALL,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,29,139,48,10
+    CONTROL         "上证A股",IDC_SHAA,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,29,154,44,10
+    CONTROL         "上证B股",IDC_SHAB,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,29,169,44,10
+    CONTROL         "深证A股",IDC_SZNA,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,29,184,44,10
+    CONTROL         "深证B股",IDC_SZNB,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,29,199,44,10
+    LISTBOX         IDC_LISTRESULT,120,127,234,80,LBS_NOINTEGRALHEIGHT | LBS_MULTICOLUMN | LBS_DISABLENOSCROLL | NOT WS_BORDER | WS_HSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    PUSHBUTTON      "开始",IDC_START,245,211,50,14,BS_FLAT
+    PUSHBUTTON      "加入分组...",IDC_ADDTOGROUP,305,211,50,14,BS_FLAT
+    PUSHBUTTON      "关闭",IDCANCEL,276,235,50,14,BS_FLAT
+    LTEXT           "",IDC_STATICTIME,10,11,101,8
+    LTEXT           "选中条件：",IDC_STATIC,232,11,41,8
+    RTEXT           "大于等于",IDC_STATIC,111,27,52,8
+    RTEXT           "并且小于等于",IDC_STATIC,111,45,52,8
+    GROUPBOX        "选股范围",IDC_STATIC,7,122,95,96
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",0x1,116,214,122,8,WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,230,371,1,WS_EX_STATICEDGE
+END
+
+IDDP_MACD DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EMADAYS1,98,40,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EMADAYS2,98,58,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_DIFDAYS,98,76,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_DEVIATEONBOTTOM,89,96,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEVIATEONTOP,89,112,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_GOLDENFORK,89,128,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,89,144,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "慢速EMA天数",IDC_STATIC,43,42,45,8
+    LTEXT           "快速EMA天数",IDC_STATIC,44,60,45,8
+    LTEXT           "DIF天数",IDC_STATIC,59,77,29,8
+    LTEXT           "底背离",IDC_STATIC,60,98,25,8
+    LTEXT           "顶背离",IDC_STATIC,60,114,25,8
+    LTEXT           "低位金叉",IDC_STATIC,52,130,33,8
+    LTEXT           "高位死叉",IDC_STATIC,52,146,33,8
+END
+
+IDDP_MIKE DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,100,56,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,52,58,33,8
+END
+
+IDDP_PSY DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,98,60,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_SOLD,89,88,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_BOUGHT,89,104,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,50,62,33,8
+    LTEXT           "超卖",IDC_STATIC,52,90,17,8
+    LTEXT           "超买",IDC_STATIC,52,106,17,8
+END
+
+IDDP_VOLUME DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "MA1 计算天数",IDC_MA1,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,29,36,64,10
+    EDITTEXT        IDC_DAYS1,101,35,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "MA2 计算天数",IDC_MA2,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,29,52,64,10
+    EDITTEXT        IDC_DAYS2,101,51,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "MA3 计算天数",IDC_MA3,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,29,68,64,10
+    EDITTEXT        IDC_DAYS3,101,67,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "MA4 计算天数",IDC_MA4,"Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,29,84,64,10
+    EDITTEXT        IDC_DAYS4,101,83,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_DEVIATEONBOTTOM,93,101,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEVIATEONTOP,93,117,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_LONG,93,133,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SHORT,93,149,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "底背离",IDC_STATIC,66,103,25,8
+    LTEXT           "顶背离",IDC_STATIC,65,119,25,8
+    LTEXT           "均线多头排列",IDC_STATIC,41,135,49,8
+    LTEXT           "均线空头排列",IDC_STATIC,41,151,49,8
+END
+
+IDDP_NVI DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_MADAYS,101,60,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GOLDENFORK,91,88,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,91,106,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "MA计算天数",IDC_STATIC,50,62,41,8
+    LTEXT           "低位金叉",IDC_STATIC,53,90,33,8
+    LTEXT           "高位死叉",IDC_STATIC,53,108,33,8
+END
+
+IDDP_PVI DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_MADAYS,102,60,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GOLDENFORK,92,88,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,92,106,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "MA计算天数",IDC_STATIC,50,62,41,8
+    LTEXT           "低位金叉",IDC_STATIC,54,90,33,8
+    LTEXT           "高位死叉",IDC_STATIC,54,108,33,8
+END
+
+IDDP_VR DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,102,60,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_LONG,92,88,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SHORT,92,106,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,50,62,33,8
+    LTEXT           "低位抬头向上",IDC_STATIC,37,90,49,8
+    LTEXT           "高位掉头向下",IDC_STATIC,37,108,49,8
+END
+
+IDDP_VROC DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,99,46,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MADAYS,99,66,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_DEVIATEONBOTTOM,92,88,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEVIATEONTOP,92,106,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,55,48,33,8
+    LTEXT           "MA计算天数",IDC_STATIC,47,68,41,8
+    LTEXT           "底背离",IDC_STATIC,58,90,25,8
+    LTEXT           "顶背离",IDC_STATIC,58,108,25,8
+END
+
+IDDP_OBV DIALOG  0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    COMBOBOX        IDC_DEVIATEONBOTTOM,91,68,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEVIATEONTOP,91,86,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "底背离",IDC_STATIC,57,70,25,8
+    LTEXT           "顶背离",IDC_STATIC,57,88,25,8
+END
+
+IDDP_MOBV DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS1,98,46,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_DAYS2,98,62,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GOLDENFORK,90,85,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,90,103,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数1",IDC_STATIC,55,48,37,8
+    LTEXT           "计算天数2",IDC_STATIC,55,64,37,8
+    LTEXT           "低位金叉",IDC_STATIC,52,87,33,8
+    LTEXT           "高位死叉",IDC_STATIC,52,105,33,8
+END
+
+IDDP_MFI DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,102,60,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_LONG,92,88,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SHORT,92,106,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,50,62,33,8
+    LTEXT           "MFI值在低位",IDC_STATIC,38,90,45,8
+    LTEXT           "MFI值在高位",IDC_STATIC,38,108,45,8
+END
+
+IDDP_VMACD DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EMADAYS1,97,40,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EMADAYS2,97,58,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_DIFDAYS,97,76,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_DEVIATEONBOTTOM,89,96,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEVIATEONTOP,89,112,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_GOLDENFORK,89,128,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,89,144,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "慢速EMA天数",IDC_STATIC,43,42,45,8
+    LTEXT           "快速EMA天数",IDC_STATIC,43,60,45,8
+    LTEXT           "DIF天数",IDC_STATIC,59,78,29,8
+    LTEXT           "底背离",IDC_STATIC,59,98,25,8
+    LTEXT           "顶背离",IDC_STATIC,59,114,25,8
+    LTEXT           "低位金叉",IDC_STATIC,51,130,33,8
+    LTEXT           "高位死叉",IDC_STATIC,51,146,33,8
+END
+
+IDDP_WVAD DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,102,60,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_LONG,92,88,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SHORT,92,106,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,50,62,33,8
+    LTEXT           "WVAD值在低位",IDC_STATIC,34,90,49,8
+    LTEXT           "WVAD值在高位",IDC_STATIC,34,108,49,8
+END
+
+IDDP_EMV DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,99,46,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MADAYS,99,66,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GOLDENFORK,89,88,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,89,106,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,55,48,33,8
+    LTEXT           "MA计算天数",IDC_STATIC,47,68,41,8
+    LTEXT           "低位金叉",IDC_STATIC,51,90,33,8
+    LTEXT           "高位死叉",IDC_STATIC,51,108,33,8
+END
+
+IDDP_VRSI DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,94,49,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_DEVIATEONBOTTOM,87,72,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEVIATEONTOP,87,90,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SOLD,87,108,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_BOUGHT,87,126,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,50,51,33,8
+    LTEXT           "底背离",IDC_STATIC,53,74,25,8
+    LTEXT           "顶背离",IDC_STATIC,53,92,25,8
+    LTEXT           "超卖",IDC_STATIC,60,110,17,8
+    LTEXT           "超买",IDC_STATIC,60,128,17,8
+END
+
+IDDP_NVRSI DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,94,49,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_DEVIATEONBOTTOM,88,71,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEVIATEONTOP,88,89,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SOLD,88,107,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_BOUGHT,88,125,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,50,51,33,8
+    LTEXT           "底背离",IDC_STATIC,54,73,25,8
+    LTEXT           "顶背离",IDC_STATIC,54,91,25,8
+    LTEXT           "超卖",IDC_STATIC,60,109,17,8
+    LTEXT           "超买",IDC_STATIC,60,127,17,8
+END
+
+IDDP_AD DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,94,60,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,50,62,33,8
+END
+
+IDDP_CI DIALOG  0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "没有需要设置的参数。",IDC_STATIC,31,53,92,8
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+END
+
+IDDP_KDJ DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "J=3K-2D",IDC_3K2D,"Button",BS_AUTORADIOBUTTON | BS_FLAT,40,42,44,10
+    CONTROL         "J=3D-2K",IDC_3D2K,"Button",BS_AUTORADIOBUTTON | BS_FLAT,106,42,44,10
+    EDITTEXT        IDC_RSVDAYS,94,61,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_KDAYS,94,77,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_DDAYS,94,93,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GOLDENFORK,86,115,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,86,131,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "J值计算方法",IDC_STATIC,22,30,45,8
+    LTEXT           "RSV天数",IDC_STATIC,53,63,29,8
+    LTEXT           "K天数",IDC_STATIC,61,79,21,8
+    LTEXT           "D天数",IDC_STATIC,61,94,21,8
+    LTEXT           "低位金叉",IDC_STATIC,50,117,33,8
+    LTEXT           "高位死叉",IDC_STATIC,50,133,33,8
+END
+
+IDDP_R DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,98,60,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,50,62,33,8
+END
+
+IDDP_RSI DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS1,104,47,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_DAYS2,104,63,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GOLDENFORK,96,86,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,96,102,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SOLD,96,118,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数1",IDC_STATIC,58,50,37,8
+    LTEXT           "计算天数2",IDC_STATIC,58,65,37,8
+    LTEXT           "低位金叉",IDC_STATIC,60,88,33,8
+    LTEXT           "高位死叉",IDC_STATIC,60,104,33,8
+    LTEXT           "超卖",IDC_STATIC,75,120,17,8
+END
+
+IDDP_BIAS DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,98,60,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_SOLD,90,88,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_BOUGHT,90,104,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,50,62,33,8
+    LTEXT           "超卖",IDC_STATIC,52,90,17,8
+    LTEXT           "超买",IDC_STATIC,52,106,17,8
+END
+
+IDDP_MTM DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,99,46,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MADAYS,99,66,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GOLDENFORK,89,88,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,89,106,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,55,48,33,8
+    LTEXT           "MA计算天数",IDC_STATIC,47,68,41,8
+    LTEXT           "低位金叉",IDC_STATIC,51,90,33,8
+    LTEXT           "高位死叉",IDC_STATIC,51,108,33,8
+END
+
+IDDP_DMI DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,94,60,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,50,62,33,8
+END
+
+IDDP_ROC DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,99,46,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MADAYS,99,66,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GOLDENFORK,89,88,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,89,106,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,55,48,33,8
+    LTEXT           "MA计算天数",IDC_STATIC,47,68,41,8
+    LTEXT           "低位金叉",IDC_STATIC,51,90,33,8
+    LTEXT           "高位死叉",IDC_STATIC,51,108,33,8
+END
+
+IDDP_CCI DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,99,46,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MADAYS,99,66,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_QUOTIETY,99,86,40,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GOLDENFORK,89,108,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,89,126,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,55,48,33,8
+    LTEXT           "MA计算天数",IDC_STATIC,47,68,41,8
+    LTEXT           "系数",IDC_STATIC,71,88,17,8
+    LTEXT           "低位金叉",IDC_STATIC,51,110,33,8
+    LTEXT           "高位死叉",IDC_STATIC,51,128,33,8
+END
+
+IDDP_CV DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_MAHLDAYS,98,55,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CVDAYS,98,73,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_SOLD,90,98,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_BOUGHT,90,114,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "MAHL计算天数",IDC_STATIC,34,57,49,8
+    LTEXT           "CV计算天数",IDC_STATIC,42,75,41,8
+    LTEXT           "超卖",IDC_STATIC,52,100,17,8
+    LTEXT           "超买",IDC_STATIC,52,116,17,8
+END
+
+IDDP_ARBR DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,97,43,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GOLDENFORK,89,66,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,89,84,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SOLD,89,101,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_BOUGHT,89,119,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,50,45,33,8
+    LTEXT           "低位金叉",IDC_STATIC,51,68,33,8
+    LTEXT           "高位死叉",IDC_STATIC,51,86,33,8
+    LTEXT           "超卖",IDC_STATIC,66,103,17,8
+    LTEXT           "超买",IDC_STATIC,66,121,17,8
+END
+
+IDDP_CR DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,98,40,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MADAYSA,98,56,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MADAYSB,98,72,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MADAYSC,98,88,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MADAYSD,97,104,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_SOLD,91,123,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_BOUGHT,91,139,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,50,42,33,8
+    LTEXT           "MA天数A",IDC_STATIC,52,58,29,8
+    LTEXT           "MA天数B",IDC_STATIC,52,74,29,8
+    LTEXT           "MA天数C",IDC_STATIC,52,90,29,8
+    LTEXT           "MA天数D",IDC_STATIC,51,106,29,8
+    LTEXT           "超卖",IDC_STATIC,54,124,17,8
+    LTEXT           "超买",IDC_STATIC,54,141,17,8
+END
+
+IDDP_OSC DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,99,46,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MADAYS,99,66,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GOLDENFORK,89,88,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,89,106,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,55,48,33,8
+    LTEXT           "MA计算天数",IDC_STATIC,47,68,41,8
+    LTEXT           "低位金叉",IDC_STATIC,51,90,33,8
+    LTEXT           "高位死叉",IDC_STATIC,51,108,33,8
+END
+
+IDDP_UOS DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS1,101,41,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_DAYS2,101,57,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_DAYS3,101,75,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MADAYS,101,91,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GOLDENFORK,93,111,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,93,129,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数1",IDC_STATIC,50,43,37,8
+    LTEXT           "计算天数2",IDC_STATIC,50,59,37,8
+    LTEXT           "计算天数3",IDC_STATIC,50,77,37,8
+    LTEXT           "MA 计算天数",IDC_STATIC,43,93,45,8
+    LTEXT           "低位金叉",IDC_STATIC,55,113,33,8
+    LTEXT           "高位死叉",IDC_STATIC,55,131,33,8
+END
+
+IDDP_MAOSC DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS1,101,41,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_DAYS2,101,57,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MADAYS,101,73,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GOLDENFORK,93,99,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,93,117,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数1",IDC_STATIC,51,43,37,8
+    LTEXT           "计算天数2",IDC_STATIC,51,59,37,8
+    LTEXT           "MA 计算天数",IDC_STATIC,43,75,45,8
+    LTEXT           "低位金叉",IDC_STATIC,55,101,33,8
+    LTEXT           "高位死叉",IDC_STATIC,55,119,33,8
+END
+
+IDDP_36BIAS DIALOG  0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    COMBOBOX        IDC_SOLD,89,68,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_BOUGHT,89,91,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "超卖",IDC_STATIC,51,70,17,8
+    LTEXT           "超买",IDC_STATIC,51,93,17,8
+END
+
+IDDP_DPO DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,99,46,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MADAYS,99,66,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GOLDENFORK,89,88,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,89,106,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,55,48,33,8
+    LTEXT           "MA计算天数",IDC_STATIC,47,68,41,8
+    LTEXT           "低位金叉",IDC_STATIC,51,90,33,8
+    LTEXT           "高位死叉",IDC_STATIC,51,108,33,8
+END
+
+IDDP_KST DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS1,99,33,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_DAYS2,99,50,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_DAYS3,99,67,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_DAYS4,99,84,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MADAYS,99,101,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GOLDENFORK,89,123,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,89,141,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "ROC计算天数1",IDC_STATIC,38,35,49,8
+    LTEXT           "ROC计算天数2",IDC_STATIC,37,52,49,8
+    LTEXT           "ROC计算天数3",IDC_STATIC,37,69,49,8
+    LTEXT           "ROC计算天数4",IDC_STATIC,38,86,49,8
+    LTEXT           "MA计算天数",IDC_STATIC,44,103,41,8
+    LTEXT           "低位金叉",IDC_STATIC,51,125,33,8
+    LTEXT           "高位死叉",IDC_STATIC,51,143,33,8
+END
+
+IDDP_REI DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,102,60,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_LONG,122,88,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SHORT,122,106,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,50,62,33,8
+    LTEXT           "REI值在低位并向上突破时",IDC_STATIC,21,90,93,8
+    LTEXT           "REI值在高位并向下突破时",IDC_STATIC,21,108,93,8
+END
+
+IDDP_DMKI DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,98,60,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_SOLD,90,88,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_BOUGHT,90,104,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,50,62,33,8
+    LTEXT           "超卖",IDC_STATIC,52,90,17,8
+    LTEXT           "超买",IDC_STATIC,52,106,17,8
+END
+
+IDDP_PCNT DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_MADAYS,102,60,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GOLDENFORK,92,88,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,92,106,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "MA计算天数",IDC_STATIC,50,62,41,8
+    LTEXT           "低位金叉",IDC_STATIC,54,90,33,8
+    LTEXT           "高位死叉",IDC_STATIC,54,108,33,8
+END
+
+IDDP_HLC DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,99,46,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_MADAYS,99,66,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_GOLDENFORK,89,88,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,89,106,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,55,48,33,8
+    LTEXT           "MA计算天数",IDC_STATIC,47,68,41,8
+    LTEXT           "低位金叉",IDC_STATIC,51,90,33,8
+    LTEXT           "高位死叉",IDC_STATIC,51,108,33,8
+END
+
+IDDP_CDP DIALOG  0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "没有需要设置的参数。",IDC_STATIC,31,53,92,8
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+END
+
+IDDP_ASI DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,98,60,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_DEVIATEONBOTTOM,90,88,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEVIATEONTOP,90,104,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,50,62,33,8
+    LTEXT           "底背离",IDC_STATIC,52,90,25,8
+    LTEXT           "顶背离",IDC_STATIC,52,106,25,8
+END
+
+IDDP_ATR DIALOGEX 0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_DAYS,98,60,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_SOLD,90,88,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_BOUGHT,90,104,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "计算天数",IDC_STATIC,50,62,33,8
+    LTEXT           "超卖",IDC_STATIC,52,90,17,8
+    LTEXT           "超买",IDC_STATIC,52,106,17,8
+END
+
+IDD_SIMUADVANCED DIALOGEX 0, 0, 284, 179
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "高级买卖条件"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "当损失大于",IDC_CHECKSTOPLOSING,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,37,16,56,10
+    EDITTEXT        IDC_STOPLOSING,93,14,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "当盈利大于",IDC_CHECKSTOPPROFIT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,37,33,56,10
+    EDITTEXT        IDC_STOPPROFIT,93,31,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "当长周期K线指标",IDC_CHECKLONG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,37,60,75,10
+    COMBOBOX        IDC_KTYPELONG,118,57,53,96,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "选择长周期指标...",IDC_RULELONG,131,80,92,14,BS_FLAT
+    CONTROL         "当大盘K线指标",IDC_CHECKINDEX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,37,104,67,10
+    COMBOBOX        IDC_KTYPEINDEX,109,102,53,96,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "选择大盘指标...",IDC_RULEINDEX,131,124,92,14,BS_FLAT
+    DEFPUSHBUTTON   "确定",IDOK,156,157,50,14,BS_FLAT
+    PUSHBUTTON      "取消",IDCANCEL,215,157,50,14,BS_FLAT
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,149,283,1,WS_EX_STATICEDGE
+    LTEXT           "1.",IDC_STATIC,23,16,9,8
+    LTEXT           "% 时，卖出；",IDC_STATIC,137,16,49,8
+    LTEXT           "% 时，卖出。",IDC_STATIC,137,33,49,8
+    LTEXT           "2.",IDC_STATIC,23,60,9,8
+    LTEXT           "多头强势时，允许买入。",IDC_STATIC,174,60,89,8
+    LTEXT           "3.",IDC_STATIC,23,104,9,8
+    LTEXT           "多头强势时，允许买入。",IDC_STATIC,167,104,89,8
+END
+
+IDDP_CYO DIALOG  0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    COMBOBOX        IDC_GOLDENFORK,92,68,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,92,92,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",-1,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "低位金叉",-1,54,70,33,8
+    LTEXT           "高位死叉",-1,54,94,33,8
+END
+
+IDDP_DCYO DIALOG  0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    COMBOBOX        IDC_GOLDENFORK,92,68,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,92,92,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",-1,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "低位金叉",-1,54,70,33,8
+    LTEXT           "高位死叉",-1,54,94,33,8
+END
+
+IDDP_HSL DIALOG  0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "没有需要设置的参数。",IDC_STATIC,31,53,92,8
+END
+
+IDDP_DPER DIALOG  0, 0, 210, 188
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "宋体"
+BEGIN
+    COMBOBOX        IDC_GOLDENFORK,92,68,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_DEADFORK,92,92,50,110,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "缺省",IDC_DEFAULT,147,142,50,14,BS_FLAT
+    PUSHBUTTON      "帮助",IDC_PARAMHELP,147,161,50,14,BS_FLAT
+    GROUPBOX        "",-1,6,2,197,180
+    LTEXT           "Static",IDC_STATIC_NAME,16,14,173,8
+    LTEXT           "低位金叉",-1,54,70,33,8
+    LTEXT           "高位死叉",-1,54,94,33,8
+END
+
+IDD_AUTOUPGRADE DIALOGEX 0, 0, 312, 225
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "自动升级"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "开始升级",IDOK,114,198,50,14,BS_FLAT
+    PUSHBUTTON      "代理设置...",IDC_PROXY_SET,175,198,50,14,BS_FLAT
+    PUSHBUTTON      "关闭",IDCANCEL,236,198,50,14,BS_FLAT
+    EDITTEXT        IDC_EDIT_EXPLAIN,31,62,248,80,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         174,IDC_PICTURE,"Static",SS_BITMAP,0,0,295,56,WS_EX_STATICEDGE
+    LTEXT           "正在升级，请稍候。",IDC_STATIC_STATUS,29,169,237,9
+    CONTROL         "Progress1",IDC_DL_PROGRESS,"msctls_progress32",0x1,29,155,204,10
+    LTEXT           "",IDC_STATIC_PROGRESS,245,155,33,9
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,187,311,1,WS_EX_STATICEDGE
+END
+
+IDD_TYDATA DIALOGEX 0, 0, 360, 209
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "导出K线数据包"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_PATH_SRCSH,113,34,146,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "浏览...",IDC_SRCSH_EXPLORER,262,34,40,14,BS_FLAT
+    EDITTEXT        IDC_PATH_SRCSZ,113,56,146,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "浏览...",IDC_SRCSZ_EXPLORER,262,55,40,14,BS_FLAT
+    CONTROL         "DateTimePicker1",IDC_TIME_BEGIN,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,100,96,58,13
+    CONTROL         "DateTimePicker1",IDC_TIME_END,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,214,96,58,13
+    EDITTEXT        IDC_FILE_DEST,73,139,186,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "浏览...",IDC_FILE_EXPLORER,262,138,40,14,BS_FLAT
+    DEFPUSHBUTTON   "开始导出",IDC_START,288,174,50,14,BS_FLAT
+    GROUPBOX        "导出通用格式数据包",IDC_STATIC,21,10,321,152
+    LTEXT           "选择导出日线范围（请确认源目录包含指定日期的数据）：",IDC_STATIC,55,83,209,8
+    LTEXT           "选择导出文件：",IDC_STATIC,55,126,57,8
+    LTEXT           "起始：",IDC_STATIC,73,98,25,8
+    LTEXT           "终止：",IDC_STATIC,187,98,25,8
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",NOT WS_VISIBLE | 0x1,21,176,203,10,WS_EX_STATICEDGE
+    LTEXT           "",IDC_STATIC_PROGRESS,233,176,33,9
+    LTEXT           "上海日线目录：",IDC_STATIC,54,36,57,8
+    LTEXT           "深圳日线目录：",IDC_STATIC,54,58,57,8
+END
+
+IDD_SELECTTRADER DIALOGEX 0, 0, 300, 100
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设定缺省交易软件"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_FILE,40,32,186,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "浏览...",IDC_FILE_EXPLORER,230,31,40,14,BS_FLAT
+    DEFPUSHBUTTON   "确定",IDOK,147,71,50,14,BS_FLAT
+    PUSHBUTTON      "取消",IDCANCEL,224,71,50,14,BS_FLAT
+    LTEXT           "输入交易软件路径及执行程序：",-1,22,19,113,8
+    CONTROL         "",-1,"Static",SS_BLACKFRAME,0,63,301,1,WS_EX_STATICEDGE
+    ICON            IDR_MAINFRAME,-1,7,71,20,20
+END
+
+IDD_SETBASE DIALOGEX 0, 0, 360, 209
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "板块财务F10导入"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_FILE_F10,78,28,186,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "浏览...",IDC_F10FILE_EXPLORER,267,26,48,14,BS_FLAT
+    EDITTEXT        IDC_FILE_TDX,78,66,186,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "浏览...",IDC_TDXFILE_EXPLORER,267,64,48,14,BS_FLAT
+    EDITTEXT        IDC_FILE_FXJ,78,104,186,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "浏览...",IDC_FXJFILE_EXPLORER,267,102,48,14,BS_FLAT
+    EDITTEXT        IDC_PATH_FXJBLOCK,78,142,186,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    PUSHBUTTON      "浏览...",IDC_FXJBLOCKPATH_EXPLORER,268,140,48,14,BS_FLAT
+    DEFPUSHBUTTON   "开始导入",IDC_START,288,168,50,14,BS_FLAT
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",NOT WS_VISIBLE | 0x1,21,170,203,10,WS_EX_STATICEDGE
+    LTEXT           "",IDC_STATIC_PROGRESS,233,170,33,9
+    LTEXT           "选择F10资料导入文件(.txt,.zip)",IDC_STATIC,34,15,86,8
+    LTEXT           "选择通达信财务资料导入文件",IDC_STATIC,34,53,111,8
+    LTEXT           "选择分析家财务资料导入文件",IDC_STATIC,34,91,111,8
+    LTEXT           "选择分析家板块导入目录",IDC_STATIC,34,129,111,8
+END
+
+IDD_SETBASEDATA DIALOGEX 0, 0, 360, 209
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "基本资料修改"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDITCODE,61,155,81,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO_GROUPSRC,63,14,80,102,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST_STOCKSRC,10,32,133,117,LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDITA,236,33,81,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDITB,236,54,81,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDITH,236,75,81,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDITNATIONAL,236,96,81,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDITCORP,236,117,81,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDITTOTAL,236,138,81,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "代码或者简拼",IDC_STATIC,7,157,49,8
+    LTEXT           "选择股票种类",IDC_STATIC,11,16,49,8
+    LTEXT           "",IDC_STATICSTOCK,153,14,182,8
+    LTEXT           "万股",IDC_STATIC,323,35,17,8
+    LTEXT           "万股",IDC_STATIC,323,56,17,8
+    LTEXT           "万股",IDC_STATIC,323,77,17,8
+    LTEXT           "万股",IDC_STATIC,323,98,17,8
+    LTEXT           "万股",IDC_STATIC,323,119,17,8
+    LTEXT           "万股",IDC_STATIC,323,140,17,8
+    LTEXT           "流通A股：",IDC_STATIC,192,35,37,8
+    LTEXT           "流通B股：",IDC_STATIC,192,56,37,8
+    LTEXT           "流通H股：",IDC_STATIC,192,77,37,8
+    LTEXT           "国有法人股：",IDC_STATIC,180,98,49,8
+    LTEXT           "一般法人股：",IDC_STATIC,180,119,49,8
+    LTEXT           "总股本：",IDC_STATIC,196,140,33,8
+    PUSHBUTTON      "保存",IDC_SAVE,295,159,50,14,BS_FLAT
+END
+
+IDD_SETKDATA DIALOGEX 0, 0, 360, 209
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "K线修复"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDITCODE,61,155,81,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    COMBOBOX        IDC_COMBO_GROUPSRC,63,14,80,102,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST_STOCKSRC,10,32,133,117,LBS_NOINTEGRALHEIGHT | LBS_DISABLENOSCROLL | NOT WS_BORDER | WS_VSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    LTEXT           "代码或者简拼",IDC_STATIC,7,157,49,8
+    LTEXT           "选择股票种类",IDC_STATIC,11,16,49,8
+    LTEXT           "",IDC_STATICSTOCK,153,14,182,8
+    CONTROL         "DateTimePicker1",IDC_DATE,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,245,48,82,15
+    EDITTEXT        IDC_OPEN,245,67,82,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_HIGH,245,84,82,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_LOW,245,102,82,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_CLOSE,245,120,82,12,ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_VOLUME,245,138,82,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_AMOUNT,245,156,82,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "日期：",IDC_STATIC,172,51,25,8
+    LTEXT           "开盘(元)：",IDC_STATIC,172,68,41,8
+    LTEXT           "收盘(元)：",IDC_STATIC,172,123,41,8
+    LTEXT           "最高价(元)：",IDC_STATIC,172,86,49,8
+    LTEXT           "最低价(元)：",IDC_STATIC,172,105,49,8
+    LTEXT           "成交量(手)：",IDC_STATIC,172,142,49,8
+    LTEXT           "成交额(千元)：",IDC_STATIC,172,159,57,8
+    COMBOBOX        IDC_KTYPE,258,26,69,96,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "K线类型",IDC_STATIC,222,30,31,8
+    PUSHBUTTON      "保存",IDC_SAVE,217,175,50,14,BS_FLAT
+    PUSHBUTTON      "删除",IDC_DELETE,278,175,50,14,BS_FLAT
+END
+
+IDD_CACHELOAD DIALOGEX 0, 0, 300, 187
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "装载历史列表缓冲"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,147,157,50,14,BS_FLAT
+    PUSHBUTTON      "关闭",IDCANCEL,224,157,50,14,BS_FLAT
+    LTEXT           "  选择将历史列表装载到缓冲区的起始日期，装载后，可以查看该日期之后的任何一天的行情列表。\n\n  注意，如果缓冲装载过多，会占用较多内存，影响机器性能。",IDC_STATIC,41,47,218,47
+    GROUPBOX        "",IDC_STATIC,20,22,258,117
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,0,149,301,1,WS_EX_STATICEDGE
+    CONTROL         "DateTimePicker1",IDC_DATE,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,73,104,82,15
+END
+
+IDD_ALARMSETTING DIALOGEX 0, 0, 300, 170
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "条件设置"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LISTCOND,7,20,109,142,LBS_NOINTEGRALHEIGHT | NOT WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,WS_EX_STATICEDGE
+    PUSHBUTTON      "加入<<",IDC_ADD,130,59,40,14,BS_FLAT
+    PUSHBUTTON      "修改<<",IDC_MODIFY,130,85,40,14,BS_FLAT
+    PUSHBUTTON      "移除>>",IDC_DELETE,130,112,40,14,BS_FLAT
+    COMBOBOX        IDC_STOCK,187,43,80,102,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "涨幅大于(%)",IDC_RADIO_DIFFPERCENTMORE,"Button",BS_AUTORADIOBUTTON,185,72,60,10
+    EDITTEXT        IDC_DIFFPERCENTMORE,245,72,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "跌幅大于(%)",IDC_RADIO_DIFFPERCENTLESS,"Button",BS_AUTORADIOBUTTON,185,98,60,10
+    EDITTEXT        IDC_DIFFPERCENTLESS,245,98,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    CONTROL         "单笔成交量大于(手)",IDC_RADIO_TRADEVOLUME,"Button",BS_AUTORADIOBUTTON,187,124,88,10
+    EDITTEXT        IDC_TRADEVOLUME,245,139,40,12,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_STATICEDGE
+    LTEXT           "设定条件:",IDC_STATIC,187,27,37,8
+    LTEXT           "报警条件:",IDC_STATIC,7,7,37,8
+END
+
+IDD_ALARMRESULT DIALOG  0, 0, 300, 170
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "预警结果"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "List1",IDC_LIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_TABSTOP,7,7,286,158
+END
+
+IDD_SELECTOR_FORM DIALOGEX 0, 0, 476, 244
+STYLE DS_SETFONT | WS_CHILD | WS_BORDER
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_STOCKGROUP,75,15,80,102,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_KTYPE,204,15,69,96,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_TECH,326,15,112,96,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "智能选股...",IDC_RUNSELECTOR,335,32,90,16,BS_FLAT
+    CONTROL         "Custom1",IDC_GRID,"MFCGridCtrl",WS_BORDER | WS_TABSTOP,37,50,400,187
+    LTEXT           "股票范围",IDC_STATIC,39,17,33,8
+    LTEXT           "K线类型",IDC_STATIC,169,18,31,8
+    LTEXT           "技术指标",IDC_STATIC,289,19,34,8
+    CONTROL         "Progress1",IDC_PROGRESS,"msctls_progress32",0x1,37,34,214,10,WS_EX_STATICEDGE
+    LTEXT           "无选中股票。",IDC_STATIC_INFO,261,35,68,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,1,4,5
+ PRODUCTVERSION 3,1,4,5
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "九牛投资"
+            VALUE "FileDescription", "策略为王证券决策系统"
+            VALUE "FileVersion", "3, 1, 4, 5"
+            VALUE "InternalName", "Ninebulls Stock Analysis Platform"
+            VALUE "LegalCopyright", "版权所有 (C) 2003"
+            VALUE "LegalTrademarks", "九牛投资 策略为王"
+            VALUE "OriginalFilename", "StkUI.exe"
+            VALUE "ProductName", "策略为王证券决策系统"
+            VALUE "ProductVersion", "3, 1, 4, 5"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_WIZARD_FORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 463
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 239
+    END
+
+    IDD_PROGRESS, DIALOG
+    BEGIN
+        RIGHTMARGIN, 293
+        BOTTOMMARGIN, 4
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 248
+    END
+
+    IDD_SETPRPT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_CLOSESTRATEGYDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 318
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 206
+    END
+
+    IDD_DOWNLOAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 331
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 284
+    END
+
+    IDD_INSTALLPACKAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 353
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+
+    IDD_DATASOURCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 180
+    END
+
+    IDD_SETCOLUMN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 270
+    END
+
+    IDD_BASEINDEX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 330
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 266
+    END
+
+    IDD_LISTEXPORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 290
+    END
+
+    IDD_SETGROUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 248
+    END
+
+    IDD_SELECTGRP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 199
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 210
+    END
+
+    IDD_SELECTSTK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 196
+    END
+
+    IDD_EXPORTDEST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_EXPORTOPTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_SETDRDATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 353
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 204
+    END
+
+    IDD_NETINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 305
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 218
+    END
+
+    IDD_SETPARAM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 351
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 228
+    END
+
+    IDDP_MA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_BBI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_BOLL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_PV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_SAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_DJ, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_CW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDD_SIMU_FORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 469
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 237
+    END
+
+    IDD_EDITKDATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_SETRATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_SETRULE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 376
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_SIMUREPORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 413
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 252
+    END
+
+    IDD_SIMUREALOP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 413
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 258
+    END
+
+    IDD_SETCOLOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 338
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 278
+    END
+
+    IDD_SIMUSTAT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 191
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_SIMUADDOP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 213
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 172
+    END
+
+    IDD_SIMUADDSTOCK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 213
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_FILTERINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 358
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 248
+    END
+
+    IDDP_MACD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_MIKE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_PSY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_VOLUME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_NVI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_PVI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_VR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_VROC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_OBV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_MOBV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_MFI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_VMACD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_WVAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_EMV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_VRSI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_NVRSI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_AD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_CI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_KDJ, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_R, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_RSI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_BIAS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_MTM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_DMI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_ROC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_CCI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_CV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_ARBR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_CR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_OSC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_UOS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_MAOSC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_36BIAS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_DPO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_KST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_REI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_DMKI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_PCNT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_HLC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_CDP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_ASI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_ATR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDD_SIMUADVANCED, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 277
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 172
+    END
+
+    IDDP_CYO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_DCYO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_HSL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDDP_DPER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 181
+    END
+
+    IDD_TYDATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 353
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 202
+    END
+
+    IDD_SELECTTRADER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 93
+    END
+
+    IDD_SETBASE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 353
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 202
+    END
+
+    IDD_SETBASEDATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 353
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 204
+    END
+
+    IDD_SETKDATA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 353
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 204
+    END
+
+    IDD_CACHELOAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 180
+    END
+
+    IDD_ALARMSETTING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 165
+    END
+
+    IDD_ALARMRESULT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 293
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 165
+    END
+
+    IDD_SELECTOR_FORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 469
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 237
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXT
+//
+
+IDR_TEXT_DECLARE        TEXT                    "res\\text1.bin"
+IDR_TEXT_UPGRADEEXPLAIN TEXT                    "res\\bin00001.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "策略为王证券分析系统\n\nCEL\nCEL 文件 (*.cel)\n.cel\nBalangCEL.Document\n策略为王策略文件"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "策略为王证券分析系统"
+    AFX_IDS_IDLEMESSAGE     "如需帮助，请点击帮助菜单"
+    AFX_IDS_HELPMODEMESSAGE "选定一个要得到帮助的对象"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "扩展名"
+    ID_INDICATOR_CAPS       "大写"
+    ID_INDICATOR_NUM        "数字"
+    ID_INDICATOR_SCRL       "滚动"
+    ID_INDICATOR_OVR        "改写"
+    ID_INDICATOR_REC        "记录"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "建立新的策略\n新建策略"
+    ID_FILE_OPEN            "打开一个现有策略\n打开策略"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+    ID_FILE_PAGE_SETUP      "改变打印选项\n页面设置"
+    ID_FILE_PRINT_SETUP     "改变打印机及打印选项\n打印设置"
+    ID_FILE_PRINT           "打印文档\n打印"
+    ID_FILE_PRINT_PREVIEW   "预览打印效果\n打印预览"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息，版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序\n退出"
+    ID_HELP_INDEX           "打开帮助\n帮助主题"
+    ID_HELP_FINDER          "列出帮助主题\n帮助"
+    ID_HELP_USING           "显示关于如何使用帮助的指令\n帮助"
+    ID_CONTEXT_HELP         "显示对按钮、菜单和窗口执行单击操作的帮助\n帮助"
+    ID_HELP                 "显示对当前任务或命令的帮助\n帮助"
+END
+
+STRINGTABLE 
+BEGIN
+    IDW_MAINBAR             "显示或隐藏常用工具条\n显隐常用工具条"
+    IDW_VIEWBAR             "显示或隐藏视图选择工具条\n显隐视图工具条"
+    IDW_PERIODBAR           "显示或隐藏周期选择工具条\n显隐周期工具条"
+    IDW_SLISTBAR            "显示或隐藏股票选择工具条\n显隐股票工具条"
+    IDW_SIMUBAR             "显示或隐藏策略工具条\n显隐策略工具条"
+    IDW_PROGRESSBAR         "显示或隐藏进度条\n显隐进度条"
+    IDW_WORKSPBAR           "显示或者隐藏策略区\n策略区"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "打开该文档"
+    ID_FILE_MRU_FILE2       "打开该文档"
+    ID_FILE_MRU_FILE3       "打开该文档"
+    ID_FILE_MRU_FILE4       "打开该文档"
+    ID_FILE_MRU_FILE5       "打开该文档"
+    ID_FILE_MRU_FILE6       "打开该文档"
+    ID_FILE_MRU_FILE7       "打开该文档"
+    ID_FILE_MRU_FILE8       "打开该文档"
+    ID_FILE_MRU_FILE9       "打开该文档"
+    ID_FILE_MRU_FILE10      "打开该文档"
+    ID_FILE_MRU_FILE11      "打开该文档"
+    ID_FILE_MRU_FILE12      "打开该文档"
+    ID_FILE_MRU_FILE13      "打开该文档"
+    ID_FILE_MRU_FILE14      "打开该文档"
+    ID_FILE_MRU_FILE15      "打开该文档"
+    ID_FILE_MRU_FILE16      "打开该文档"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回前一个窗格\n前一窗格"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "将活动的窗口分隔成窗格\n分隔"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "删除被选对象\n删除"
+    ID_EDIT_CLEAR_ALL       "全部删除\n全部删除"
+    ID_EDIT_COPY            "复制被选对象并将其置于剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切被选对象并将其置于剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的正文\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一步操作\n重复"
+    ID_EDIT_REPLACE         "用不同的正文替换指定的正文\n替换"
+    ID_EDIT_SELECT_ALL      "选择整个文档\n选择全部"
+    ID_EDIT_UNDO            "撤消最后一步操作\n撤消"
+    ID_EDIT_REDO            "重新执行先前已撤消的操作\n重新执行"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n显隐状态栏"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "改变窗口大小"
+    AFX_IDS_SCMOVE          "改变窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "把窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到先前的文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动的窗口并提示保存所有文档"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "把窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务表"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_SLIST           "显示股票列表\n股票列表"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_REALTIME        "显示股票分时行情图\n分时行情图"
+    ID_VIEW_MULTISORT       "显示股票综合排名图\n综合排名图"
+    ID_VIEW_GRAPH           "显示股票技术分析图\n技术分析图"
+    ID_VIEW_BASE            "查看股票的基本资料\n基本资料"
+    ID_MAINBAR_VIEW         "显示视图\n视图"
+    ID_VIEW_ZOOMIN          "放大横坐标\n放大横坐标"
+    ID_VIEW_ZOOMOUT         "缩小横坐标\n缩小横坐标"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_OPTION_PROXYSET      "设置网络代理服务器\n代理设置"
+    ID_STRATEGY_REPORT      "查看当前活动策略的报表\n查看当前活动策略报表"
+    ID_MAINBAR_SETTING      "常用设置\n设置"
+    ID_MAINBAR_TECH         "查看技术指标\n技术指标"
+    ID_MAINBAR_PERIOD       "查看K线周期\n周期选择"
+    ID_STRATEGY_PROPERTY    "设置策略的名称、说明等属性\n设置当前活动策略属性"
+    ID_VIEW_INSERT          "添加新K线数据\n添加新K线数据"
+    ID_STRATEGY_REALOP      "查看当前策略实战操作\n查看当前活动策略实战操作"
+    ID_STRATEGY_SETRATE     "设置当前策略费率\n设置当前活动策略费率"
+    ID_STRATEGY_SETRULE     "设置当前策略指标参数和买卖信号规则\n设置当前活动策略指标规则"
+    ID_SLISTBAR_DOMAIN      "按照板块显示股票列表\n板块列表"
+    ID_SLISTBAR_GROUP       "按照分组显示股票列表\n分组列表"
+    ID_WIZARDVIEW_LARGEICONS "使用大图标显示策略项\n大图标"
+    ID_WIZARDVIEW_SMALLICONS "使用小图标显示策略项\n小图标"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_FULLSCREEN      "转换全屏显示状态\n全屏显示"
+    ID_VIEW_SIMU            "查看策略\n策略"
+    ID_VIEW_TECHOPTION      "设定技术指标参数\n技术指标参数"
+    ID_OPTION_SETGROUP      "设定股票分组\n分组设定"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_OPTION_COLOR         "自定义界面颜色\n颜色"
+    ID_VIEW_RIGHT           "向右移动图形\n向右移动"
+    ID_VIEW_LEFT            "向左移动图形\n向左移动"
+    ID_DATA_MANAGE          "数据管理，包括K线数据包安装和生成，权息资料和财务资料\n数据管理"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_RESUMEDRUP      "向上复权\n向上复权"
+    ID_VIEW_RESUMEDRDOWN    "向下复权\n向下复权"
+    ID_VIEW_NORESUMEDR      "不复权\n不复权"
+    ID_TOOL_CALCULATOR      "运行计算器工具\n计算器"
+    ID_VIEW_PDAY            "显示日线\n日线"
+    ID_VIEW_PREV            "查看上一只股票\n上一只股票"
+    ID_VIEW_NEXT            "查看下一只股票\n下一只股票"
+    ID_SLIST_ALL            "显示所有股票列表\n所有"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SLIST_INDEX          "显示所有股票指数列表\n指数列表"
+    ID_SLISTBAR_CLASS       "分类显示股票列表\n分类显示"
+    ID_SLIST_DOMAIN         "显示股票板块统计信息\n板块统计信息"
+    ID_TOOL_NOTE            "打开记事本程序\n记事本"
+    ID_DATA_EXPORT          "将K线数据导出到Access数据库、Excel表或文本文件\n数据导出"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_PWEEK           "显示周线\n周线"
+    ID_VIEW_PMONTH          "显示月线\n月线"
+    ID_VIEW_PMIN5           "显示五分钟线\n五分钟线"
+    ID_VIEW_PMIN15          "显示十五分钟线\n十五分钟线"
+    ID_VIEW_PMIN30          "显示三十分钟线\n三十分钟线"
+    ID_VIEW_PMIN60          "显示六十分钟线\n六十分钟线"
+    ID_VIEW_WIZARD          "显示向导页\n向导"
+    ID_SLIST_EXPORTLIST     "将当前股票列表导出到Access数据库、Excel表或者文本文件\n当前股票列表导出"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OPENFILE            "打开策略为王策略文件"
+    IDS_SAVEFILE            "保存策略为王策略文件"
+    IDS_SAVEFILECOPY        "保存策略为王策略文件副本"
+    IDS_TITLE_MAINBAR       "常用工具条"
+    IDS_TITLE_VIEWBAR       "视图选择工具条"
+    IDS_TITLE_MENUBAR       "菜单条"
+    IDS_TITLE_PERIODBAR     "周期选择工具条"
+    IDS_TITLE_SLISTBAR      "股票选择工具条"
+    IDS_TITLE_SIMUBAR       "策略工具条"
+    IDS_STATICDOC_FAILED    "程序启动失败，请您重新安装本软件。"
+    IDS_TITLE_WIZARDVIEW    "向导"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_STRATEGY_SIMU        "查看当前活动的策略\n查看当前活动策略"
+    ID_STRATEGY_STOCKS      "设置策略的备用股票\n修改当前活动策略备用股票"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TITLE_SLISTVIEW     "股票列表"
+    IDS_TITLE_GRAPHVIEW     "技术图表"
+    IDS_TITLE_BASEVIEW      "基本信息"
+    IDS_TITLE_SIMUVIEW      "策略"
+    IDS_TITLE_WORKSPBAR     "策略区"
+    IDS_TITLE_STRATEGYVIEW  "策略"
+    IDS_AUTHORIZEDUSER_UNKNOWN "未知用户"
+    IDS_REGCODE_UNPURCHASED "未购买"
+    IDS_DATECOMBOBOX_MORE   "更多日期..."
+    IDS_DATECOMBOBOX_NOW    "实时行情"
+    IDS_STRATEGY_FAILED     "创建新的策略失败。"
+    IDS_STRATEGY_NONAME     "我的策略"
+    IDS_STRATEGYVIEW_STRATEGY "策略"
+    IDS_MAINFRAME_SHINDEXTIP "沪:%2.f %+.2f %.2f亿"
+    IDS_MAINFRAME_SZINDEXTIP "深:%2.f %+.2f %.2f亿"
+    IDS_STRATEGYVIEW_STOCKS "备选股票列表"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_HELP_PRODUCT         "产品信息网站\n产品信息"
+    ID_DATA_DOWNLOAD        "自动下载补齐历史数据\n历史下载"
+    IDS_SELECTORVIEW_CODE   "代码"
+    IDS_SELECTORVIEW_NAME   "名称"
+    IDS_SELECTORVIEW_DATE   "日期"
+    IDS_SELECTORVIEW_CLOSE  "收盘价"
+    IDS_SELECTORVIEW_SIGNAL "买卖信号"
+    IDS_SELECTORVIEW_DISCRIPT "说明"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SLISTBAR_NAME        "输入股票名称"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_STRATEGY_NEW         "建立新的策略\n新建策略"
+    ID_STRATEGY_CLOSE       "关闭策略对话框\n关闭策略"
+    ID_STRATEGY_SAVE        "保存当前活动策略\n保存策略"
+    ID_STRATEGY_SAVE_AS     "将当前活动策略以一个新文件名保存\n策略另存为"
+    ID_STRATEGY_SAVEALL     "保存所有打开的文件\n全部保存"
+    ID_DATA_DATASOURCE      "指定本地钱龙数据源\n本地数据源"
+    ID_HELP_REGISTER        "注册本软件\n注册"
+    ID_HELP_DECLARE         "声明\n声明"
+    ID_SLIST_STRATEGY       "显示策略备选股票列表\n策略股票"
+    ID_SLIST_SHAA           "显示上证A股列表\n上证A股"
+    ID_SLIST_SHAB           "显示上证B股列表\n上证B股"
+    ID_SLIST_SZNA           "显示深证A股列表\n深证A股"
+    ID_SLIST_SZNB           "显示深证B股列表\n深证B股"
+    ID_SLIST_SHABOND        "显示上证债券列表\n上证债券"
+    ID_SLIST_SZNBOND        "显示深证债券列表\n深证债券"
+    ID_SLIST_SETCOLUMN      "设置股票列表显示列\n列表设置"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRATEGYVIEW_ACTIVED " (活动的)"
+    IDS_STRATEGYVIEW_SIMU   "买卖模拟测试"
+    IDS_STRATEGYVIEW_REPORT "策略报表"
+    IDS_STRATEGYVIEW_REALOP "实战操作"
+    IDS_CLOSESTRATEGYDLG_TITLE "策略标题"
+    IDS_CLOSESTRATEGYDLG_PATHNAME "策略文件路径"
+    IDS_MAINFRAME_PROGRESS  "■"
+    IDS_MAINFRAME_WAITING   "请稍候..."
+    IDS_MAINFRAME_FINISHED  "完成"
+    IDS_SETCOLOR_SAVEASTITLE "方案另存为"
+    IDS_SETCOLOR_COLORCLASSEXIST "该方案名称已经存在。请重新输入其他名称。"
+    IDS_SETCOLOR_CANNOTDELETESYS "不能删除系统内定方案。"
+    IDS_SETCOLOR_DELETECONFIRM "删除后不能恢复，您确定要删除吗？"
+    IDS_TITLE_REALTIMEVIEW  "分时行情"
+    IDS_TITLE_MULTISORTVIEW "综合排名"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CONFIRM_ERRORQIANLONGPATH "指定的钱龙数据目录无效，强行指定吗？"
+    IDS_TYDATADLG_ERRORTIME "指定的时间范围错误，起始时间晚于结束时间。"
+    IDS_SERVERS_REFRESHING  "正在更新服务器列表，请稍候..."
+    IDS_SERVERS_REFRESHED   "服务器列表更新完毕。"
+    IDS_TYDATADLG_OVERWRITE "指定的目标文件已经存在，覆盖吗？"
+    IDP_OLE_INIT_FAILED     "OLE 程序初始化失败。请确认 OLE 库程序是正确的版本。"
+    IDP_FAILED_TO_CREATE    "建立对象失败。请确认该对象已被注册入系统。"
+    IDS_LOGIN_FAILED        "登录服务器失败，请检查网络是否畅通，并确认是否已经注册，或者与软件供应商联系。"
+    IDS_REFRESHSERVERS_FAILED "获取服务器列表失败，请检查网络是否畅通，或者与软件供应商联系。"
+    IDS_TYDATADLG_ERRORCREATEFILE "创建目标通用文件失败。"
+    IDS_NOSERVER_DEFINED    "没有指定正确的服务器。"
+    IDS_DOWNLOAD_FINISHED   "下载并安装完毕。"
+    IDS_DATA_DOWNLOADING    "正在下载数据，请稍候..."
+    IDS_DOWNLOAD_PAUSED     "下载安装数据被用户中止。"
+    IDS_REFRESHSERVERS_PAUSED "更新服务器列表被用户中止。"
+    IDS_DOWNLOAD_FAILED     "下载数据包失败，请检查网络是否畅通，稍候重试。"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ROOTPATH_ERROR      "数据路径错误。"
+    IDS_DLMSG_REPORT        "下载并转档当日行情（收盘作业）"
+    IDS_DLMSG_DAY           "下载并安装日线数据"
+    IDS_DLMSG_BASE          "下载并安装基本资料"
+    IDS_DLMSG_XDR           "下载并安装权息资料"
+    IDS_TYDATADLG_REPORTFMT "共转换了%d只股票的%d个日线数据。"
+    IDS_DLMSG_MIN5          "下载并安装5分钟数据"
+    IDS_DLMSG_CONNECTING    "正在连接服务器..."
+    IDS_DLMIN5_NOTSUPPORT   "（目前未提供5分钟数据下载）"
+    IDS_COMMA               "，"
+    IDS_FULLSTOP            "。"
+    IDS_SELECTPACKAGE_FIRST "请先选择要安装的数据包（点击添加按钮）。"
+    IDS_INSTALL_FINISHED    "安装完毕。"
+    IDS_INSTALL_PAUSED      "安装被用户中止。"
+    IDS_ERROR_QIANLONGPATH  "指定的钱龙数据目录无效，请重新指定。"
+    IDS_SUCCESS_QIANLONGPATH "成功指定钱龙数据目录。"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TESTOK_QIANLONGPATH "指定的钱龙数据目录有效。"
+    IDS_SELECT_DIRECTORY    "请选择目录："
+    IDS_EVALUATEFMT         "离试用期结束还有%d天，请尽快购买本软件。"
+    IDS_EVALUATEINFO        "请输入试用码或者注册码（在注册对话框点击“申请试用”可以在线申请试用码），否则程序将退出。"
+    IDS_USERNAMETOOSHORTFMT "请输入注册用户名。注册用户名长度不能小于%d个字符，不能大于%d个字符。"
+    IDS_REGCODETOOSHORT     "请输入完整的注册码。"
+    IDS_INVALIDREGCODE      "注册码不正确，请检查输入是否有误。"
+    IDS_STRATEGYNAME        "策略名称"
+    IDS_STRATEGYPATH        "路径"
+    IDS_STRATEGYMODTIME     "修改时间"
+    IDS_STRATEGYOPENSTATUS  "状态"
+    IDS_STRATEGYOPENED      "已打开"
+    IDS_SETPRPT_INVALIDPATH "指定的策略路径不存在。"
+    IDS_DLBASE_NOTSUPPORT   "（目前未提供基本资料数据下载）"
+    IDS_MULTISORT_FALL      "今日跌幅%排名"
+    IDS_MULTISORT_DIFF      "今日震幅%排名"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SLHHDR_DAY          "日"
+    IDS_SLISTVIEW_CLASS     "分类^"
+    IDS_SLISTVIEW_A         "A股"
+    IDS_SLISTVIEW_SZNB      "深B"
+    IDS_SLISTVIEW_SHB       "沪B"
+    IDS_SLISTVIEW_BOND      "债券"
+    IDS_SLISTVIEW_FUND      "基金"
+    IDS_SLISTVIEW_SELF      "自选"
+    IDS_SLISTVIEW_GROUP     "分组^"
+    IDS_SLISTVIEW_DOMAIN    "板块^"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SETCOLUMN_NAME      "名称"
+    IDS_SETCOLUMN_DESCRIPT  "说明"
+    IDS_SETCOLUMN_NOSEL     "请先选中左边列表中的某一项，然后执行该操作。"
+    IDS_SETCOLUMN_FIRST     "已经是第一条了。"
+    IDS_SETCOLUMN_LAST      "已经是最后一条了。"
+    IDS_SETCOLUMN_NOTUSERDEFINE "不是用户自定义的指标，不能改动。"
+    IDS_SETCOLUMN_QUERYDEL  "删除后不能再恢复。你确定要删除吗？"
+    IDS_SETCOLUMN_USERDEFINE "用户自定义"
+    IDS_BASEINDEX_NAMEDEFAULT "我的指标"
+    IDS_BASEINDEX_EXPRESSEXAMPLE "::换手率% * ::量比"
+    IDS_BASEINDEX_NONAME    "请指定指标名称。"
+    IDS_SETCOLUMN_SETDEFAULT "您确定要将股票列表显示设为缺省吗？"
+    IDS_BASEVIEW_NOBASEDATA "没有该股票的基本资料数据。请到网站下载。"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SLISTVIEW_UP        "↑"
+    IDS_SLISTVIEW_DOWN      "↓"
+    IDS_UPGRADE_PAUSED      "中止升级。"
+    IDS_UPGRADE_NOTFOUND    "下载被中断或者目前没有该版本的升级版。"
+    IDS_UPGRADE_DLOK        "升级软件下载完毕。"
+    IDS_UPGRADE_CANNOTOPENFILE "无法打开文件，请退出程序，重新运行。"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SLIST_BASEINDEX      "添加或修改新的基本指标\n新基本指标"
+    ID_SYS_AUTOUPGRADE      "软件自动升级\n自动升级"
+    ID_SLISTBAR_DATE        "选择列表日期\n"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_BASEINDEX_NAMETOOLONG "指标名称太长。"
+    IDS_HELPTIP_SLIST       "点击列表头可以排序。"
+    IDS_EXPORTDB_NODEST     "没有导出目标文件。"
+    IDS_EXPORTDB_NOTXTDEST  "没有导出目标文本文件。"
+    IDS_EXPORTDB_NOMDBDEST  "没有导出目标Mdb文件。"
+    IDS_EXPORTDB_NOCSVDEST  "没有导出目标Csv文件。"
+    IDS_EXPORTDB_FINISHED   "完成。"
+    IDS_SECRET_ASSERTMESSAGE "试用版本已经到期，要继续使用该软件，请购买。谢谢您的使用，再见。"
+    IDS_SECRET_FUNCLIMIT    "对不起，要想使用该功能，请购买软件。有问题请与供应商联系。"
+    IDS_REGISTER_SUCCESS    "注册成功。"
+    IDS_REGISTER_PURCHASED  "用户已经购买。"
+    IDS_REGISTER_NOTIMELIMIT "无限制"
+    IDS_SLISTBAR_NODOMAIN   "没有板块"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_REGISTER_LEFTDAYSTITLE "现在是试用期，剩余天数："
+    IDS_SETCOLUMN_SETTING   "参数设置"
+    IDS_RECALYIELD_NOSZZS   "读取上证指数的日K线数据失败，无法计算。"
+    IDS_EXPORTDB_ERRTXTDEST "导出目标文本文件时出错。"
+    IDS_EXPORTDB_ERRMDBDEST "导出目标Mdb文件时出错。"
+    IDS_EXPORTDB_ERRCSVDEST "导出目标Csv文件时出错。"
+    IDS_EXPORTDB_ERRODBCDEST "导出目标高级数据库时出错。"
+    IDS_EXPORTDB_NOODBCDEST "没有导出目标ODBC数据库。"
+    IDS_LISTEXPORT_TABLENAME "列表"
+    IDS_SLISTBAR_NOGROUP    "没有分组"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_SLIST_GROUP          "显示股票分组统计信息\n分组统计信息"
+    ID_DATA_RECALCULATEYIELD "重新计算年平均收益率和β值\n重新计算"
+    ID_VIEW_PAGELEFT        "向左翻页\n向左翻页"
+    ID_VIEW_PAGERIGHT       "向右翻页\n向右翻页"
+    ID_VIEW_HOME            "移到最左\n移到最左"
+    ID_VIEW_END             "移到最右\n移到最右"
+    ID_OPTION_ADDTOGROUP    "将该股票加入分组中\n加入分组"
+    ID_SLIST_GROUP1         "分组1"
+    ID_SLIST_DOMAIN1        "板块1"
+    ID_VIEW_VIEWSZZS        "查看上证指数\n上证指数"
+    ID_VIEW_VIEWSZNZZ       "查看深证综指\n深证综指"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DOMAIN_SELF         "自选股"
+    IDS_DOMAIN_ALL          "全部"
+    IDS_DOMAIN_INDEX        "指数"
+    IDS_DOMAIN_CLASSSHAA    "上证A股"
+    IDS_DOMAIN_CLASSSHAB    "上证B股"
+    IDS_DOMAIN_CLASSSZNA    "深证A股"
+    IDS_DOMAIN_CLASSSZNB    "深证B股"
+    IDS_DOMAIN_CLASSSHABOND "上证债券"
+    IDS_DOMAIN_CLASSSZNBOND "深证债券"
+    IDS_SETGROUP_GROUPALREADYEXIST "该分组已经存在，请重新命名。"
+    IDS_SETGROUP_ADDFAILED  "添加新组失败。"
+    IDS_SETGROUP_ADDSUCCESS "添加新组成功。"
+    IDS_SETGROUP_DELETEFAILED "删除分组失败。"
+    IDS_SETGROUP_DELETESUCCESS "删除分组成功。"
+    IDS_SETGROUP_NOSELECTEDGROUP "请先选择分组再进行该操作。"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DOMAIN_MOREDOMAIN   "更多板块(&M)..."
+    IDS_SETGROUP_USERCANCEL "用户取消操作。"
+    IDS_DOMAIN_MOREGROUP    "更多分组(&M)..."
+    IDS_SETCOLUMN_NOSELECT  "您没有选择任何列，使用缺省设置吗？"
+    IDS_SETGROUP_DELETECONFIRM "您确定要删除该分组吗？删除后不能再恢复。"
+    IDS_SETGROUP_INPUTGNAME "请输入新分组名称"
+    IDS_EXPORT_SELECTSTK    "先选择要导出的股票，然后点击“下一步”。"
+    IDS_EXPORT_DEST         "选择导出数据的目标文件，然后点击“开始导出”。"
+    IDS_EXPORT_START        "开始导出"
+    IDS_FINISHBUTTON        "完成(&F)"
+    IDS_CLOSEBUTTON         "关闭(&C)"
+    IDS_SELECTSTK_NOSELECTED "没有选择股票。"
+    IDS_EXPORT_OPTION       "选择导出数据的日期范围、类型和除权选项，然后点击“下一步”。"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_EXPORTDEST_DATE     "日期"
+    IDS_EXPORTDEST_OPEN     "开盘价"
+    IDS_EXPORTDEST_HIGH     "最高价"
+    IDS_EXPORTDEST_LOW      "最低价"
+    IDS_EXPORTDEST_CLOSE    "收盘价"
+    IDS_EXPORTDEST_AMOUNT   "成交额"
+    IDS_EXPORTDEST_VOLUME   "成交量"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_EXPORTDEST_CONFIRMCLOSE "正在导出，您确定要中断导出，关闭对话框吗？"
+    IDS_SETDRDATA_DATE      "日期"
+    IDS_SETDRDATA_BONUS     "10派X元"
+    IDS_SETDRDATA_BONUSSHARE "10送X股"
+    IDS_SETDRDATA_RATIONSHARE "10配X股"
+    IDS_SETDRDATA_RATIONVALUE "配股价"
+    IDS_SETDRDATA_NOSTOCK   "请在左边选择您要修改的股票。"
+    IDS_SETCOLUMN_SAMEASYIELDAVERAGE "与年平均收益率相同"
+    IDS_SETCOLUMN_IFRECALCULATE 
+                            "计算年平均收益率天数已经改变，现在重新计算平均收益率、β值并保存吗？否则股票列表中显示的数据还是以前的。\n您可以通过菜单 “数据-〉重新计算平均收益率” 执行该操作。"
+    IDS_INSTALLPAC_IFRECALCULATE 
+                            "数据已经更新，现在重新计算年平均收益率、β值并保存吗？否则股票列表中显示的数据还是以前的。\n您可以通过菜单 “数据-〉重新计算平均收益率” 执行该操作。"
+    IDS_STOCKGRAPH_KLINE    "K     线"
+    IDS_STOCKGRAPH_FONTNAME "楷体"
+    IDS_STOCKGRAPH_TIME     "时    间"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STOCKGRAPH_OPEN     "开    盘"
+    IDS_STOCKGRAPH_HIGH     "最    高"
+    IDS_STOCKGRAPH_LOW      "最    低"
+    IDS_STOCKGRAPH_CLOSE    "收    盘"
+    IDS_STOCKGRAPH_VOLUME   "成 交 量"
+    IDS_STOCKGRAPH_AMOUNT   "成 交 额"
+    IDS_STOCKGRAPH_YIELDAVERAGE "年收益率"
+    IDS_STOCKGRAPH_DAY      "日"
+    IDS_STOCKGRAPH_YIELDSTDDEV "标准差"
+    IDS_STOCKGRAPH_BEITE    "β值"
+    IDS_STOCKGRAPH_XIAPU    "夏普指数"
+    IDS_STOCKGRAPH_CHANGEHAND "换手"
+    IDS_STOCKGRAPH_RATIOVOLUME "量比"
+    IDS_STOCKGRAPH_SHARECURRENCY "流通股本-万"
+    IDS_STOCKGRAPH_NETASSETPS "每股净资产"
+    IDS_STOCKGRAPH_EPS      "每股收益"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STOCKGRAPH_RS       "相对强度"
+    IDS_STOCKGRAPH_TIME2    "时间"
+    IDS_STOCKGRAPH_PRICEAVERAGE "成交均价"
+    IDS_STOCKGRAPH_RELATIVECHANGEHAND "相对换手率"
+    IDS_GRAPHTAB_PARAM      "参数"
+    IDS_GRAPHTAB_COST       "成本"
+    IDS_STOCKGRAPH_SHARETOTAL "总股本-万"
+    IDS_TITLE_INFOVIEW      "在线资讯"
+    IDS_SETPARAM_INVALID    "您设定的参数不正确，请重新设定。"
+    IDS_TITLE_GROUPVIEW     "分组"
+    IDS_TITLE_TECHSVIEW     "指标"
+    IDS_GROUPVIEW_GROUP     "分组"
+    IDS_GROUPVIEW_DOMAIN    "板块"
+    IDS_STRATEGY_SETPRPT    "请设定新策略的名称和一些属性。"
+    IDS_PROPERTYSHEET_NEXT  "下一步(&N) >"
+    IDS_STOCKGRAPH_NOKDATA  "。获取更多数据请点击菜单“数据->历史数据下载...”。"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_VIEWSZYBL       "查看上证180 K线图\n上证180"
+    ID_VIEW_VIEWSZAG        "查看上证Ａ股K线图\n上证Ａ股"
+    ID_VIEW_VIEWSZBG        "查看上证Ｂ股K线图\n上证Ｂ股"
+    ID_VIEW_VIEWSZNCZ       "查看深证成指K线图\n深证成指"
+    ID_VIEW_VIEWSZNCFAZ     "查看成份Ａ指K线图\n成份Ａ指"
+    ID_VIEW_VIEWSZNCFBZ     "查看成份Ｂ指K线图\n成份Ｂ指"
+    ID_VIEW_MAINDATACLOSE   "技术指标采样值类型以收盘价为准\n收盘价"
+    ID_VIEW_MAINDATAOPEN    "技术指标采样值类型以开盘价为准\n开盘价"
+    ID_VIEW_MAINDATAAVERAGE "技术指标采样值类型以成交均价为准\n成交均价"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INFO_STOCKSTAR       "查看证券之星Web行情\n证券之星"
+    ID_VIEW_INFO            "查看在线资讯\n在线资讯"
+    ID_INFO_SOHU            "查看搜狐Web行情\n搜狐行情"
+    ID_INFO_SINA            "查看新浪Web行情\n新浪行情"
+    ID_INFO_163             "查看网易Web行情\n网易行情"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STOCKGRAPH_PROJECT  "项目"
+    IDS_STOCKGRAPH_PRIMARY  "初级"
+    IDS_STOCKGRAPH_MEDIATE  "中级"
+    IDS_STOCKGRAPH_MIGHT    "强力"
+    IDS_STOCKGRAPH_PRESSURE "压力"
+    IDS_STOCKGRAPH_UPHOLD   "支撑"
+    IDS_DOWNLOAD_UPGRADENOW "目前已经有更新版本可供下载，现在自动升级吗？"
+    IDS_STRATEGY_SELECTSTK  "选择策略的备选股票。"
+    IDS_SETPRPT_INVALIDTITLE "请指定策略名称。"
+    IDS_GRAPHTAB_FLAME      "火焰山"
+    IDS_EDITKDATA_NOTNUMBER "您输入的开盘价、最高价、最低价、收盘价不是数字，请仔细检查。"
+    IDS_STRATEGYVIEW_PROPERTY "属性设置"
+    IDS_SIMUVIEW_SIMU       " - 买卖条件"
+    IDS_SIMUVIEW_START      "开始模拟"
+    IDS_SIMUVIEW_PAUSE      "暂停模拟"
+    IDS_SIMUVIEW_CONTINUE   "继续模拟"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SIMUVIEW_MSGNOSTRATEGY "当前没有活动的策略，请先新建策略或者打开已有的策略！！！"
+    IDS_STRATEGYVIEW_RATE   "费率设置"
+    IDS_STRATEGYVIEW_RULE   "指标规则设置"
+    IDS_SETRATE_NOTNUMBER   "费率设置必须是数字。"
+    IDS_GRAPHTAB_ACTIVITY   "活跃"
+    IDS_STOCKGRAPH_RECENTCWDISFMT "%d日内成本%.2f%%"
+    IDS_STOCKGRAPH_PASTCWDISFMT "%d日前成本%.2f%%"
+    IDS_STOCKGRAPH_GAINPERCENT "获利比例："
+    IDS_STOCKGRAPH_COSTAVE  "平均成本： %.3f"
+    IDS_STOCKGRAPH_MASSFMT90 "90%%成本%.2f-%.2f集中%.0f%%"
+    IDS_STOCKGRAPH_MASSFMT70 "70%%成本%.2f-%.2f集中%.0f%%"
+    IDS_SETBASEDATA_NOSTOCK "请在左边选择您要修改的股票。"
+    IDS_SETBASEDATA_NOTNUMBER "请输入数字。"
+    IDS_SETBASEDATA_SHARENOTMATCH "您输入的总股本小于其他股本之和，请仔细检查。"
+    IDS_SIMUVIEW_INVALIDDATA "买卖测试参数设定有错误，无法保存策略，使用缺省值保存吗？"
+    IDS_SIMUVIEW_RUNCANNOTCLOSE "正在进行买卖测试，要停止测试并关闭窗口吗？"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STRATEGY_SETRATE    "请设定策略的交易费率。"
+    IDS_STRATEGY_SETRULE    "请设定策略的指标参数和指标买卖信号规则。"
+    IDS_STOCKGRAPH_PE       "市盈率"
+    IDS_SETKDATA_NOTNUMBER  "请输入数字。"
+    IDS_TITLE_SELECTORVIEW  "智能选股"
+    IDS_SETRULE_NOSELECTED  "没有选中任何指标。请选中至少一个指标。"
+    IDS_SIMUVIEW_TIMEINVALID "起始时间不能晚于结束时间。"
+    IDS_SIMULATION_DOWNLOADNOW "执行本次模拟，本机硬盘上已有的数据不足，现在就从网络下载补齐吗？"
+    IDS_SIMUREPORT_OPRECORD "历史操作记录"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WIZARDVIEW_LIST      "使用列表显示策略项\n列表"
+    ID_WIZARDVIEW_DETAILS   "显示策略项的详细资料\n详细资料"
+    ID_OPTION_FONTSLIST     "设定股票列表文字字体\n列表字体"
+    ID_OPTION_FONTBASE      "设定基本资料文字字体\n资料字体"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SIMUREPORT_CURVE    "收益和仓位曲线"
+    IDS_SIMUREPORT_STOCKOWN "最后拥有股票"
+    IDS_SIMUREPORT_TIME     "日期"
+    IDS_SIMUREPORT_OP       "操作"
+    IDS_SIMUREPORT_STOCK    "股票"
+    IDS_SIMUREPORT_SHARE    "成交股数"
+    IDS_SIMUREPORT_SHAREPRICE "单价"
+    IDS_SIMUREPORT_RATECOST "税费额"
+    IDS_SIMUREPORT_BUY      "买入"
+    IDS_SIMUREPORT_SELL     "卖出"
+    IDS_SIMUREPORT_OWNSHARE "拥有股数"
+    IDS_SIMUREPORT_CASH     "现金"
+    IDS_SIMUREPORT_ASSET    "总资产"
+    IDS_SIMUREPORT_AMOUT    "金额"
+    IDS_SIMUREPORT_YIELDLINE "总资产与期初值之比 ——"
+    IDS_SIMUREPORT_STORELINE "仓位 ——"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SIMUREALOP_NEXTOP   "下一步操作"
+    IDS_SIMUREALOP_SHARE    "委托股数"
+    IDS_SIMUREALOP_SHAREPRICE "委托单价"
+    IDS_SIMUREALOP_STOCKOWN "现在拥有股票"
+    IDS_SIMUREALOP_RESETCONFIRM "您确定要重来，并删除所有历史记录吗？"
+    IDS_SIMUREALOP_OPRECORDNOSEL "请选中您想要删除的记录，再点击“删除”按钮。"
+    IDS_SIMUREALOP_CANNOTDELETE "无法删除当前选中记录。"
+    IDS_SIMUADDOP_NOSTOCK   "您没有选择股票。"
+    IDS_SIMUADDOP_NOTNUMBER "请在股数、股票单价、税费总额栏中填入数字。"
+    IDS_SIMUADDOP_LOGICERROR "该操作是无法完成的，请确认在当时是否有足够的股数和现金。"
+    IDS_SIMUREALOP_DELETELATER "该操作将删除选中记录之后的所有记录，继续吗？"
+    IDS_SIMUADDOP_ADDWILLDELETE "在这个时间加入操作将删除这个时间之后的所有记录，继续吗？"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SIMUVIEW_REALHASNEXTOP "本策略下一个交易日有操作，请点击“实战操作”按钮查看详细信息！"
+    IDS_SIMUREPORT_AMOUNT   "金额"
+    IDS_SIMUREALOP_ADDSTOCKFAILED "加入新股票失败。"
+    IDS_SIMUREALOP_MODIFIEDCASHFAILED "修改现金数量失败。"
+    IDS_SIMUADDSTOCK_CASH   "现金(元)："
+    IDS_SIMUADDSTOCK_MODCASH "修改现金数量"
+    IDS_FILTERINFO_ME       "大于等于"
+    IDS_FILTERINFO_AND      "并且"
+    IDS_FILTERINFO_LE       "小于等于"
+    IDS_FILTERINFO_NOSELECTEDCOND "没有选中的条件。请在右边列表框中选择一个条件。"
+    IDS_FILTERINFO_NOSELECTEDINFO "没有选中的基本数据或行情信息。请在左边列表框中选择一个基本数据或行情信息。"
+    IDS_FILTERINFO_INVALIDCOND "输入条件必须是数字。"
+    IDS_FILTERINFO_NOCOND   "没有选股条件。请先加入选股条件。"
+    IDS_SIMUREALOP_EVACANNOTVIEWNEXTOP "试用版不能看到策略的下一步操作计划。如果您觉得本软件有用，请购买。"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_OPTION_ADDTOSTRATEGY "加入该股到当前活动策略\n加入策略"
+    ID_TOOL_FILTERINFO      "基本资料和行情选股\n选股"
+    ID_HELP_PURCHASE        "如何购买软件\n购买软件"
+    ID_VIEW_MAINBARTEXT     "显示或隐藏常用工具栏文字标签\n显隐文字标签"
+    ID_SYS_STARTTONGSHI     "启动行情接收系统\n启动接收"
+    ID_SYS_STOPTONGSHI      "停止行情接收系统\n停止接收"
+    ID_SLIST_GROUPSELF      "查看自选股\n自选股"
+    ID_REALTIME_MSSZAG      "显示上证A股综合排名\n上证A股"
+    ID_REALTIME_MSSZBG      "显示上证B股综合排名\n上证B股"
+    ID_REALTIME_MSSZZQ      "显示上证债券综合排名\n上证债券"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SIMUREALOP_EXPLAINNEXTOP "下一步操作是操作计划，成功后自动加入历史操作记录。"
+    IDS_SIMUREALOP_EXPLAINOPRECORD "操作记录中的股票单价是向下复权后的数值。"
+    IDS_SIMUREALOP_TIMEEXPLAINFMT "现在日期是%s，请在下一交易日集合竞价时间(9:15-9:25)进行以上委托。"
+    IDS_SIMUREPORT_BUYPRICE "买入价"
+    IDS_SIMUREPORT_NOWPRICE "现价"
+    IDS_STRATEGY_SETRULELONG "设置长周期指标参数"
+    IDS_STRATEGY_SETRULEINDEX "设置大盘指标参数"
+    IDS_SIMUADVANCED_NOTNUMBER "请在止损和止赢编辑框中输入数字。"
+    IDS_SIMUADVANCED_NOSELECTEDLONG "没有选中的长周期指标。请点击按钮“选择长周期指标”来进行选择。"
+    IDS_SIMUADVANCED_NOSELECTEDINDEX "没有选中的大盘指标。请点击按钮“选择大盘指标”来进行选择。"
+    IDS_REALTIME_TITLE      "分时行情"
+    IDS_REALTIME_BSRATIO    "委比"
+    IDS_REALTIME_BSDIFF     "委差"
+    IDS_REALTIME_SELL5      "卖⑤"
+    IDS_REALTIME_SELL4      "卖④"
+    IDS_REALTIME_SELL3      "卖③"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_REALTIME_SELL2      "卖②"
+    IDS_REALTIME_SELL1      "卖①"
+    IDS_REALTIME_BUY1       "买①"
+    IDS_REALTIME_BUY2       "买②"
+    IDS_REALTIME_BUY3       "买③"
+    IDS_REALTIME_BUY4       "买④"
+    IDS_REALTIME_BUY5       "买⑤"
+    IDS_REALTIME_PRICENOW   "成交"
+    IDS_REALTIME_PRICEAVE   "均价"
+    IDS_REALTIME_PRICEDIFF  "涨跌"
+    IDS_REALTIME_PRICEOPEN  "开盘"
+    IDS_REALTIME_PRICEDIFFPERCENT "幅度"
+    IDS_REALTIME_PRICEHIGH  "最高"
+    IDS_REALTIME_VOLSUM     "总手"
+    IDS_REALTIME_PRICELOW   "最低"
+    IDS_REALTIME_VOLNOW     "现手"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_REALTIME_VOLRATION  "量比"
+    IDS_REALTIME_VOLOUTER   "外盘"
+    IDS_REALTIME_VOLINNER   "内盘"
+    IDS_REALTIME_TIME       "时间"
+    IDS_REALTIME_PRICE      "价格"
+    IDS_REALTIME_VOLUME     "量(手)"
+    IDS_REALTIME_AMOUNT     "额(千元)"
+    IDS_REALTIME_ADVANCE    "涨家数"
+    IDS_REALTIME_DECLINE    "跌家数"
+    IDS_REALTIME_LBDK       "量比（多空）"
+    IDS_REALTIME_MMLD       "买卖力道"
+    IDS_REALTIME_REPORTDETAILTITLE "每笔成交明细  PageUp:上翻 PageDown:下翻"
+    IDS_REALTIME_MINUTEDETAILTITLE "分钟成交明细  PageUp:上翻 PageDown:下翻"
+    IDS_REALTIME_BIGTRADEDETAILTITLE "大单成交明细  PageUp:上翻 PageDown:下翻"
+    IDS_REALTIME_STOCKNAME  "名称"
+    IDS_REALTIMETAB_QUOTE   "笔"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_REALTIME_MSSZNAG     "显示深证A股综合排名\n深证A股"
+    ID_REALTIME_MSSZNBG     "显示深证B股综合排名\n深证B股"
+    ID_REALTIME_MSSZNZQ     "显示深证债券综合排名\n深证债券"
+    ID_REALTIME_PREV        "查看上一只股票\n上一只股票"
+    ID_REALTIME_NEXT        "查看下一只股票\n下一只股票"
+    ID_REALTIME_LEFT        "向左移动图形\n向左移动"
+    ID_REALTIME_RIGHT       "向右移动图形\n向右移动"
+    ID_REALTIME_HOME        "移到最左\n移到最左"
+    ID_REALTIME_END         "移到最右\n移到最右"
+    ID_REALTIME_VIEWSZZS    "查看上证指数分时线\n上证指数"
+    ID_REALTIME_VIEWSZYBL   "查看上证180分时线\n上证180"
+    ID_REALTIME_VIEWSZAG    "查看上证Ａ股分时线\n上证Ａ股"
+    ID_REALTIME_VIEWSZBG    "查看上证Ｂ股分时线\n上证Ｂ股"
+    ID_REALTIME_VIEWSZNCZ   "查看深证成指分时线\n深证成指"
+    ID_REALTIME_VIEWSZNZZ   "查看深证综指分时线\n深证综指"
+    ID_REALTIME_VIEWSZNCFAZ "查看成份Ａ指分时线\n成份Ａ指"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_REALTIME_VIEWSZNCFBZ "查看成份Ｂ指\n成份Ｂ指"
+    ID_SLIST_SHAASORTDP     "显示上证A股涨幅排名\n上证A股"
+    ID_SLIST_SHABSORTDP     "显示上证B股涨幅排名\n上证B股"
+    ID_SLIST_SZNASORTDP     "显示深证A股涨幅排名\n深证A股"
+    ID_SLIST_SZNBSORTDP     "显示深证B股涨幅排名\n深证B股"
+    ID_SLIST_SHABONDSORTDP  "显示上证债券涨幅排名\n上证债券"
+    ID_SLIST_SZNBONDSORTDP  "显示深证债券涨幅排名\n深证债券"
+    ID_REALTIME_LBDK        "显示量比（多空）指标\n量比多空"
+    ID_REALTIME_MMLD        "显示买卖力道（涨跌率）\n买卖力道"
+    ID_OPTION_SELECTTRADER  "选择交易软件，按F12可启动该软件\n选择交易软件"
+    ID_TOOL_TRADER          "启动交易软件\n交易"
+    ID_SYS_SETUPTONGSHI     "设置接收，并补充历史数据\n设置接收"
+    ID_REALTIME_ONESTOCK    "显示一只股票\n一只股票"
+    ID_REALTIME_TWOSTOCK    "显示两只股票\n两只股票"
+    ID_REALTIME_FOURSTOCK   "显示四只股票\n四只股票"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MULTISORT_RISEMIN5  "5分钟涨幅%排名"
+    IDS_MULTISORT_FALLMIN5  "5分钟跌幅%排名"
+    IDS_MULTISORT_VOLRATIO  "今日量比排名"
+    IDS_MULTISORT_BSRATIOASC "今日委比%前六名"
+    IDS_MULTISORT_BSRATIODESC "今日委比%后六名"
+    IDS_MULTISORT_AMOUNT    "今日总金额排名(千元)"
+    IDS_MULTISORT_RISE      "今日涨幅%排名"
+    IDS_SELECTTRADER_ERRFILE "指定的文件不存在，请重新选择。"
+    IDS_SETDRDATA_FILENOTEXISTS "指定的文件不存在，无法导入。"
+    IDS_SETDRDATA_INSTALLOK "导入权息资料成功！"
+    IDS_SETDRDATA_INSTALLFAIL "导入权息资料失败，可能是因为指定文件不含有权息资料信息。"
+    IDS_SETBASE_FILENOTEXISTS "指定的文件不存在，无法导入。"
+    IDS_SETBASE_INSTALLF10OK "导入F10成功！"
+    IDS_SETBASE_INSTALLF10FAIL "导入F10失败，可能是因为指定文件不含有基本资料信息。"
+    IDS_SETBASE_INSTALLTDXOK "导入通达信财务数据成功！"
+    IDS_SETBASE_INSTALLTDXFAIL "导入通达信财务数据失败！"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_REALTIME_SIXSTOCK    "显示六只股票\n六只股票"
+    ID_REALTIME_NINESTOCK   "显示九只股票\n九只股票"
+    ID_REALTIME_REPORTDETAIL "显示每笔成交明细\n每笔明细"
+    ID_REALTIME_PRICELINE   "实时分时价格线\n分时价格"
+    ID_INFO_F10             "查看Web在线F10资讯\nF10资讯"
+    ID_INFO_SELF            "查看本软件在线资讯信息\n本站资讯"
+    ID_INFO_SHSE            "上海证券交易所网站资讯\n上交所"
+    ID_INFO_SZSE            "深圳证券交易所网站资讯\n深交所"
+    ID_INFO_HKEX            "香港交易所网站资讯\n港交所"
+    ID_INFO_LSE             "伦敦证券交易所网站资讯\n伦敦证交所"
+    ID_INFO_NYSE            "纽约证券交易所网站资讯\n纽约证交所"
+    ID_INFO_NASDAQ          "纳斯达克股票市场网站资讯\n纳斯达克"
+    ID_INFO_P5W             "证券时报网络版\n证券时报"
+    ID_INFO_SSNEWS          "上海证券报网络版\n上海证券报"
+    ID_INFO_CS              "中国证券报网络版\n中国证券报"
+    ID_HELP_SHOWHELP        "显示帮助\n帮助"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_REALTIME_MINUTEDETAIL "显示分钟成交明细\n分钟明细"
+    ID_REALTIME_BIGTRADEDETAIL "显示大单成交明细\n大单明细"
+    ID_VIEW_KLINECANDLE     "K线采用蜡烛线\n蜡烛线"
+    ID_VIEW_KLINEAMERICA    "K线采用美国线\n美国线"
+    ID_VIEW_KLINETOWER      "K线采用宝塔线\n宝塔线"
+    ID_VIEW_THISTECHPARAM   "调整该指标参数\n调整参数"
+    ID_VIEW_HIDETHISTECH    "隐藏该技术指标\n隐藏"
+    ID_SYS_CONNECTSERVER    "连接Internet行情服务器\n连接服务器"
+    ID_SYS_DISCONNECTSERVER "断开Internet行情服务器\n断开服务器"
+    ID_SYS_AUTOSAVE         "五分钟线数据自动写盘\n自动写盘"
+    ID_VIEW_F10             "查看F10资料\nF10资料"
+    ID_SYS_NOTIFYICON       "最小化时隐藏窗口，并在通知区域加入图标\n通知图标"
+    ID_TOOL_ALARM           "预警系统条件设置和结果查看\n预警系统"
+    ID_VIEW_SELECTOR        "显示智能选股\n智能选股"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_REALTIMETAB_PRICE   "价"
+    IDS_REALTIMETAB_MINUTE  "分"
+    IDS_REALTIMETAB_BUYSELLEX "盘"
+    IDS_REALTIMETAB_VALUE   "值"
+    IDS_REALTIMETAB_DISTRIBUTE "筹"
+    IDS_REALTIMETAB_BIGTRADE "单"
+    IDS_REALTIME_RISINGLIMIT "涨停价"
+    IDS_REALTIME_FALLINGLIMIT "跌停价"
+    IDS_REALTIME_AH         "ＡＨ"
+    IDS_REALTIME_NH         "ＮＨ"
+    IDS_REALTIME_NL         "ＮＬ"
+    IDS_REALTIME_AL         "ＡＬ"
+    IDS_REALTIME_SELL8      "卖⑧"
+    IDS_REALTIME_SELL7      "卖⑦"
+    IDS_REALTIME_SELL6      "卖⑥"
+    IDS_REALTIME_BUY6       "买⑥"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_REALTIME_BUY7       "买⑦"
+    IDS_REALTIME_BUY8       "买⑧"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ALARMRESULT_REASON  "报警原因"
+    IDS_ALARMSETTING_NOTNUMBER "请输入数字。"
+    IDS_ALARMSETTING_NOCONDSELECTED "请先选中一个报警条件。"
+    IDS_REGAPPLYEVA_NOUSERNAME "请输入用户名。"
+    IDS_REGAPPLYEVA_NOCOUNTRY "请选择所在国家或地区。"
+    IDS_REGAPPLYEVA_NOEMAIL "请输入完整的Email地址，以便能接收到试用码。"
+    IDS_REGAPPLYEVA_APPLYOK "申请发送成功，请查收Email，获取试用码。"
+    IDS_REGAPPLYEVA_APPLYFAIL "申请发送失败，请检查网络是否畅通，是否输入了正确的Email地址。"
+    IDS_SETBASE_INSTALLFXJOK "导入分析家财务数据成功！"
+    IDS_SETBASE_INSTALLFXJFAIL "导入分析家财务数据失败！"
+    IDS_SETBASE_INSTALLFXJBLOCKOK "导入分析家板块数据成功！"
+    IDS_SETBASE_INSTALLFXJBLOCKFAIL "导入分析家板块数据失败！"
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\StkUI.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#include "l.chs\afxprint.rc"        // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
