@@ -1,0 +1,98 @@
+; StData.def : Declares the module parameters for the DLL.
+
+;	LIBRARY      "STKLIB30"
+
+EXPORTS
+	; Explicit exports can go here
+	
+	;	CStock exports
+	??0CStock@@QAE@XZ								@	1	NONAME
+	??0CStock@@QAE@PAVCStDatabase@@@Z				@	2	NONAME
+	??1CStock@@UAE@XZ								@	3	NONAME
+	?SetDatabase@CStock@@QAEXPAVCStDatabase@@@Z		@	4	NONAME
+	?GetDatabase@CStock@@QAEPAVCStDatabase@@XZ		@	5	NONAME
+	?GetStockInfo@CStock@@QAEAAVCStockInfo@@XZ		@	6	NONAME
+	?SetStockCode@CStock@@QAEXKPBD@Z				@	7	NONAME
+	?SetStockInfo@CStock@@QAEHPAVCStockInfo@@@Z		@	8	NONAME
+	?PrepareData@CStock@@QAEHHHH@Z					@	9	NONAME
+	?GetStockCode@CStock@@QAEPBDXZ					@	10	NONAME
+	?GetDRData@CStock@@QAEAAVCDRData@@XZ			@	11	NONAME
+	?GetBaseTextLength@CStock@@QAEHXZ				@	12	NONAME
+	?GetBaseTextPtr@CStock@@QAEPADXZ				@	13	NONAME
+	?GetKDataMin5@CStock@@QAEAAVCKData@@XZ			@	14	NONAME
+	?GetKDataMin15@CStock@@QAEAAVCKData@@XZ			@	15	NONAME
+	?GetKDataMin30@CStock@@QAEAAVCKData@@XZ			@	16	NONAME
+	?GetKDataMin60@CStock@@QAEAAVCKData@@XZ			@	17	NONAME
+	?GetKDataDay@CStock@@QAEAAVCKData@@XZ			@	18	NONAME
+	?GetKDataWeek@CStock@@QAEAAVCKData@@XZ			@	19	NONAME
+	?GetKDataMonth@CStock@@QAEAAVCKData@@XZ			@	20	NONAME
+	?GetKData@CStock@@QAEAAVCKData@@H@Z				@	21	NONAME
+	?GetMinute@CStock@@QAEAAVCMinute@@XZ			@	22	NONAME
+	?GetReport@CStock@@QAEAAVCReport@@XZ			@	23	NONAME
+	?GetOutline@CStock@@QAEAAVCOutline@@XZ			@	24	NONAME
+	?Clear@CStock@@QAEXXZ							@	25	NONAME
+	?ExtractKData@CStock@@QAEHHH@Z					@	26	NONAME
+	?StoreDRData@CStock@@QAEHXZ						@	27	NONAME
+	?PrepareBaseInfo@CStock@@QAEHH@Z				@	28	NONAME
+
+	;	CStDatabase exports
+	??0CStDatabase@@QAE@XZ								@	101	NONAME
+	??1CStDatabase@@UAE@XZ								@	102	NONAME
+	?IsValidDataType@CStDatabase@@SAHH@Z				@	103	NONAME
+	?GetSupportedDataType@CStDatabase@@SAHPAVCDBType@@H@Z	@	104	NONAME
+	?SetRootPath@CStDatabase@@QAEHPBDH@Z				@	105	NONAME
+	?IsOK@CStDatabase@@QAEHXZ							@	106	NONAME
+	?GetDBType@CStDatabase@@QAEHXZ						@	107	NONAME
+	?GetDBTypeName@CStDatabase@@QAEPBDXZ				@	108	NONAME
+	?GetRootPath@CStDatabase@@QAEPBDXZ					@	109	NONAME
+	?GetSelfTempPath@CStDatabase@@UAEKPADH@Z			@	110	NONAME
+	?GetLastErrorMessage@CStDatabase@@UAEHPADI@Z		@	111	NONAME
+	?GetMaxStockNumber@CStDatabase@@UAEHXZ				@	112	NONAME
+	?LoadCodetable@CStDatabase@@UAEHAAVCStockContainer@@@Z	@	113	NONAME
+	?StoreCodetable@CStDatabase@@UAEHAAVCStockContainer@@@Z	@	114	NONAME
+	?StoreBasetable@CStDatabase@@UAEHAAVCStockContainer@@@Z	@	115	NONAME
+	?LoadKData@CStDatabase@@UAEHPAVCStock@@H@Z				@	117	NONAME
+	?LoadDRData@CStDatabase@@UAEHPAVCStock@@@Z				@	118	NONAME
+	?LoadReport@CStDatabase@@UAEHPAVCStock@@@Z				@	119	NONAME
+	?LoadMinute@CStDatabase@@UAEHPAVCStock@@@Z				@	120	NONAME
+	?LoadOutline@CStDatabase@@UAEHPAVCStock@@@Z				@	121	NONAME
+	?StoreReport@CStDatabase@@UAEHPAUreport_t@@HH@Z			@	122	NONAME
+	?StoreMinute@CStDatabase@@UAEHPAUminute_t@@H@Z			@	123	NONAME
+	?StoreOutline@CStDatabase@@UAEHPAUoutline_t@@H@Z		@	124	NONAME
+	?LoadBaseText@CStDatabase@@UAEHPAVCStock@@@Z			@	125	NONAME
+	?StoreDRData@CStDatabase@@UAEHPAVCStock@@@Z				@	126	NONAME
+	?AddAssistantRootPath@CStDatabase@@QAEHPBDH@Z			@	127	NONAME
+	?RemoveAssistant@CStDatabase@@QAEXPBD@Z					@	128	NONAME
+	?InstallCodetbl@CStDatabase@@UAEHPBD0@Z					@	129	NONAME
+	?InstallKData@CStDatabase@@UAEHAAVCKData@@H@Z			@	130	NONAME
+	?InstallKDataTy@CStDatabase@@UAEHPBDHP6GHKK0PAX@Z1@Z	@	131	NONAME
+	?InstallKDataFxj@CStDatabase@@UAEHPBDHP6GHKK0PAX@Z1@Z	@	132	NONAME
+	?InstallDRData@CStDatabase@@UAEHAAVCDRData@@@Z			@	133	NONAME
+	?InstallDRDataClk@CStDatabase@@UAEHPBD0@Z				@	134	NONAME
+	?InstallDRDataFxj@CStDatabase@@UAEHPBD@Z				@	135	NONAME
+	?InstallBasetable@CStDatabase@@UAEHPBD0@Z				@	136	NONAME
+	?InstallBasetableTdx@CStDatabase@@UAEHPBD@Z				@	137	NONAME
+	?InstallBaseText@CStDatabase@@UAEHPBD0@Z				@	138	NONAME
+	?InstallBaseText@CStDatabase@@UAEHPBDH0@Z				@	139	NONAME
+	?InstallNewsText@CStDatabase@@UAEHPBD0@Z				@	140	NONAME
+	?InstallNewsText@CStDatabase@@UAEHPBDH0@Z				@	141	NONAME
+	?CreateSelfDB@CStDatabase@@SAHPBD@Z						@	142	NONAME
+	?RemoveAllAssistant@CStDatabase@@QAEXXZ					@	143	NONAME
+	?LoadBasetable@CStDatabase@@UAEHAAVCStockContainer@@@Z	@	144	NONAME
+	?GetTimeInitial@CStDatabase@@SA?AVCSPTime@@XZ			@	145	NONAME
+	?GetTimeLocalRange@CStDatabase@@QAEHPAVCSPTime@@00@Z	@	146	NONAME
+	?GetNeedDownloadRange@CStDatabase@@QAEHAAVCStockInfo@@VCSPTime@@1AAV3@2@Z	@	147	NONAME
+	?AppendToTyData@CStDatabase@@SAHPBD0H00JJ@Z				@	148	NONAME
+;	?AppendToTyData@CStDatabase@@SAHPBD0H00_J1@Z				@	148	NONAME
+	?LoadKDataCache@CStDatabase@@UAEHAAVCStockContainer@@P6GHKKPBDPAX@Z2HH@Z	@	149	NONAME
+	?InstallBasetableFxj@CStDatabase@@UAEHPBD@Z				@	150	NONAME
+	?InstallCodetblFxjBlock@CStDatabase@@UAEHPBD0@Z			@	151	NONAME
+	?InstallCodetblBlock@CStDatabase@@UAEHPBD0@Z			@	152	NONAME
+
+	??0CDBType@@QAE@XZ										@	301	NONAME
+
+	;	CommFuns exports
+	?CalculateYieldYear@@YAHAAVCKData@@PAN1JH@Z				@	401	NONAME
+	?CalculateYieldDay@@YAHAAVCKData@@PAN1JH@Z				@	402	NONAME
+	?CalculateBeiteYear@@YAHAAVCKData@@0NNPANJH@Z			@	403	NONAME
+	?CalculateBeiteDay@@YAHAAVCKData@@0NNPANJH@Z			@	404	NONAME

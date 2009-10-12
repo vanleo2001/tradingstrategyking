@@ -1,0 +1,17 @@
+; NetTS.def : Declares the module parameters for the DLL.
+
+LIBRARY      "NetTS"
+
+EXPORTS
+    ; Explicit exports can go here
+	Stock_Init				@	1
+	Stock_Init_Nodialog		@	2
+	Stock_Quit				@	3
+	GetTotalNumber			@	4
+	GetStockByNoEx			@	5
+	GetStockByCodeEx		@	6
+	SetupReceiver			@	7
+	GetStockDrvInfo			@	8
+	IsEngineWorking			@	9
+	RequestStockData		@	10
+	SetAutoReport			@	11

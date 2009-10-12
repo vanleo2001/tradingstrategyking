@@ -1,0 +1,6 @@
+; XPFace.def : Declares the module parameters for the DLL.
+
+;LIBRARY      "XPFace"
+
+EXPORTS
+    ; Explicit exports can go here
